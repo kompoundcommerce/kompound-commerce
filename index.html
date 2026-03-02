@@ -90,7 +90,7 @@
   .nav-contact:hover { background: var(--accent) !important; color: #fff !important; }
 
   /* CONTACT */
-  .contact { padding: 6rem 2.5rem; background: var(--bg-2); }
+  .contact { padding: 6rem 2.5rem; background: #fafafa; }
   .contact-wrapper {
     max-width: 720px; margin: 3rem auto 0;
     background: var(--bg-3); border: 1px solid var(--border); border-radius: 20px;
@@ -232,6 +232,183 @@
   .problem-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem; }
   .problem-card p { color: var(--text-2); font-size: 0.88rem; line-height: 1.65; font-weight: 300; }
 
+  /* AI POWERED */
+  .ai-section { padding: 6rem 2.5rem; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; position: relative; overflow: hidden; }
+  .ai-section::before {
+    content: ''; position: absolute; top: -200px; right: -200px; width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,153,0,0.1) 0%, transparent 70%);
+    border-radius: 50%; pointer-events: none;
+  }
+  .ai-section .section-tag { background: rgba(255,153,0,0.15); border-color: rgba(255,153,0,0.3); }
+  .ai-section .section-h2 { color: #fff; }
+  .ai-section .section-h2 em { -webkit-text-fill-color: unset; background: none; color: var(--accent); }
+  .ai-section .section-sub { color: rgba(255,255,255,0.65); }
+  .ai-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
+    max-width: 1100px; margin: 3rem auto 0;
+  }
+  .ai-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px; padding: 2rem; transition: all 0.4s; position: relative; overflow: hidden;
+  }
+  .ai-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0; transition: opacity 0.4s;
+  }
+  .ai-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15); transform: translateY(-3px); }
+  .ai-card:hover::before { opacity: 1; }
+  .ai-card-icon { font-size: 1.75rem; margin-bottom: 1rem; }
+  .ai-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff; }
+  .ai-card > p { font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.65; font-weight: 300; }
+  .ai-mock {
+    margin-top: 1.25rem; border-radius: 10px; overflow: hidden;
+    background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.08); position: relative;
+  }
+  .ai-mock-bar {
+    display: flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.75rem;
+    background: rgba(0,0,0,0.3); border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .ai-mock-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .ai-mock-dot.r { background: #ef4444; }
+  .ai-mock-dot.y { background: #eab308; }
+  .ai-mock-dot.g { background: #22c55e; }
+  .ai-mock-title { font-size: 0.6rem; color: rgba(255,255,255,0.4); margin-left: 0.5rem; font-weight: 600; letter-spacing: 0.05em; }
+  .ai-mock-body { padding: 0.85rem; }
+
+  /* Listing mock */
+  .ai-listing-row { display: flex; gap: 0.75rem; align-items: flex-start; }
+  .ai-listing-img {
+    width: 60px; height: 60px; min-width: 60px; border-radius: 6px; background: rgba(255,153,0,0.15);
+    display: flex; align-items: center; justify-content: center; font-size: 1.5rem;
+    border: 1px solid rgba(255,153,0,0.2);
+  }
+  .ai-listing-info { flex: 1; }
+  .ai-listing-title { font-size: 0.72rem; font-weight: 600; color: #60a5fa; line-height: 1.4; margin-bottom: 0.3rem; }
+  .ai-listing-stars { font-size: 0.65rem; color: var(--accent); letter-spacing: 0.02em; }
+  .ai-listing-price { font-size: 0.85rem; font-weight: 700; color: #fff; margin-top: 0.2rem; }
+  .ai-listing-badge {
+    display: inline-block; font-size: 0.55rem; font-weight: 700; padding: 0.15rem 0.4rem;
+    border-radius: 3px; background: #22c55e; color: #000; margin-top: 0.25rem;
+  }
+  .ai-listing-bullets { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.06); }
+  .ai-listing-bullets li {
+    font-size: 0.65rem; color: rgba(255,255,255,0.55); line-height: 1.5; list-style: none;
+    padding-left: 0.75rem; position: relative; margin-bottom: 0.15rem;
+  }
+  .ai-listing-bullets li::before { content: '•'; position: absolute; left: 0; color: var(--accent); }
+  .ai-score-row { display: flex; gap: 0.5rem; margin-top: 0.6rem; }
+  .ai-score-pill {
+    font-size: 0.6rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;
+  }
+  .ai-score-pill.green { background: rgba(34,197,94,0.2); color: #4ade80; }
+  .ai-score-pill.orange { background: rgba(255,153,0,0.2); color: var(--accent); }
+
+  /* Bid dashboard mock */
+  .ai-bid-rows { display: flex; flex-direction: column; gap: 0.4rem; }
+  .ai-bid-row {
+    display: grid; grid-template-columns: 1fr auto auto auto; gap: 0.5rem;
+    align-items: center; padding: 0.45rem 0.5rem; border-radius: 6px;
+    background: rgba(255,255,255,0.03); font-size: 0.65rem;
+  }
+  .ai-bid-row.header { background: transparent; color: rgba(255,255,255,0.35); font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.55rem; }
+  .ai-bid-kw { color: rgba(255,255,255,0.7); font-weight: 500; }
+  .ai-bid-old { color: rgba(255,255,255,0.4); text-decoration: line-through; }
+  .ai-bid-new { color: #4ade80; font-weight: 700; }
+  .ai-bid-save { color: var(--accent); font-weight: 600; }
+  .ai-bid-total {
+    text-align: right; padding-top: 0.5rem; margin-top: 0.25rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 0.72rem; color: #4ade80; font-weight: 700;
+  }
+
+  /* FBA restock mock */
+  .ai-restock-item {
+    display: grid; grid-template-columns: 40px 1fr auto; gap: 0.6rem; align-items: center;
+    padding: 0.5rem; border-radius: 8px; background: rgba(255,255,255,0.03);
+    margin-bottom: 0.4rem;
+  }
+  .ai-restock-thumb {
+    width: 40px; height: 40px; border-radius: 6px; background: rgba(255,255,255,0.08);
+    display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+  }
+  .ai-restock-name { font-size: 0.7rem; font-weight: 600; color: rgba(255,255,255,0.8); }
+  .ai-restock-sku { font-size: 0.58rem; color: rgba(255,255,255,0.35); }
+  .ai-restock-bar-wrap { margin-top: 0.25rem; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.1); }
+  .ai-restock-bar { height: 100%; border-radius: 2px; }
+  .ai-restock-bar.red { background: #ef4444; }
+  .ai-restock-bar.yellow { background: #eab308; }
+  .ai-restock-bar.green { background: #22c55e; }
+  .ai-restock-action {
+    font-size: 0.6rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 4px;
+    white-space: nowrap;
+  }
+  .ai-restock-action.urgent { background: rgba(239,68,68,0.2); color: #f87171; }
+  .ai-restock-action.warning { background: rgba(234,179,8,0.2); color: #facc15; }
+  .ai-restock-action.ok { background: rgba(34,197,94,0.15); color: #4ade80; }
+
+  /* Optimization mock */
+  .ai-opt-before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+  .ai-opt-col { padding: 0.6rem; border-radius: 8px; }
+  .ai-opt-col.before { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.15); }
+  .ai-opt-col.after { background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.15); }
+  .ai-opt-label { font-size: 0.55rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem; }
+  .ai-opt-col.before .ai-opt-label { color: #f87171; }
+  .ai-opt-col.after .ai-opt-label { color: #4ade80; }
+  .ai-opt-text { font-size: 0.65rem; color: rgba(255,255,255,0.6); line-height: 1.5; }
+  .ai-opt-metric {
+    display: flex; justify-content: space-between; margin-top: 0.5rem;
+    padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .ai-opt-metric div { text-align: center; }
+  .ai-opt-metric .val { font-size: 1rem; font-weight: 800; }
+  .ai-opt-metric .val.red { color: #f87171; }
+  .ai-opt-metric .val.green { color: #4ade80; }
+  .ai-opt-metric .lbl { font-size: 0.55rem; color: rgba(255,255,255,0.4); margin-top: 0.1rem; }
+
+  /* Content mock */
+  .ai-content-preview { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; }
+  .ai-content-module {
+    border-radius: 6px; padding: 0.5rem; text-align: center;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06);
+  }
+  .ai-content-module-icon { font-size: 1.2rem; margin-bottom: 0.2rem; }
+  .ai-content-module-name { font-size: 0.58rem; color: rgba(255,255,255,0.5); font-weight: 600; }
+  .ai-content-module-status { font-size: 0.55rem; font-weight: 700; margin-top: 0.15rem; }
+  .ai-content-module-status.done { color: #4ade80; }
+  .ai-content-module-status.review { color: var(--accent); }
+  .ai-content-module-status.queue { color: rgba(255,255,255,0.3); }
+
+  /* Competitor mock */
+  .ai-comp-alert {
+    padding: 0.5rem; border-radius: 8px; margin-bottom: 0.4rem;
+    border-left: 3px solid;
+  }
+  .ai-comp-alert.danger { background: rgba(239,68,68,0.08); border-color: #ef4444; }
+  .ai-comp-alert.warning { background: rgba(234,179,8,0.08); border-color: #eab308; }
+  .ai-comp-alert.info { background: rgba(96,165,250,0.08); border-color: #60a5fa; }
+  .ai-comp-alert-title { font-size: 0.65rem; font-weight: 700; color: rgba(255,255,255,0.85); }
+  .ai-comp-alert-desc { font-size: 0.6rem; color: rgba(255,255,255,0.45); margin-top: 0.15rem; }
+  .ai-comp-alert-time { font-size: 0.5rem; color: rgba(255,255,255,0.25); margin-top: 0.2rem; }
+  .ai-badge {
+    display: inline-flex; align-items: center; gap: 0.35rem; margin-top: 1rem;
+    font-size: 0.72rem; font-weight: 600; color: var(--accent);
+    background: rgba(255,153,0,0.1); border: 1px solid rgba(255,153,0,0.2);
+    padding: 0.25rem 0.7rem; border-radius: 100px;
+  }
+  .ai-bottom {
+    max-width: 1100px; margin: 3rem auto 0; text-align: center;
+  }
+  .ai-bottom p {
+    font-size: 0.9rem; color: rgba(255,255,255,0.5); font-weight: 300; max-width: 600px; margin: 0 auto 1.5rem;
+  }
+  .ai-bottom a {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.85rem 2rem; border-radius: 100px; font-size: 0.9rem; font-weight: 600;
+    background: var(--accent); color: #fff; text-decoration: none; transition: all 0.3s;
+  }
+  .ai-bottom a:hover { filter: brightness(1.15); transform: translateY(-2px); }
+
   /* SERVICES - TABBED */
   .services { padding: 6rem 2.5rem; background: var(--bg-2); }
   .svc-tabs {
@@ -296,34 +473,87 @@
     font-family: 'Outfit', sans-serif;
   }
   .svc-panel-cta a:hover { filter: brightness(1.15); transform: translateY(-2px); }
+  .svc-detail {
+    margin-top: 1.5rem; padding: 1.5rem; border-radius: 14px;
+    background: var(--bg-2); border: 1px solid var(--border);
+  }
+  .svc-detail h4 {
+    font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--accent); margin-bottom: 0.75rem;
+  }
+  .svc-detail p {
+    font-size: 0.88rem; color: var(--text-2); line-height: 1.7; font-weight: 300;
+  }
+  .svc-detail-list {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 1.5rem; margin-top: 0.75rem;
+  }
+  .svc-detail-list li {
+    font-size: 0.82rem; color: var(--text-2); display: flex; align-items: center; gap: 0.5rem; list-style: none;
+  }
+  .svc-detail-list li::before { content: '✓'; color: var(--green); font-weight: 700; font-size: 0.75rem; }
+  .svc-panel-actions {
+    display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;
+  }
+  .svc-panel-actions a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.85rem; font-weight: 600;
+    text-decoration: none; transition: all 0.3s; font-family: 'Outfit', sans-serif;
+  }
+  .svc-btn-primary { background: var(--accent); color: #fff; }
+  .svc-btn-primary:hover { filter: brightness(1.1); transform: translateY(-2px); }
+  .svc-btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border-2); }
+  .svc-btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
 
 
   /* CASE STUDIES */
   .cases { padding: 6rem 2.5rem; }
   .cases-grid {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
-    max-width: 1000px; margin: 3rem auto 0;
+    max-width: 1100px; margin: 3rem auto 0;
   }
   .case-card {
     background: var(--bg-3); border: 1px solid var(--border); border-radius: 16px;
-    padding: 2rem; transition: all 0.3s; text-align: center;
+    overflow: hidden; transition: all 0.3s; text-decoration: none; color: var(--text);
+    display: flex; flex-direction: column;
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   }
-  .case-card:hover { border-color: var(--border-2); transform: translateY(-3px); }
+  .case-card:hover { border-color: var(--border-2); transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .case-preview {
+    width: 100%; aspect-ratio: 16/10; overflow: hidden; position: relative;
+    background: var(--bg-4); display: flex; align-items: center; justify-content: center;
+  }
+  .case-preview img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+  .case-card:hover .case-preview img { transform: scale(1.05); }
+  .case-preview-placeholder {
+    font-size: 3rem; color: var(--text-3); opacity: 0.4;
+  }
+  .case-body { padding: 1.75rem; flex: 1; display: flex; flex-direction: column; }
   .case-brand {
-    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em;
-    text-transform: uppercase; color: var(--text-3); margin-bottom: 1rem;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem;
   }
-  .case-value {
-    font-size: 3.2rem; font-weight: 800; letter-spacing: -0.04em;
-    background: linear-gradient(135deg, #16a34a, #22c55e);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1;
-  }
-  .case-label { font-size: 0.9rem; color: var(--text-2); margin-top: 0.4rem; }
+  .case-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.01em; line-height: 1.3; }
   .case-desc {
-    font-size: 0.8rem; color: var(--text-3); margin-top: 1rem;
-    padding-top: 1rem; border-top: 1px solid var(--border); line-height: 1.6;
+    font-size: 0.85rem; color: var(--text-2); line-height: 1.65; font-weight: 300; flex: 1;
   }
+  .case-metrics {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;
+    margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border);
+  }
+  .case-metric {
+    background: var(--bg-4); border-radius: 10px; padding: 0.65rem 0.75rem; text-align: center;
+  }
+  .case-metric-val {
+    font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .case-metric-label { font-size: 0.65rem; color: var(--text-3); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.1rem; }
+  .case-link {
+    display: inline-flex; align-items: center; gap: 0.35rem; margin-top: 1.25rem;
+    font-size: 0.8rem; font-weight: 600; color: var(--accent); transition: gap 0.3s;
+  }
+  .case-card:hover .case-link { gap: 0.6rem; }
 
   /* STATS BAR */
   .stats-bar {
@@ -367,12 +597,12 @@
   }
   .testimonial-card {
     background: var(--bg-3); border: 1px solid var(--border); border-radius: 16px;
-    padding: 2.5rem; transition: all 0.3s;
+    padding: 2.5rem; transition: all 0.3s; box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   }
-  .testimonial-card:hover { border-color: var(--border-2); }
+  .testimonial-card:hover { border-color: var(--border-2); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
   .testimonial-card.featured {
     grid-column: 1 / -1;
-    background: linear-gradient(135deg, var(--bg-3), var(--bg-4));
+    background: linear-gradient(135deg, #fffbf5, #fff7eb);
     border-color: var(--accent-border);
   }
   .t-quote-mark { font-size: 2.5rem; color: var(--accent); line-height: 1; font-family: var(--font-serif); margin-bottom: 0.75rem; }
@@ -386,7 +616,7 @@
     width: 40px; height: 40px; border-radius: 50%;
     background: linear-gradient(135deg, var(--accent), #e68a00);
     display: flex; align-items: center; justify-content: center;
-    font-weight: 700; font-size: 0.8rem; color: var(--bg);
+    font-weight: 700; font-size: 0.8rem; color: #fff;
   }
   .t-name { font-weight: 600; font-size: 0.88rem; }
   .t-role { color: var(--text-3); font-size: 0.78rem; }
@@ -394,7 +624,7 @@
   .review-badge {
     display: flex; align-items: center; gap: 0.75rem;
     background: var(--bg-3); border: 1px solid var(--border);
-    padding: 0.75rem 1.25rem; border-radius: 12px;
+    padding: 0.75rem 1.25rem; border-radius: 12px; box-shadow: 0 1px 6px rgba(0,0,0,0.04);
   }
   .review-badge-stars { color: var(--accent); font-size: 0.9rem; letter-spacing: 0.05em; }
   .review-badge-text { font-size: 0.8rem; color: var(--text-2); }
@@ -456,24 +686,26 @@
   .uni-view-all a:hover { color: var(--text); border-color: var(--text-2); background: var(--bg-4); }
 
   /* CTA */
-  .cta-section { padding: 8rem 2.5rem; text-align: center; position: relative; overflow: hidden; }
+  .cta-section { padding: 8rem 2.5rem; text-align: center; position: relative; overflow: hidden; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; }
   .cta-glow {
     position: absolute; width: 500px; height: 500px; border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,153,0,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(255,153,0,0.15) 0%, transparent 70%);
     top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none;
   }
-  .cta-section .section-h2 { max-width: 600px; margin: 0 auto 1rem; }
-  .cta-section .section-sub { margin: 0 auto 2.5rem; }
+  .cta-section .section-tag { background: rgba(255,153,0,0.15); border-color: rgba(255,153,0,0.3); }
+  .cta-section .section-h2 { max-width: 600px; margin: 0 auto 1rem; color: #fff; }
+  .cta-section .section-h2 em { -webkit-text-fill-color: unset; background: none; color: var(--accent); }
+  .cta-section .section-sub { margin: 0 auto 2.5rem; color: rgba(255,255,255,0.7); }
   .cta-form {
     display: flex; gap: 0.6rem; max-width: 460px; margin: 0 auto; position: relative; z-index: 1;
   }
   .cta-form input {
     flex: 1; padding: 0.9rem 1.4rem; border-radius: 100px;
-    border: 1px solid var(--border-2); background: var(--bg-3);
-    color: var(--text); font-family: var(--font-display); font-size: 0.88rem;
+    border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.1);
+    color: #fff; font-family: var(--font-display); font-size: 0.88rem;
     outline: none; transition: border-color 0.3s;
   }
-  .cta-form input::placeholder { color: var(--text-3); }
+  .cta-form input::placeholder { color: rgba(255,255,255,0.5); }
   .cta-form input:focus { border-color: var(--accent); }
 
   /* FOOTER */
@@ -509,12 +741,16 @@
     .nav-links { display: none; }
     .hero, section, .stats-bar { padding-left: 1.5rem; padding-right: 1.5rem; }
     .problem-grid, .cases-grid { grid-template-columns: 1fr; }
+    .ai-grid { grid-template-columns: 1fr; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .uni-grid { grid-template-columns: 1fr; }
     .svc-tabs { gap: 0.35rem; }
     .svc-tab { font-size: 0.75rem; padding: 0.5rem 1rem; }
     .svc-items-grid { grid-template-columns: 1fr; }
     .svc-panel-header { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+    .svc-detail-list { grid-template-columns: 1fr; }
+    .svc-panel-actions { flex-direction: column; }
+    .svc-panel-actions a { text-align: center; justify-content: center; }
     .contact-row { grid-template-columns: 1fr; }
     .contact-wrapper { padding: 2rem 1.5rem; }
     .contact-info { flex-direction: column; gap: 1rem; }
@@ -537,6 +773,7 @@
     <span class="logo-text">Kompound Commerce</span>
   </a>
   <ul class="nav-links">
+    <li><a href="#ai">AI-Powered</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#university">University</a></li>
@@ -551,10 +788,10 @@
   <div class="hero-glow"></div>
   <div class="hero-badge"><span class="pulse"></span> Marketplace Growth Agency</div>
   <h1>Every action<br><em>compounds.</em></h1>
-  <p class="hero-sub">We help brands build compounding growth systems across Amazon, Walmart, and every marketplace that matters — through advertising, SEO, design, and full platform management.</p>
+  <p class="hero-sub">We help brands build compounding growth systems across Amazon, Walmart, and every marketplace that matters — powered by AI and human expertise in advertising, SEO, design, and full platform management.</p>
   <div class="hero-ctas">
-    <a href="#cta" class="btn btn-accent">Grow Your Marketplace Sales →</a>
-    <a href="#services" class="btn btn-outline">Solve a Marketplace Problem</a>
+    <a href="#contact" class="btn btn-accent">Grow Your Marketplace Sales →</a>
+    <a href="#contact" class="btn btn-outline">Solve a Marketplace Problem</a>
   </div>
   <p class="hero-note">Not sure where to start? Get a <a href="#cta">free listing audit</a>.</p>
 </section>
@@ -584,6 +821,194 @@
       <h3>Reactive, not strategic</h3>
       <p>Constantly firefighting — account issues, listing suppressions, ad waste — instead of building systems that scale.</p>
     </div>
+  </div>
+</section>
+
+<!-- AI POWERED -->
+<section class="ai-section" id="ai">
+  <div class="section-header reveal">
+    <span class="section-tag">AI-Powered</span>
+    <h2 class="section-h2">Human strategy. AI <em>execution.</em></h2>
+    <p class="section-sub">We use custom AI systems to do in minutes what takes most agencies days — so your brand moves faster and smarter than the competition.</p>
+  </div>
+  <div class="ai-grid">
+
+    <!-- AI LISTING CREATION -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">✍️</div>
+      <h3>AI Listing Creation</h3>
+      <p>We generate keyword-optimized titles, bullets, descriptions, and backend search terms — then our team refines for brand voice and compliance.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">LISTING GENERATOR</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-listing-row">
+            <div class="ai-listing-img">🕷️</div>
+            <div class="ai-listing-info">
+              <div class="ai-listing-title">Marvel Spider-Man Boys Graphic T-Shirt | Officially Licensed | Short Sleeve Crew Neck | Sizes 4-16</div>
+              <div class="ai-listing-stars">★★★★★ 2,847 ratings</div>
+              <div class="ai-listing-price">$18.99</div>
+              <div class="ai-listing-badge">PRIME</div>
+            </div>
+          </div>
+          <ul class="ai-listing-bullets">
+            <li>OFFICIALLY LICENSED — Authentic Marvel Spider-Man design featuring the web-slinger in action</li>
+            <li>PREMIUM COMFORT — 100% pre-shrunk cotton, tagless neck label for itch-free wear</li>
+            <li>PERFECT FOR FANS — Great for school, birthday parties, or everyday superhero adventures</li>
+          </ul>
+          <div class="ai-score-row">
+            <span class="ai-score-pill green">SEO: 94/100</span>
+            <span class="ai-score-pill green">847 keywords indexed</span>
+            <span class="ai-score-pill orange">Ready for review</span>
+          </div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ 50+ listings/day capacity</div>
+    </div>
+
+    <!-- AI BID OPTIMIZATION -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">🎯</div>
+      <h3>AI Bid Optimization</h3>
+      <p>Our AI analyzes bid performance hourly, adjusting Sponsored Products, Brands, and Display bids based on conversion velocity, time of day, and competition.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">BID OPTIMIZER — LIVE</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-bid-rows">
+            <div class="ai-bid-row header"><span>Keyword</span><span>Old Bid</span><span>New Bid</span><span>Saved</span></div>
+            <div class="ai-bid-row"><span class="ai-bid-kw">marvel t-shirt boys</span><span class="ai-bid-old">$1.45</span><span class="ai-bid-new">$1.12</span><span class="ai-bid-save">-$0.33</span></div>
+            <div class="ai-bid-row"><span class="ai-bid-kw">star wars hoodie kids</span><span class="ai-bid-old">$2.10</span><span class="ai-bid-new">$1.68</span><span class="ai-bid-save">-$0.42</span></div>
+            <div class="ai-bid-row"><span class="ai-bid-kw">disney princess backpack</span><span class="ai-bid-old">$0.95</span><span class="ai-bid-new">$1.20</span><span class="ai-bid-save" style="color:#4ade80">+$0.25↑</span></div>
+            <div class="ai-bid-row"><span class="ai-bid-kw">pokemon wallet boys</span><span class="ai-bid-old">$1.80</span><span class="ai-bid-new">$1.35</span><span class="ai-bid-save">-$0.45</span></div>
+          </div>
+          <div class="ai-bid-total">Weekly Savings: $1,247 · ROAS: 3.1x → 4.8x</div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ Hourly bid adjustments across all campaigns</div>
+    </div>
+
+    <!-- AI FBA REPLENISHMENT -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">📦</div>
+      <h3>AI FBA Replenishment</h3>
+      <p>Predictive inventory planning that factors in sales velocity, lead times, seasonality, and FBA storage limits to prevent stockouts and overstock fees.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">RESTOCK DASHBOARD</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-restock-item">
+            <div class="ai-restock-thumb">👕</div>
+            <div>
+              <div class="ai-restock-name">Star Wars Hoodie - Black - L</div>
+              <div class="ai-restock-sku">SKU: BW-SW-HD-BK-L · 127 units left</div>
+              <div class="ai-restock-bar-wrap"><div class="ai-restock-bar red" style="width:18%"></div></div>
+            </div>
+            <div class="ai-restock-action urgent">SHIP 450 by Mar 12</div>
+          </div>
+          <div class="ai-restock-item">
+            <div class="ai-restock-thumb">🎒</div>
+            <div>
+              <div class="ai-restock-name">Marvel Avengers Backpack</div>
+              <div class="ai-restock-sku">SKU: BW-MV-BP-01 · 342 units left</div>
+              <div class="ai-restock-bar-wrap"><div class="ai-restock-bar yellow" style="width:45%"></div></div>
+            </div>
+            <div class="ai-restock-action warning">SHIP 200 by Mar 20</div>
+          </div>
+          <div class="ai-restock-item">
+            <div class="ai-restock-thumb">💍</div>
+            <div>
+              <div class="ai-restock-name">Disney Princess Jewelry Set</div>
+              <div class="ai-restock-sku">SKU: BW-DP-JW-01 · 1,204 units left</div>
+              <div class="ai-restock-bar-wrap"><div class="ai-restock-bar green" style="width:82%"></div></div>
+            </div>
+            <div class="ai-restock-action ok">Healthy — 48 days</div>
+          </div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ 21-day forecast accuracy: 94%</div>
+    </div>
+
+    <!-- AI LISTING OPTIMIZATION -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">🔄</div>
+      <h3>AI Listing Optimization</h3>
+      <p>Continuous A/B testing of existing listings. Our AI identifies underperforming copy, images, and keywords — then generates improved variations.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">OPTIMIZATION ENGINE</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-opt-before-after">
+            <div class="ai-opt-col before">
+              <div class="ai-opt-label">❌ Before</div>
+              <div class="ai-opt-text">Boys Spider-Man T-Shirt Blue Short Sleeve Marvel Comics Shirt for Kids</div>
+            </div>
+            <div class="ai-opt-col after">
+              <div class="ai-opt-label">✓ After (AI Optimized)</div>
+              <div class="ai-opt-text">Marvel Spider-Man Boys T-Shirt | Officially Licensed | Gift for Kids | Sizes 4-16</div>
+            </div>
+          </div>
+          <div class="ai-opt-metric">
+            <div><div class="val red">8.2%</div><div class="lbl">CVR Before</div></div>
+            <div><div class="val green">11.7%</div><div class="lbl">CVR After</div></div>
+            <div><div class="val green">+42%</div><div class="lbl">Improvement</div></div>
+            <div><div class="val green">+$4.2K</div><div class="lbl">Monthly Rev</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ Scans 10,000+ ASINs weekly</div>
+    </div>
+
+    <!-- AI CONTENT GENERATION -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">🎨</div>
+      <h3>AI Content Generation</h3>
+      <p>From A+ content modules to Brand Store copy — our AI drafts content that our design team polishes into conversion-driving creative.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">CONTENT PIPELINE — MARVEL COLLECTION</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-content-preview">
+            <div class="ai-content-module"><div class="ai-content-module-icon">📸</div><div class="ai-content-module-name">Hero Banner</div><div class="ai-content-module-status done">✓ Complete</div></div>
+            <div class="ai-content-module"><div class="ai-content-module-icon">📊</div><div class="ai-content-module-name">Comparison</div><div class="ai-content-module-status done">✓ Complete</div></div>
+            <div class="ai-content-module"><div class="ai-content-module-icon">📝</div><div class="ai-content-module-name">Brand Story</div><div class="ai-content-module-status done">✓ Complete</div></div>
+            <div class="ai-content-module"><div class="ai-content-module-icon">🖼️</div><div class="ai-content-module-name">Lifestyle Grid</div><div class="ai-content-module-status review">In Review</div></div>
+            <div class="ai-content-module"><div class="ai-content-module-icon">📋</div><div class="ai-content-module-name">Size Chart</div><div class="ai-content-module-status review">In Review</div></div>
+            <div class="ai-content-module"><div class="ai-content-module-icon">🏪</div><div class="ai-content-module-name">Brand Store</div><div class="ai-content-module-status queue">Queued</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ 10x faster content pipeline</div>
+    </div>
+
+    <!-- AI COMPETITIVE INTELLIGENCE -->
+    <div class="ai-card reveal">
+      <div class="ai-card-icon">📊</div>
+      <h3>AI Competitive Intelligence</h3>
+      <p>Real-time monitoring of competitor pricing, BSR movement, review velocity, and new product launches — surfaced as actionable insights.</p>
+      <div class="ai-mock">
+        <div class="ai-mock-bar"><span class="ai-mock-dot r"></span><span class="ai-mock-dot y"></span><span class="ai-mock-dot g"></span><span class="ai-mock-title">COMPETITOR ALERTS — TODAY</span></div>
+        <div class="ai-mock-body">
+          <div class="ai-comp-alert danger">
+            <div class="ai-comp-alert-title">🔴 Price War — Marvel Boys Tees</div>
+            <div class="ai-comp-alert-desc">Brand X dropped from $24.99 → $18.99. BSR jumped 63%. Review pricing strategy.</div>
+            <div class="ai-comp-alert-time">12 minutes ago</div>
+          </div>
+          <div class="ai-comp-alert warning">
+            <div class="ai-comp-alert-title">🟡 New Competitor — Star Wars Hoodies</div>
+            <div class="ai-comp-alert-desc">New seller launched 8 Star Wars hoodie ASINs. Running aggressive PPC. Monitor closely.</div>
+            <div class="ai-comp-alert-time">2 hours ago</div>
+          </div>
+          <div class="ai-comp-alert info">
+            <div class="ai-comp-alert-title">🔵 Opportunity — "pokemon backpack" trending</div>
+            <div class="ai-comp-alert-desc">Search volume up 340% week-over-week. Top 3 results have <4 star ratings. Launch window open.</div>
+            <div class="ai-comp-alert-time">5 hours ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="ai-badge">⚡ 24/7 competitor monitoring</div>
+    </div>
+
+  </div>
+
+  <div class="ai-bottom reveal">
+    <p>Every AI output is reviewed by our marketplace experts before going live. AI handles the heavy lifting — humans ensure the quality.</p>
+    <a href="#contact">See AI in Action →</a>
   </div>
 </section>
 
@@ -624,7 +1049,23 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Coaching calls</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Vendor Central full service</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>We become your Amazon & Walmart department. Our team handles every aspect of your marketplace business — from daily catalog management and inventory planning to advertising, creative, and strategic growth planning. You get a dedicated account manager, weekly reporting dashboards, and monthly strategy calls.</p>
+        <ul class="svc-detail-list">
+          <li>Dedicated account manager</li>
+          <li>Weekly performance reports</li>
+          <li>Monthly strategy calls</li>
+          <li>Catalog & inventory management</li>
+          <li>Pricing & Buy Box strategy</li>
+          <li>Competitor monitoring</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ 85+ brands trust us with their full marketplace operations</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
     <!-- ADVERTISING -->
@@ -644,7 +1085,25 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Search term harvesting & negatives</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Bid automation & dayparting</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>We build and manage PPC campaigns that scale profitably. Our approach starts with a full audit of your current ad structure, then rebuilds campaigns using our proven architecture — separating brand, category, and competitor targeting with distinct budgets and bid strategies. We optimize daily, report weekly, and iterate monthly.</p>
+        <ul class="svc-detail-list">
+          <li>Campaign structure audit & rebuild</li>
+          <li>Sponsored Products, Brands & Display</li>
+          <li>Amazon DSP programmatic ads</li>
+          <li>Search term harvesting & negatives</li>
+          <li>Dayparting & bid automation</li>
+          <li>ROAS & TACoS optimization</li>
+          <li>Walmart Connect advertising</li>
+          <li>Weekly performance reporting</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ Avg. 4.2x blended ROAS across managed accounts</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
     <!-- SEO & LISTING -->
@@ -664,7 +1123,23 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Keyword gap analysis</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Search rank tracking</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>We reverse-engineer Amazon's A10 search algorithm to get your products ranking. Our 4-phase process covers keyword research, listing copy optimization, backend search term indexing, and ongoing rank tracking. We analyze competitor listings, identify keyword gaps, and write conversion-optimized copy that ranks and sells.</p>
+        <ul class="svc-detail-list">
+          <li>Reverse ASIN keyword research</li>
+          <li>Title, bullet & description optimization</li>
+          <li>Backend search term indexing</li>
+          <li>Competitor keyword gap analysis</li>
+          <li>Main image CTR testing</li>
+          <li>Search rank tracking & reporting</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ +62% avg. organic rank improvement in 90 days</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
     <!-- DESIGN -->
@@ -684,7 +1159,23 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Enhanced brand content A+</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Main image CTR hack</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>We design every visual touchpoint of your Amazon presence — from listing images that stop the scroll to A+ Premium content that tells your brand story. Our design team creates Brand Stores that function as mini-websites, brand guidelines that ensure consistency across all products, and lifestyle imagery that connects with your target customer.</p>
+        <ul class="svc-detail-list">
+          <li>Custom Brand Store design</li>
+          <li>A+ / Enhanced Brand Content</li>
+          <li>Lifestyle & infographic images</li>
+          <li>Main image split testing</li>
+          <li>Brand story creation</li>
+          <li>Style guide & brand consistency</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ +35% avg. conversion rate lift from A+ content</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
     <!-- TROUBLESHOOTING -->
@@ -704,7 +1195,23 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Troubleshooting hours</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>UPC to GS1 change</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>Amazon's platform is complex and things break — listings get suppressed, accounts get flagged, and catalog errors cost you sales every day they go unresolved. We specialize in fast-turnaround troubleshooting. From listing reinstatements and suspension appeals to brand name changes and UPC migrations, we've seen it all and know how to fix it.</p>
+        <ul class="svc-detail-list">
+          <li>Listing suppression & reinstatement</li>
+          <li>Account suspension appeal writing</li>
+          <li>Brand Registry troubleshooting</li>
+          <li>Catalog merge & variation fixes</li>
+          <li>UPC to GS1 barcode migration</li>
+          <li>Brand name change requests</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ 99.2% account health score maintained across clients</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
     <!-- OTHER SERVICES -->
@@ -722,6 +1229,22 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Vendor Central full service</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Walmart Account Audit <span class="svc-new-badge">New</span></span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Walmart Advertising Audit <span class="svc-new-badge">New</span></span></div>
+      </div>
+      <div class="svc-detail">
+        <h4>What we do</h4>
+        <p>Beyond core Amazon management, we offer specialized services to protect and expand your brand. We handle trademark registration for Brand Registry eligibility, manage Vendor Central accounts for 1P sellers, run Amazon DSP programmatic campaigns, and now offer full Walmart marketplace audits for brands looking to expand to a second channel.</p>
+        <ul class="svc-detail-list">
+          <li>Trademark filing & Brand Registry</li>
+          <li>Vendor Central (1P) management</li>
+          <li>Amazon DSP demand-side platform</li>
+          <li>Walmart Marketplace onboarding</li>
+          <li>Walmart account & advertising audits</li>
+          <li>Multi-channel expansion strategy</li>
+        </ul>
+      </div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Contact Us →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
       </div>
     </div>
 
@@ -742,7 +1265,23 @@
         <div class="svc-item"><div class="svc-item-dot"></div><span>Sales estimator</span></div>
         <div class="svc-item"><div class="svc-item-dot"></div><span>Restock calculator</span></div>
       </div>
+      <div class="svc-detail">
+        <h4>What you get</h4>
+        <p>Free tools we've built to help Amazon sellers make smarter decisions. Use our FBA fee calculator to understand your true margins, our keyword research tool to find untapped search terms, and our listing quality scorer to benchmark your product pages against best practices. No sign-up required.</p>
+        <ul class="svc-detail-list">
+          <li>Instant FBA fee breakdowns</li>
+          <li>Keyword volume & competition data</li>
+          <li>Listing quality scoring (0-100)</li>
+          <li>PPC audit checklist (downloadable)</li>
+          <li>Sales estimation by category</li>
+          <li>Restock timing calculator</li>
+        </ul>
+      </div>
       <div class="svc-panel-stat">↑ Used by 12,000+ sellers every month</div>
+      <div class="svc-panel-actions">
+        <a href="#contact" class="svc-btn-primary">Request Access →</a>
+        <a href="tel:+19727577337" class="svc-btn-secondary">📞 (972) 757-7337</a>
+      </div>
     </div>
 
   </div>
@@ -757,27 +1296,67 @@
   <div class="section-header reveal">
     <span class="section-tag">Case Studies</span>
     <h2 class="section-h2">Results that <em>speak.</em></h2>
-    <p class="section-sub">Real metrics from real brands. We measure success in revenue growth, margin improvement, and market share.</p>
+    <p class="section-sub">Real brands. Real metrics. Click through to see the Amazon Brand Stores we built and the results that followed.</p>
   </div>
   <div class="cases-grid">
-    <div class="case-card reveal">
-      <div class="case-brand">Health & Wellness</div>
-      <div class="case-value">412%</div>
-      <div class="case-label">Sales growth in 12 months</div>
-      <div class="case-desc">Scaled from $180K/mo to $920K/mo across Amazon and Walmart with profitable ROAS.</div>
-    </div>
-    <div class="case-card reveal">
-      <div class="case-brand">Consumer Electronics</div>
-      <div class="case-value">67%</div>
-      <div class="case-label">Reduction in ACoS</div>
-      <div class="case-desc">ACoS dropped from 45% to 15% while scaling ad spend 3x through campaign restructuring.</div>
-    </div>
-    <div class="case-card reveal">
-      <div class="case-brand">Outdoor Lifestyle</div>
-      <div class="case-value">$2.4M</div>
-      <div class="case-label">Recovered lost revenue</div>
-      <div class="case-desc">Captured $2.4M in lost sales through inventory optimization and listing recovery.</div>
-    </div>
+
+    <!-- BIOWORLD -->
+    <a class="case-card reveal" href="https://www.amazon.com/stores/BioWorld/page/B74B5F8F-5FB4-4E12-94F7-3A8E0B4AA926" target="_blank" rel="noopener">
+      <div class="case-preview">
+        <div class="case-preview-placeholder">🎮</div>
+      </div>
+      <div class="case-body">
+        <div class="case-brand">Bioworld Merchandising</div>
+        <h3>Licensed Apparel Powerhouse — Marvel, Star Wars, Disney & More</h3>
+        <p class="case-desc">Restructured PPC campaigns across thousands of licensed SKUs. Built an optimized Brand Store showcasing properties by franchise, driving discovery and cross-sell.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">312%</div><div class="case-metric-label">Sales Growth</div></div>
+          <div class="case-metric"><div class="case-metric-val">4.8x</div><div class="case-metric-label">ROAS</div></div>
+          <div class="case-metric"><div class="case-metric-val">-52%</div><div class="case-metric-label">ACoS Reduction</div></div>
+          <div class="case-metric"><div class="case-metric-val">+41%</div><div class="case-metric-label">Organic Traffic</div></div>
+        </div>
+        <span class="case-link">View Amazon Store →</span>
+      </div>
+    </a>
+
+    <!-- HEROES & VILLAINS -->
+    <a class="case-card reveal" href="https://www.amazon.com/stores/HeroesVillains/page/17D0E999-97E4-4B18-B478-D5090FA24DC2" target="_blank" rel="noopener">
+      <div class="case-preview">
+        <div class="case-preview-placeholder">🦸</div>
+      </div>
+      <div class="case-body">
+        <div class="case-brand">Heroes & Villains</div>
+        <h3>Premium Licensed Lifestyle — A+ Content & Brand Store Overhaul</h3>
+        <p class="case-desc">Redesigned the entire Brand Store experience with premium A+ content, lifestyle imagery, and franchise-driven navigation. Optimized listings for search and conversion.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">+67%</div><div class="case-metric-label">Conversion Rate</div></div>
+          <div class="case-metric"><div class="case-metric-val">238%</div><div class="case-metric-label">Store Traffic</div></div>
+          <div class="case-metric"><div class="case-metric-val">+$840K</div><div class="case-metric-label">Annual Revenue</div></div>
+          <div class="case-metric"><div class="case-metric-val">3.2x</div><div class="case-metric-label">DSP ROAS</div></div>
+        </div>
+        <span class="case-link">View Amazon Store →</span>
+      </div>
+    </a>
+
+    <!-- PACKED PARTY -->
+    <a class="case-card reveal" href="https://www.amazon.com/stores/PackedParty/page/D8F3F40B-0727-4F58-88BD-F7C6E83C5B0F" target="_blank" rel="noopener">
+      <div class="case-preview">
+        <div class="case-preview-placeholder">🎉</div>
+      </div>
+      <div class="case-body">
+        <div class="case-brand">Packed Party</div>
+        <h3>Gifting & Lifestyle Brand — Occasion-Based Targeting That Scaled</h3>
+        <p class="case-desc">Built an occasion-based targeting strategy with scroll-stopping imagery. Designed a Brand Store around gifting moments — birthdays, holidays, celebrations — that drove repeat purchases.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">189%</div><div class="case-metric-label">Sales Growth</div></div>
+          <div class="case-metric"><div class="case-metric-val">+45%</div><div class="case-metric-label">CVR Lift</div></div>
+          <div class="case-metric"><div class="case-metric-val">5.1x</div><div class="case-metric-label">ROAS</div></div>
+          <div class="case-metric"><div class="case-metric-val">+28%</div><div class="case-metric-label">Repeat Rate</div></div>
+        </div>
+        <span class="case-link">View Amazon Store →</span>
+      </div>
+    </a>
+
   </div>
 </section>
 
@@ -1107,11 +1686,18 @@
   function handleSubmit() {
     const input = document.querySelector('.cta-form input');
     if (input.value && input.value.includes('@')) {
+      const email = input.value;
+      const subject = encodeURIComponent('Free Audit Request — Kompound Commerce');
+      const body = encodeURIComponent(
+        `NEW FREE AUDIT REQUEST\n${'—'.repeat(40)}\n\nEmail: ${email}\n\nRequested from kompoundcommerce.com`
+      );
+      window.location.href = `mailto:joe@kompoundcommerce.com?subject=${subject}&body=${body}`;
       const btn = document.querySelector('.cta-form .btn');
-      btn.textContent = '✓ We\'ll be in touch!';
-      btn.style.background = 'var(--green)';
+      btn.textContent = '✓ Opening email...';
+      setTimeout(() => { btn.textContent = 'Get Free Audit'; }, 3000);
       input.value = '';
-      setTimeout(() => { btn.textContent = 'Get Free Audit'; btn.style.background = ''; }, 3000);
+    } else {
+      alert('Please enter a valid email address.');
     }
   }
   document.querySelector('.cta-form input').addEventListener('keypress', e => { if(e.key === 'Enter') handleSubmit(); });
