@@ -1776,29 +1776,30 @@
   });
 
   // Service tabs
-  document.querySelectorAll('.svc-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.svc-tab').forEach(t => t.classList.remove('active'));
-      document.querySelectorAll('.svc-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.svc-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.svc-tab').forEach(function(t) { t.classList.remove('active'); });
+      document.querySelectorAll('.svc-panel').forEach(function(p) { p.classList.remove('active'); });
       tab.classList.add('active');
-      const panel = document.querySelector(`.svc-panel[data-panel="${tab.dataset.tab}"]`);
-      panel.classList.add('active');
-      panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var panelName = tab.getAttribute('data-tab');
+      var panel = document.querySelector('.svc-panel[data-panel="' + panelName + '"]');
+      if (panel) {
+        panel.classList.add('active');
+        panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     });
   });
 
   function handleSubmit() {
-    const input = document.querySelector('.cta-form input');
+    var input = document.querySelector('.cta-form input');
     if (input.value && input.value.includes('@')) {
-      const email = input.value;
-      const subject = encodeURIComponent('Free Audit Request — Kompound Commerce');
-      const body = encodeURIComponent(
-        `NEW FREE AUDIT REQUEST\n${'—'.repeat(40)}\n\nEmail: ${email}\n\nRequested from kompoundcommerce.com`
-      );
-      window.location.href = `mailto:joe@kompoundcommerce.com?subject=${subject}&body=${body}`;
-      const btn = document.querySelector('.cta-form .btn');
-      btn.textContent = '✓ Opening email...';
-      setTimeout(() => { btn.textContent = 'Get Free Audit'; }, 3000);
+      var email = input.value;
+      var subject = encodeURIComponent('Free Audit Request - Kompound Commerce');
+      var body = encodeURIComponent('NEW FREE AUDIT REQUEST\n\nEmail: ' + email + '\n\nRequested from kompoundcommerce.com');
+      window.location.href = 'mailto:joe@kompoundcommerce.com?subject=' + subject + '&body=' + body;
+      var btn = document.querySelector('.cta-form .btn');
+      btn.textContent = 'Opening email...';
+      setTimeout(function() { btn.textContent = 'Get Free Audit'; }, 3000);
       input.value = '';
     } else {
       alert('Please enter a valid email address.');
@@ -1807,13 +1808,13 @@
   document.querySelector('.cta-form input').addEventListener('keypress', e => { if(e.key === 'Enter') handleSubmit(); });
 
   function submitContact(method) {
-    const fname = document.getElementById('c-fname').value.trim();
-    const lname = document.getElementById('c-lname').value.trim();
-    const email = document.getElementById('c-email').value.trim();
-    const company = document.getElementById('c-company').value.trim();
-    const revenue = document.getElementById('c-revenue').value;
-    const service = document.getElementById('c-service').value;
-    const message = document.getElementById('c-message').value.trim();
+    var fname = document.getElementById('c-fname').value.trim();
+    var lname = document.getElementById('c-lname').value.trim();
+    var email = document.getElementById('c-email').value.trim();
+    var company = document.getElementById('c-company').value.trim();
+    var revenue = document.getElementById('c-revenue').value;
+    var service = document.getElementById('c-service').value;
+    var message = document.getElementById('c-message').value.trim();
 
     if (!fname || !email) {
       alert('Please enter at least your name and email.');
@@ -1821,32 +1822,38 @@
     }
 
     if (method === 'sms') {
-      const smsBody = encodeURIComponent(
-        `Hi Joe! I'm ${fname} ${lname} from ${company || 'N/A'}. ` +
-        `Email: ${email}. ` +
-        `Revenue: ${revenue || 'N/A'}. ` +
-        `Need help with: ${service || 'N/A'}. ` +
-        `${message ? 'Message: ' + message : ''}`
+      var smsBody = encodeURIComponent(
+        'Hi Joe! I am ' + fname + ' ' + lname + ' from ' + (company || 'N/A') + '. ' +
+        'Email: ' + email + '. ' +
+        'Revenue: ' + (revenue || 'N/A') + '. ' +
+        'Need help with: ' + (service || 'N/A') + '. ' +
+        (message ? 'Message: ' + message : '')
       );
-      window.location.href = `sms:+19727577337?&body=${smsBody}`;
+      window.location.href = 'sms:+19727577337?&body=' + smsBody;
     } else {
-      const subject = encodeURIComponent(`New Inquiry from ${fname} ${lname} — ${company || 'N/A'}`);
-      const body = encodeURIComponent(
-        `NEW LEAD FROM KOMPOUND COMMERCE WEBSITE\n` +
-        `${'—'.repeat(40)}\n\n` +
-        `Name: ${fname} ${lname}\n` +
-        `Email: ${email}\n` +
-        `Company: ${company || 'N/A'}\n` +
-        `Monthly Revenue: ${revenue || 'Not specified'}\n` +
-        `Service Needed: ${service || 'Not specified'}\n\n` +
-        `Message:\n${message || 'No message provided.'}\n\n` +
-        `${'—'.repeat(40)}\n` +
-        `Sent from kompoundcommerce.com`
+      var subject = encodeURIComponent('New Inquiry from ' + fname + ' ' + lname + ' - ' + (company || 'N/A'));
+      var body = encodeURIComponent(
+        'NEW LEAD FROM KOMPOUND COMMERCE WEBSITE\n' +
+        '----------------------------------------\n\n' +
+        'Name: ' + fname + ' ' + lname + '\n' +
+        'Email: ' + email + '\n' +
+        'Company: ' + (company || 'N/A') + '\n' +
+        'Monthly Revenue: ' + (revenue || 'Not specified') + '\n' +
+        'Service Needed: ' + (service || 'Not specified') + '\n\n' +
+        'Message:\n' + (message || 'No message provided.') + '\n\n' +
+        '----------------------------------------\n' +
+        'Sent from kompoundcommerce.com'
       );
-      window.location.href = `mailto:joe@kompoundcommerce.com?subject=${subject}&body=${body}`;
+      window.location.href = 'mailto:joe@kompoundcommerce.com?subject=' + subject + '&body=' + body;
     }
 
-    const btns = document.querySelectorAll('.contact-submit');
-    btns.forEach(btn => {
-      const original = btn.textContent;
-      btn.textContent = method === 'sms' ? '✓ Opening messages...' : '✓ Opening em
+    var btns = document.querySelectorAll('.contact-submit');
+    btns.forEach(function(btn) {
+      var original = btn.textContent;
+      btn.textContent = method === 'sms' ? 'Opening messages...' : 'Opening email...';
+      setTimeout(function() { btn.textContent = original; }, 3000);
+    });
+  }
+</script>
+</body>
+</html>
