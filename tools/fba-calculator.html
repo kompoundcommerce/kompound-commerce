@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Amazon FBA Fee Calculator 2026 | Kompound Commerce</title>
+<meta name="description" content="Free Amazon FBA fee calculator. Calculate referral fees, fulfillment fees, storage costs, and your true profit margin per unit. Updated for 2026 fee structure.">
+<meta name="keywords" content="amazon fba calculator, fba fee calculator, amazon profit calculator, amazon seller fee calculator, fba fulfillment cost calculator, amazon margin calculator">
+<link rel="canonical" href="https://www.kompoundcommerce.com/tools/fba-calculator.html">
+<meta property="og:title" content="Free Amazon FBA Fee Calculator 2026">
+<meta property="og:description" content="Calculate your real Amazon profit margins. Includes referral fees, FBA fulfillment fees, storage costs, and advertising spend.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kompound Commerce">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Amazon FBA Fee Calculator","url":"https://www.kompoundcommerce.com/tools/fba-calculator.html","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"Kompound Commerce"}}</script>
+<style>
+  :root{--accent:#FF9900;--text:#18181b;--text-2:#52525b;--text-3:#a1a1aa;--bg:#ffffff;--bg-2:#f8f8fa;--border:#e4e4e7;--green:#16a34a;--red:#ef4444;--blue:#3b82f6}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Outfit',sans-serif;color:var(--text);background:#f0f0f3;min-height:100vh}
+
+  nav{padding:1rem 2.5rem;background:#fff;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px)}
+  .nav-logo{font-weight:800;font-size:1.1rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:.5rem}
+  .nav-logo span{background:var(--accent);color:#fff;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800}
+  .nav-links{display:flex;gap:1.5rem;align-items:center}
+  .nav-links a{font-size:.85rem;color:var(--text-2);text-decoration:none;font-weight:500}
+  .nav-links a:hover{color:var(--accent)}
+  .nav-links .nav-cta{background:var(--accent);color:#fff;padding:.45rem 1.1rem;border-radius:100px;font-weight:600}
+
+  .hero-strip{background:linear-gradient(135deg,#1a1a2e,#16213e);padding:2.5rem 2rem;text-align:center;color:#fff}
+  .hero-strip h1{font-size:1.75rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.35rem}
+  .hero-strip p{font-size:.9rem;color:rgba(255,255,255,.6);font-weight:300}
+  .hero-strip .free-badge{display:inline-block;background:rgba(255,153,0,.2);border:1px solid rgba(255,153,0,.3);color:var(--accent);font-size:.65rem;font-weight:700;padding:.2rem .6rem;border-radius:100px;margin-bottom:.75rem;letter-spacing:.05em;text-transform:uppercase}
+
+  .calc-container{max-width:1100px;margin:-1.5rem auto 3rem;padding:0 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+
+  .card{background:#fff;border-radius:16px;border:1px solid var(--border);padding:2rem;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+  .card-title{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-3);margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem}
+  .card-title span{font-size:1rem}
+
+  .field{margin-bottom:1.1rem}
+  .field label{display:block;font-size:.82rem;font-weight:600;color:var(--text-2);margin-bottom:.35rem}
+  .field input,.field select{width:100%;padding:.7rem .9rem;border:1px solid var(--border);border-radius:10px;font-family:'Outfit',sans-serif;font-size:.9rem;color:var(--text);background:var(--bg);outline:none;transition:border-color .2s}
+  .field input:focus,.field select:focus{border-color:var(--accent)}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+  .field-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem}
+  .field small{font-size:.72rem;color:var(--text-3);margin-top:.2rem;display:block}
+  .field .unit{position:relative}
+  .field .unit input{padding-left:1.5rem}
+  .field .unit::before{content:'$';position:absolute;left:.75rem;top:50%;transform:translateY(-50%);color:var(--text-3);font-size:.9rem;font-weight:500}
+  .field .unit-right{position:relative}
+  .field .unit-right input{padding-right:2rem}
+  .field .unit-right::after{content:'oz';position:absolute;right:.75rem;top:50%;transform:translateY(-50%);color:var(--text-3);font-size:.8rem}
+  .field .unit-pct{position:relative}
+  .field .unit-pct input{padding-right:2rem}
+  .field .unit-pct::after{content:'%';position:absolute;right:.75rem;top:50%;transform:translateY(-50%);color:var(--text-3);font-size:.8rem}
+
+  .divider{height:1px;background:var(--border);margin:1.25rem 0}
+
+  /* Results */
+  .results-card{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;border:none}
+  .results-card .card-title{color:rgba(255,255,255,.4)}
+
+  .result-row{display:flex;justify-content:space-between;align-items:center;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  .result-row:last-child{border:none}
+  .result-label{font-size:.85rem;color:rgba(255,255,255,.6);font-weight:300}
+  .result-value{font-family:'DM Mono',monospace;font-size:.9rem;font-weight:500;color:rgba(255,255,255,.9)}
+  .result-value.negative{color:#f87171}
+  .result-value.positive{color:#4ade80}
+
+  .result-total{display:flex;justify-content:space-between;align-items:center;padding:1rem 0;margin-top:.5rem;border-top:2px solid rgba(255,255,255,.1)}
+  .result-total .result-label{font-size:1rem;font-weight:700;color:#fff}
+  .result-total .result-value{font-size:1.35rem;font-weight:700}
+
+  .margin-bar{margin-top:1.25rem;background:rgba(255,255,255,.08);border-radius:8px;height:32px;overflow:hidden;position:relative}
+  .margin-bar-fill{height:100%;border-radius:8px;transition:width .5s ease,background .3s}
+  .margin-bar-label{position:absolute;right:.75rem;top:50%;transform:translateY(-50%);font-family:'DM Mono',monospace;font-size:.75rem;font-weight:700;color:#fff}
+
+  .fee-breakdown{margin-top:1.25rem}
+  .fee-breakdown-title{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:rgba(255,255,255,.35);margin-bottom:.75rem}
+  .fee-bar-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}
+  .fee-bar-label{font-size:.72rem;color:rgba(255,255,255,.5);width:80px;text-align:right;flex-shrink:0}
+  .fee-bar-track{flex:1;background:rgba(255,255,255,.06);border-radius:4px;height:16px;overflow:hidden}
+  .fee-bar-fill{height:100%;border-radius:4px;transition:width .5s ease}
+  .fee-bar-val{font-family:'DM Mono',monospace;font-size:.7rem;color:rgba(255,255,255,.7);width:55px;flex-shrink:0}
+
+  .calc-btn{width:100%;padding:.85rem;border:none;border-radius:12px;background:var(--accent);color:#fff;font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;transition:all .2s;margin-top:.5rem}
+  .calc-btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+
+  .reset-btn{width:100%;padding:.6rem;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--text-3);font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;margin-top:.5rem;transition:all .2s}
+  .reset-btn:hover{border-color:var(--text-3);color:var(--text-2)}
+
+  .powered-by{text-align:center;padding:2rem;font-size:.82rem;color:var(--text-3)}
+  .powered-by a{color:var(--accent);text-decoration:none;font-weight:600}
+
+  @media(max-width:900px){
+    .calc-container{grid-template-columns:1fr}
+    nav{padding:1rem}
+    .nav-links{display:none}
+    .field-row,.field-row-3{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/"><span>KC</span> Kompound Commerce</a>
+  <div class="nav-links">
+    <a href="/blog/amazon-fba-fees-explained-2026.html">Read the Full Fee Guide</a>
+    <a href="/#services">Our Services</a>
+    <a href="/#contact" class="nav-cta">Free Audit</a>
+  </div>
+</nav>
+
+<div class="hero-strip">
+  <div class="free-badge">Free Tool — No Sign-Up Required</div>
+  <h1>Amazon FBA Fee Calculator</h1>
+  <p>Calculate your real profit margins with every Amazon fee included. Updated for 2026.</p>
+</div>
+
+<div class="calc-container">
+
+  <!-- LEFT: INPUTS -->
+  <div>
+    <div class="card">
+      <div class="card-title"><span>📦</span> Product Details</div>
+
+      <div class="field">
+        <label>Product Category</label>
+        <select id="category">
+          <option value="15">Home & Kitchen (15%)</option>
+          <option value="17" selected>Clothing & Accessories (17%)</option>
+          <option value="15a">Shoes, Handbags & Sunglasses (15%)</option>
+          <option value="20">Jewelry (20%)</option>
+          <option value="8">Electronics (8%)</option>
+          <option value="15b">Toys & Games (15%)</option>
+          <option value="15c">Health & Personal Care (8-15%)</option>
+          <option value="15d">Beauty (8-15%)</option>
+          <option value="15e">Pet Supplies (15%)</option>
+          <option value="15f">Sports & Outdoors (15%)</option>
+          <option value="15g">Books (15%)</option>
+          <option value="15h">Everything Else (15%)</option>
+        </select>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label>Selling Price</label>
+          <div class="unit"><input type="number" id="price" value="19.99" step="0.01" min="0"></div>
+        </div>
+        <div class="field">
+          <label>Product Cost (COGS)</label>
+          <div class="unit"><input type="number" id="cogs" value="5.50" step="0.01" min="0"></div>
+          <small>Including inbound shipping to FBA</small>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="card-title"><span>📏</span> Size & Weight</div>
+
+      <div class="field-row-3">
+        <div class="field">
+          <label>Length (in)</label>
+          <input type="number" id="length" value="12" step="0.1" min="0">
+        </div>
+        <div class="field">
+          <label>Width (in)</label>
+          <input type="number" id="width" value="9" step="0.1" min="0">
+        </div>
+        <div class="field">
+          <label>Height (in)</label>
+          <input type="number" id="height" value="1" step="0.1" min="0">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Shipping Weight (oz)</label>
+        <div class="unit-right"><input type="number" id="weight" value="8" step="0.1" min="0"></div>
+        <small>Include packaging weight</small>
+      </div>
+
+      <div class="divider"></div>
+      <div class="card-title"><span>📊</span> Advertising & Storage</div>
+
+      <div class="field-row">
+        <div class="field">
+          <label>Estimated TACoS</label>
+          <div class="unit-pct"><input type="number" id="tacos" value="15" step="1" min="0" max="100"></div>
+          <small>Ad spend as % of total revenue</small>
+        </div>
+        <div class="field">
+          <label>Avg. Monthly Units Sold</label>
+          <input type="number" id="units" value="300" step="1" min="1">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Storage Season</label>
+        <select id="season">
+          <option value="standard" selected>January - September ($0.78/cu ft)</option>
+          <option value="peak">October - December ($2.40/cu ft)</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Is this apparel?</label>
+        <select id="apparel">
+          <option value="yes" selected>Yes — apparel item</option>
+          <option value="no">No — non-apparel</option>
+        </select>
+      </div>
+
+      <button class="calc-btn" onclick="calculate()">Calculate Fees & Profit</button>
+      <button class="reset-btn" onclick="resetForm()">Reset All Fields</button>
+    </div>
+  </div>
+
+  <!-- RIGHT: RESULTS -->
+  <div>
+    <div class="card results-card">
+      <div class="card-title"><span>💰</span> Fee Breakdown & Profit</div>
+
+      <div class="result-row">
+        <span class="result-label">Selling Price</span>
+        <span class="result-value" id="r-price">$19.99</span>
+      </div>
+      <div class="result-row">
+        <span class="result-label">Product Cost (COGS)</span>
+        <span class="result-value negative" id="r-cogs">-$5.50</span>
+      </div>
+      <div class="result-row">
+        <span class="result-label">Referral Fee (<span id="r-ref-pct">17</span>%)</span>
+        <span class="result-value negative" id="r-referral">-$3.40</span>
+      </div>
+      <div class="result-row">
+        <span class="result-label">FBA Fulfillment Fee</span>
+        <span class="result-value negative" id="r-fba">-$3.40</span>
+      </div>
+      <div class="result-row">
+        <span class="result-label">Monthly Storage (per unit)</span>
+        <span class="result-value negative" id="r-storage">-$0.12</span>
+      </div>
+      <div class="result-row">
+        <span class="result-label">Advertising (<span id="r-tacos-pct">15</span>% TACoS)</span>
+        <span class="result-value negative" id="r-ads">-$3.00</span>
+      </div>
+
+      <div class="result-total">
+        <span class="result-label">Net Profit per Unit</span>
+        <span class="result-value positive" id="r-profit">$4.57</span>
+      </div>
+
+      <div class="margin-bar">
+        <div class="margin-bar-fill" id="margin-fill" style="width:22.9%;background:#4ade80"></div>
+        <span class="margin-bar-label" id="margin-label">22.9% margin</span>
+      </div>
+
+      <div class="fee-breakdown">
+        <div class="fee-breakdown-title">Where Your Revenue Goes</div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">COGS</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-cogs" style="width:27.5%;background:#f87171"></div></div>
+          <span class="fee-bar-val" id="bar-cogs-val">27.5%</span>
+        </div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">Referral</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-ref" style="width:17%;background:#fb923c"></div></div>
+          <span class="fee-bar-val" id="bar-ref-val">17.0%</span>
+        </div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">FBA Fee</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-fba" style="width:17%;background:#fbbf24"></div></div>
+          <span class="fee-bar-val" id="bar-fba-val">17.0%</span>
+        </div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">Storage</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-storage" style="width:0.6%;background:#a78bfa"></div></div>
+          <span class="fee-bar-val" id="bar-storage-val">0.6%</span>
+        </div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">Ads</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-ads" style="width:15%;background:#60a5fa"></div></div>
+          <span class="fee-bar-val" id="bar-ads-val">15.0%</span>
+        </div>
+        <div class="fee-bar-row">
+          <span class="fee-bar-label">Profit</span>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="bar-profit" style="width:22.9%;background:#4ade80"></div></div>
+          <span class="fee-bar-val" id="bar-profit-val">22.9%</span>
+        </div>
+      </div>
+
+      <div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.08)">
+        <div class="result-row">
+          <span class="result-label">Monthly Revenue (est.)</span>
+          <span class="result-value" id="r-monthly-rev">$5,997</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Monthly Profit (est.)</span>
+          <span class="result-value positive" id="r-monthly-profit">$1,371</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Annual Profit (est.)</span>
+          <span class="result-value positive" id="r-annual-profit">$16,452</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Total Amazon Fees per Unit</span>
+          <span class="result-value negative" id="r-total-fees">$6.92</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Amazon Takes</span>
+          <span class="result-value" id="r-amazon-pct">34.6%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="powered-by">
+  Built by <a href="/">Kompound Commerce</a> · <a href="/blog/amazon-fba-fees-explained-2026.html">Read the complete FBA fees guide →</a> · <a href="/#contact">Get a free audit</a>
+</div>
+
+<script>
+function getReferralRate(catVal, price) {
+  if (catVal === '8') return 0.08;
+  if (catVal === '17') return 0.17;
+  if (catVal === '20') return price <= 250 ? 0.20 : 0.05;
+  if (catVal === '15c' || catVal === '15d') return price <= 10 ? 0.08 : 0.15;
+  return 0.15;
+}
+
+function getSizeTier(l, w, h, weightOz) {
+  var weightLb = weightOz / 16;
+  var sorted = [l, w, h].sort(function(a, b) { return b - a; });
+  var longest = sorted[0];
+  var median = sorted[1];
+  var shortest = sorted[2];
+
+  if (longest <= 15 && median <= 12 && shortest <= 0.75 && weightOz <= 16) return 'small-standard';
+  if (longest <= 18 && median <= 14 && shortest <= 8 && weightLb <= 20) return 'large-standard';
+  if (longest <= 60 && (l + 2 * w + 2 * h) <= 130 && weightLb <= 70) return 'small-oversize';
+  if (longest <= 108 && weightLb <= 150) return 'medium-oversize';
+  return 'large-oversize';
+}
+
+function getFBAFee(sizeTier, weightOz, isApparel) {
+  var weightLb = weightOz / 16;
+  var apparelExtra = isApparel ? 0.30 : 0;
+
+  if (sizeTier === 'small-standard') {
+    if (weightOz <= 2) return 3.22 + apparelExtra;
+    if (weightOz <= 4) return 3.31 + apparelExtra;
+    if (weightOz <= 6) return 3.33 + apparelExtra;
+    if (weightOz <= 8) return 3.36 + apparelExtra;
+    if (weightOz <= 10) return 3.38 + apparelExtra;
+    if (weightOz <= 12) return 3.38 + apparelExtra;
+    if (weightOz <= 14) return 3.40 + apparelExtra;
+    return 3.40 + apparelExtra;
+  }
+  if (sizeTier === 'large-standard') {
+    if (weightOz <= 4) return 3.86 + apparelExtra;
+    if (weightOz <= 8) return 4.08 + apparelExtra;
+    if (weightOz <= 12) return 4.24 + apparelExtra;
+    if (weightOz <= 16) return 4.75 + apparelExtra;
+    if (weightLb <= 1.5) return 5.19 + apparelExtra;
+    if (weightLb <= 2) return 5.40 + apparelExtra;
+    if (weightLb <= 2.5) return 5.69 + apparelExtra;
+    if (weightLb <= 3) return 6.10 + apparelExtra;
+    return 6.10 + 0.16 * Math.ceil(weightLb - 3) + apparelExtra;
+  }
+  if (sizeTier === 'small-oversize') return 9.73 + 0.42 * Math.max(0, Math.ceil(weightLb - 1));
+  if (sizeTier === 'medium-oversize') return 19.05 + 0.42 * Math.max(0, Math.ceil(weightLb - 1));
+  return 89.98 + 0.83 * Math.max(0, Math.ceil(weightLb - 90));
+}
+
+function calculate() {
+  var price = parseFloat(document.getElementById('price').value) || 0;
+  var cogs = parseFloat(document.getElementById('cogs').value) || 0;
+  var l = parseFloat(document.getElementById('length').value) || 0;
+  var w = parseFloat(document.getElementById('width').value) || 0;
+  var h = parseFloat(document.getElementById('height').value) || 0;
+  var weightOz = parseFloat(document.getElementById('weight').value) || 0;
+  var tacos = parseFloat(document.getElementById('tacos').value) || 0;
+  var units = parseInt(document.getElementById('units').value) || 1;
+  var season = document.getElementById('season').value;
+  var isApparel = document.getElementById('apparel').value === 'yes';
+  var catVal = document.getElementById('category').value;
+
+  // Referral fee
+  var refRate = getReferralRate(catVal, price);
+  var referralFee = Math.max(price * refRate, 0.30);
+
+  // FBA fee
+  var sizeTier = getSizeTier(l, w, h, weightOz);
+  var fbaFee = getFBAFee(sizeTier, weightOz, isApparel);
+
+  // Storage
+  var cubicFt = (l * w * h) / 1728;
+  var storageRate = season === 'peak' ? 2.40 : 0.78;
+  var storageFeeMonthly = cubicFt * storageRate;
+  var storagePerUnit = units > 0 ? (storageFeeMonthly * units) / units : storageFeeMonthly;
+  storagePerUnit = cubicFt * storageRate;
+
+  // Ads
+  var adCostPerUnit = price * (tacos / 100);
+
+  // Total fees (Amazon only = referral + FBA + storage)
+  var totalAmazonFees = referralFee + fbaFee + storagePerUnit;
+
+  // Profit
+  var profit = price - cogs - referralFee - fbaFee - storagePerUnit - adCostPerUnit;
+  var marginPct = price > 0 ? (profit / price) * 100 : 0;
+
+  // Monthly
+  var monthlyRev = price * units;
+  var monthlyProfit = profit * units;
+  var annualProfit = monthlyProfit * 12;
+  var amazonPct = price > 0 ? (totalAmazonFees / price) * 100 : 0;
+
+  // Update display
+  document.getElementById('r-price').textContent = '$' + price.toFixed(2);
+  document.getElementById('r-cogs').textContent = '-$' + cogs.toFixed(2);
+  document.getElementById('r-ref-pct').textContent = (refRate * 100).toFixed(0);
+  document.getElementById('r-referral').textContent = '-$' + referralFee.toFixed(2);
+  document.getElementById('r-fba').textContent = '-$' + fbaFee.toFixed(2);
+  document.getElementById('r-storage').textContent = '-$' + storagePerUnit.toFixed(2);
+  document.getElementById('r-tacos-pct').textContent = tacos.toFixed(0);
+  document.getElementById('r-ads').textContent = '-$' + adCostPerUnit.toFixed(2);
+
+  var profitEl = document.getElementById('r-profit');
+  profitEl.textContent = (profit >= 0 ? '$' : '-$') + Math.abs(profit).toFixed(2);
+  profitEl.className = 'result-value ' + (profit >= 0 ? 'positive' : 'negative');
+
+  // Margin bar
+  var clampedMargin = Math.max(0, Math.min(100, marginPct));
+  var barColor = marginPct >= 20 ? '#4ade80' : marginPct >= 10 ? '#fbbf24' : '#f87171';
+  document.getElementById('margin-fill').style.width = clampedMargin + '%';
+  document.getElementById('margin-fill').style.background = barColor;
+  document.getElementById('margin-label').textContent = marginPct.toFixed(1) + '% margin';
+
+  // Breakdown bars
+  var cogsPct = price > 0 ? (cogs / price) * 100 : 0;
+  var refPct = price > 0 ? (referralFee / price) * 100 : 0;
+  var fbaPct = price > 0 ? (fbaFee / price) * 100 : 0;
+  var storagePct = price > 0 ? (storagePerUnit / price) * 100 : 0;
+  var adsPct = tacos;
+
+  document.getElementById('bar-cogs').style.width = Math.min(cogsPct, 100) + '%';
+  document.getElementById('bar-cogs-val').textContent = cogsPct.toFixed(1) + '%';
+  document.getElementById('bar-ref').style.width = Math.min(refPct, 100) + '%';
+  document.getElementById('bar-ref-val').textContent = refPct.toFixed(1) + '%';
+  document.getElementById('bar-fba').style.width = Math.min(fbaPct, 100) + '%';
+  document.getElementById('bar-fba-val').textContent = fbaPct.toFixed(1) + '%';
+  document.getElementById('bar-storage').style.width = Math.min(storagePct, 100) + '%';
+  document.getElementById('bar-storage-val').textContent = storagePct.toFixed(1) + '%';
+  document.getElementById('bar-ads').style.width = Math.min(adsPct, 100) + '%';
+  document.getElementById('bar-ads-val').textContent = adsPct.toFixed(1) + '%';
+  document.getElementById('bar-profit').style.width = Math.max(0, Math.min(clampedMargin, 100)) + '%';
+  document.getElementById('bar-profit').style.background = barColor;
+  document.getElementById('bar-profit-val').textContent = marginPct.toFixed(1) + '%';
+
+  // Monthly/Annual
+  document.getElementById('r-monthly-rev').textContent = '$' + monthlyRev.toLocaleString('en-US', {maximumFractionDigits: 0});
+  var mpEl = document.getElementById('r-monthly-profit');
+  mpEl.textContent = (monthlyProfit >= 0 ? '$' : '-$') + Math.abs(monthlyProfit).toLocaleString('en-US', {maximumFractionDigits: 0});
+  mpEl.className = 'result-value ' + (monthlyProfit >= 0 ? 'positive' : 'negative');
+  var apEl = document.getElementById('r-annual-profit');
+  apEl.textContent = (annualProfit >= 0 ? '$' : '-$') + Math.abs(annualProfit).toLocaleString('en-US', {maximumFractionDigits: 0});
+  apEl.className = 'result-value ' + (annualProfit >= 0 ? 'positive' : 'negative');
+  document.getElementById('r-total-fees').textContent = '-$' + totalAmazonFees.toFixed(2);
+  document.getElementById('r-amazon-pct').textContent = amazonPct.toFixed(1) + '%';
+}
+
+function resetForm() {
+  document.getElementById('price').value = '19.99';
+  document.getElementById('cogs').value = '5.50';
+  document.getElementById('length').value = '12';
+  document.getElementById('width').value = '9';
+  document.getElementById('height').value = '1';
+  document.getElementById('weight').value = '8';
+  document.getElementById('tacos').value = '15';
+  document.getElementById('units').value = '300';
+  document.getElementById('category').value = '17';
+  document.getElementById('season').value = 'standard';
+  document.getElementById('apparel').value = 'yes';
+  calculate();
+}
+
+// Auto-calculate on any input change
+document.querySelectorAll('input, select').forEach(function(el) {
+  el.addEventListener('input', calculate);
+  el.addEventListener('change', calculate);
+});
+
+// Initial calculation
+calculate();
+</script>
+
+</body>
+</html>
