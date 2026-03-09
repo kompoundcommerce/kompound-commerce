@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kompound University: Free Amazon & Walmart Marketplace Guides | Kompound Commerce</title>
+<meta name="description" content="Free guides, tutorials, and deep-dives on Amazon selling, Walmart marketplace, PPC advertising, SEO, inventory planning, TikTok Shop, and more. The same playbooks we use with our clients.">
+<meta name="keywords" content="amazon selling guides, amazon ppc guide, amazon fba tips, walmart marketplace guide, tiktok shop guide, amazon listing optimization, fba fees guide, amazon agency blog">
+<link rel="canonical" href="https://www.kompoundcommerce.com/blog/">
+<meta property="og:title" content="Kompound University: Free Amazon & Walmart Marketplace Guides">
+<meta property="og:description" content="Free guides, tutorials, and deep-dives on marketplace strategy. The same playbooks we use with our clients.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kompound Commerce">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{--accent:#FF9900;--text:#18181b;--text-2:#52525b;--text-3:#a1a1aa;--bg:#fff;--bg-2:#f8f8fa;--border:#e4e4e7;--green:#16a34a}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Outfit',sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+
+  nav{padding:1rem 2.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);z-index:100}
+  .nav-logo{font-weight:800;font-size:1.1rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:.5rem}
+  .nav-logo span{background:var(--accent);color:#fff;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800}
+  .nav-links{display:flex;gap:1.5rem;align-items:center}
+  .nav-links a{font-size:.85rem;color:var(--text-2);text-decoration:none;font-weight:500}
+  .nav-links a:hover{color:var(--accent)}
+  .nav-links .nav-cta{background:var(--accent);color:#fff;padding:.45rem 1.1rem;border-radius:100px;font-weight:600}
+
+  .hero{padding:4rem 2.5rem 3rem;text-align:center;background:var(--bg-2)}
+  .hero-tag{display:inline-block;font-size:.68rem;font-weight:700;padding:.3rem .85rem;border-radius:100px;background:rgba(255,153,0,.08);color:var(--accent);border:1px solid rgba(255,153,0,.15);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem}
+  .hero h1{font-size:clamp(2rem,4vw,2.75rem);font-weight:800;letter-spacing:-.03em;margin-bottom:.75rem}
+  .hero h1 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--accent)}
+  .hero p{font-size:1.05rem;color:var(--text-2);font-weight:300;max-width:600px;margin:0 auto}
+
+  .blog-container{max-width:1100px;margin:0 auto;padding:2.5rem 2rem 4rem}
+
+  .filter-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2rem}
+  .filter-btn{padding:.45rem 1rem;border:1px solid var(--border);border-radius:100px;background:transparent;color:var(--text-2);font-family:'Outfit',sans-serif;font-size:.8rem;font-weight:500;cursor:pointer;transition:all .2s}
+  .filter-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+
+  .blog-card{background:var(--bg);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:all .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column}
+  .blog-card:hover{border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.06);transform:translateY(-3px)}
+  .blog-card-thumb{height:140px;background:var(--bg-2);display:flex;align-items:center;justify-content:center;position:relative}
+  .blog-card-thumb .emoji{font-size:3rem}
+  .blog-card-tag{position:absolute;top:.75rem;left:.75rem;font-size:.6rem;font-weight:700;padding:.2rem .6rem;border-radius:100px;text-transform:uppercase;letter-spacing:.05em}
+  .tag-guide{background:rgba(255,153,0,.1);color:var(--accent);border:1px solid rgba(255,153,0,.2)}
+  .tag-tutorial{background:rgba(34,197,94,.1);color:var(--green);border:1px solid rgba(34,197,94,.2)}
+  .tag-blog{background:rgba(139,92,246,.1);color:#8b5cf6;border:1px solid rgba(139,92,246,.2)}
+  .tag-tool{background:rgba(59,130,246,.1);color:#3b82f6;border:1px solid rgba(59,130,246,.2)}
+
+  .blog-card-body{padding:1.25rem;flex:1;display:flex;flex-direction:column}
+  .blog-card-date{font-size:.72rem;color:var(--text-3);margin-bottom:.35rem}
+  .blog-card-body h3{font-size:1rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.5rem;line-height:1.35}
+  .blog-card-body p{font-size:.82rem;color:var(--text-2);font-weight:300;line-height:1.6;flex:1}
+  .blog-card-link{font-size:.8rem;font-weight:600;color:var(--accent);margin-top:.75rem}
+
+  .cta-bar{max-width:1100px;margin:0 auto 4rem;padding:0 2rem}
+  .cta-inner{background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:16px;padding:3rem;text-align:center;color:#fff}
+  .cta-inner h2{font-size:1.5rem;font-weight:700;margin-bottom:.5rem}
+  .cta-inner p{color:rgba(255,255,255,.6);font-weight:300;margin-bottom:1.5rem}
+  .cta-inner a{display:inline-block;background:var(--accent);color:#fff;padding:.85rem 2rem;border-radius:100px;text-decoration:none;font-weight:600}
+
+  footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);color:var(--text-3);font-size:.85rem}
+  footer a{color:var(--accent);text-decoration:none}
+
+  @media(max-width:900px){
+    .blog-grid{grid-template-columns:1fr}
+    nav{padding:1rem}
+    .nav-links{display:none}
+    .filter-bar{justify-content:center}
+  }
+  @media(min-width:901px) and (max-width:1100px){
+    .blog-grid{grid-template-columns:repeat(2,1fr)}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/"><span>KC</span> Kompound Commerce</a>
+  <div class="nav-links">
+    <a href="/#services">Services</a>
+    <a href="/#ai">AI-Powered</a>
+    <a href="/#results">Results</a>
+    <a href="/tools/fba-calculator.html">FBA Calculator</a>
+    <a href="/#contact" class="nav-cta">Contact Us</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-tag">Kompound University</div>
+  <h1>Learn how we <em>think.</em></h1>
+  <p>Free guides, tutorials, and deep-dives on marketplace strategy. The same playbooks we use with our clients — no gatekeeping.</p>
+</div>
+
+<div class="blog-container">
+
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterCards('all')">All</button>
+    <button class="filter-btn" onclick="filterCards('guide')">Guides</button>
+    <button class="filter-btn" onclick="filterCards('tutorial')">Tutorials</button>
+    <button class="filter-btn" onclick="filterCards('blog')">Blog</button>
+    <button class="filter-btn" onclick="filterCards('tool')">Tools</button>
+  </div>
+
+  <div class="blog-grid" id="blogGrid">
+
+    <a class="blog-card" href="/blog/amazon-fba-fees-explained-2026.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">💰</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 18 min read</div>
+        <h3>Amazon FBA Fees Explained: The Complete Breakdown for 2026</h3>
+        <p>Every fee Amazon charges, what it costs, and how to calculate your real profit margins.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/tiktok-shop-guide-amazon-sellers.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">🎵</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 16 min read</div>
+        <h3>TikTok Shop for Amazon Sellers: How to Expand Into Social Commerce</h3>
+        <p>Setup, creator strategy, live shopping, TikTok ads, and managing both channels together.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/data-driven-product-development-amazon.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">📊</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 16 min read</div>
+        <h3>Data-Driven Product Development: Using Search Demand & Market Share</h3>
+        <p>How to use SmartScout, Cobalt, and search data to build products that match real buyer demand.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/how-to-get-amazon-reviews.html" data-type="tutorial">
+      <div class="blog-card-thumb"><span class="emoji">⭐</span><span class="blog-card-tag tag-tutorial">Tutorial</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 12 min read</div>
+        <h3>How to Get Your First 100 Reviews on Amazon (Without Getting Banned)</h3>
+        <p>Amazon Vine, Request a Review, insert cards, and every legitimate method that works in 2026.</p>
+        <span class="blog-card-link">Read tutorial →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/how-to-win-amazon-buy-box.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">🏆</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 14 min read</div>
+        <h3>How to Win the Amazon Buy Box in 2026</h3>
+        <p>82% of sales go through the Buy Box. Here's what Amazon actually weighs and how to win it.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/amazon-agency-vs-diy.html" data-type="blog">
+      <div class="blog-card-thumb"><span class="emoji">🤔</span><span class="blog-card-tag tag-blog">Blog</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Mar 2026 · 12 min read</div>
+        <h3>When to Hire an Amazon Agency vs. DIY: The Real Cost Comparison</h3>
+        <p>Agency fees feel expensive until you add up what DIY actually costs — time, mistakes, and missed growth.</p>
+        <span class="blog-card-link">Read article →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/amazon-ppc-playbook-2026.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">📈</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Feb 2026 · 12 min read</div>
+        <h3>The 2026 Amazon PPC Playbook: Campaign Architecture That Scales</h3>
+        <p>How to structure Sponsored Products, Brands, and Display campaigns for compounding returns.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/amazon-listing-optimization-guide.html" data-type="tutorial">
+      <div class="blog-card-thumb"><span class="emoji">🔍</span><span class="blog-card-tag tag-tutorial">Tutorial</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Jan 2026 · 15 min read</div>
+        <h3>Amazon Listing Optimization: The Complete Guide to Ranking & Converting</h3>
+        <p>Title formula, bullet optimization, backend keywords, A+ content, and the full SEO playbook.</p>
+        <span class="blog-card-link">Read tutorial →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/acos-vs-tacos-guide.html" data-type="blog">
+      <div class="blog-card-thumb"><span class="emoji">🎯</span><span class="blog-card-tag tag-blog">Blog</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Jan 2026 · 10 min read</div>
+        <h3>ACoS vs TACoS: Why You're Measuring the Wrong Thing</h3>
+        <p>Most brands obsess over ACoS while ignoring the metric that actually tells you if ads are profitable.</p>
+        <span class="blog-card-link">Read article →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/a-plus-content-licensed-brands.html" data-type="tutorial">
+      <div class="blog-card-thumb"><span class="emoji">🎨</span><span class="blog-card-tag tag-tutorial">Tutorial</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Dec 2025 · 12 min read</div>
+        <h3>A+ Content That Converts: Design Principles for Licensed Brands</h3>
+        <p>The 6-module framework for building Enhanced Brand Content that lifts conversion rates.</p>
+        <span class="blog-card-link">Read tutorial →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/fba-inventory-planning-guide.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">📦</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Dec 2025 · 14 min read</div>
+        <h3>FBA Inventory Planning: How AI Predicts Demand & Prevents Stockouts</h3>
+        <p>4-layer AI forecasting, predictive demand modeling, and seasonal planning for any brand.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/blog/amazon-to-walmart-expansion.html" data-type="guide">
+      <div class="blog-card-thumb"><span class="emoji">🚀</span><span class="blog-card-tag tag-guide">Guide</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Nov 2025 · 15 min read</div>
+        <h3>Expanding from Amazon to Walmart: The Complete Marketplace Playbook</h3>
+        <p>Account setup, listing migration, Walmart Connect advertising, and fulfillment strategy.</p>
+        <span class="blog-card-link">Read guide →</span>
+      </div>
+    </a>
+
+    <a class="blog-card" href="/tools/fba-calculator.html" data-type="tool">
+      <div class="blog-card-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"><span class="emoji">🧮</span><span class="blog-card-tag tag-tool">Free Tool</span></div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">Updated Mar 2026</div>
+        <h3>Amazon FBA Fee Calculator</h3>
+        <p>Calculate referral fees, fulfillment fees, storage costs, and your true profit margin per unit.</p>
+        <span class="blog-card-link">Open calculator →</span>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<div class="cta-bar">
+  <div class="cta-inner">
+    <h2>Want personalized marketplace strategy?</h2>
+    <p>We'll audit your account for free and show you exactly where the growth opportunities are.</p>
+    <a href="/#contact">Get a Free Audit →</a>
+  </div>
+</div>
+
+<footer><p>© 2026 <a href="/">Kompound Commerce</a> · <a href="/">Home</a> · <a href="/#contact">Contact us</a></p></footer>
+
+<script>
+function filterCards(type) {
+  var cards = document.querySelectorAll('.blog-card');
+  var btns = document.querySelectorAll('.filter-btn');
+
+  btns.forEach(function(btn) { btn.classList.remove('active'); });
+  event.target.classList.add('active');
+
+  cards.forEach(function(card) {
+    if (type === 'all' || card.getAttribute('data-type') === type) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>
