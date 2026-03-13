@@ -103,6 +103,86 @@
       "category": "guide",
       "emoji": "🚀",
       "readTime": 16
+    },
+    {
+      "slug": "how-to-start-selling-on-amazon-2026",
+      "title": "How to Start Selling on Amazon in 2026: The Complete Beginner's Guide",
+      "category": "guide",
+      "emoji": "🟢",
+      "date": "2026-03-13",
+      "readTime": 18
+    },
+    {
+      "slug": "amazon-fba-vs-fbm-guide",
+      "title": "Amazon FBA vs FBM: Which Fulfillment Method Is Right for Your Business?",
+      "category": "guide",
+      "emoji": "📦",
+      "date": "2026-03-13",
+      "readTime": 14
+    },
+    {
+      "slug": "amazon-product-research-guide-2026",
+      "title": "Amazon Product Research: How to Find Profitable Products to Sell in 2026",
+      "category": "guide",
+      "emoji": "🔬",
+      "date": "2026-03-13",
+      "readTime": 16
+    },
+    {
+      "slug": "amazon-private-label-vs-wholesale-vs-arbitrage",
+      "title": "Private Label vs Wholesale vs Arbitrage: Which Amazon Business Model Fits You?",
+      "category": "blog",
+      "emoji": "🧭",
+      "date": "2026-03-13",
+      "readTime": 14
+    },
+    {
+      "slug": "amazon-seo-algorithm-guide-2026",
+      "title": "Amazon SEO in 2026: How the A9 Algorithm Actually Ranks Products",
+      "category": "guide",
+      "emoji": "🤖",
+      "date": "2026-03-13",
+      "readTime": 16
+    },
+    {
+      "slug": "amazon-seller-taxes-sales-tax-guide",
+      "title": "Amazon Seller Taxes Explained: Sales Tax, Income Tax & Nexus in 2026",
+      "category": "guide",
+      "emoji": "🧾",
+      "date": "2026-03-13",
+      "readTime": 15
+    },
+    {
+      "slug": "amazon-ungating-category-approval-guide",
+      "title": "How to Get Ungated on Amazon: Category & Brand Approval Guide for 2026",
+      "category": "tutorial",
+      "emoji": "🔓",
+      "date": "2026-03-13",
+      "readTime": 14
+    },
+    {
+      "slug": "amazon-ipi-score-restock-limits-guide",
+      "title": "Amazon IPI Score & Restock Limits: How to Never Run Out of Inventory",
+      "category": "guide",
+      "emoji": "📊",
+      "date": "2026-03-13",
+      "readTime": 14
+    },
+    {
+      "slug": "amazon-external-traffic-strategies",
+      "title": "Driving External Traffic to Amazon: Google Ads, Social Media & Influencer Playbook",
+      "category": "guide",
+      "emoji": "🌐",
+      "date": "2026-03-13",
+      "readTime": 16
+    },
+    {
+      "slug": "amazon-account-suspension-reinstatement-guide",
+      "title": "Amazon Account Suspended? The Step-by-Step Reinstatement Playbook",
+      "category": "guide",
+      "emoji": "🚨",
+      "date": "2026-03-13",
+      "readTime": 15
     }
   ],
   "queue": [
@@ -265,86 +345,6 @@
       "category": "guide",
       "emoji": "⚔️",
       "keywords": "amazon brand protection, amazon counterfeit, amazon hijackers, amazon project zero"
-    },
-    {
-      "slug": "how-to-start-selling-on-amazon-2026",
-      "title": "How to Start Selling on Amazon in 2026: The Complete Beginner's Guide",
-      "description": "Step-by-step walkthrough from account setup to first sale — Individual vs Professional plans, product sourcing, listing creation, and what to expect in your first 90 days.",
-      "category": "guide",
-      "emoji": "🟢",
-      "keywords": "how to sell on amazon, start selling on amazon, amazon seller beginner, sell on amazon for beginners"
-    },
-    {
-      "slug": "amazon-fba-vs-fbm-guide",
-      "title": "Amazon FBA vs FBM: Which Fulfillment Method Is Right for Your Business?",
-      "description": "Side-by-side comparison of costs, margins, Buy Box impact, scalability, and when to use FBA, FBM, or a hybrid approach.",
-      "category": "guide",
-      "emoji": "📦",
-      "keywords": "fba vs fbm, amazon fulfillment, fulfilled by merchant, fba or fbm which is better"
-    },
-    {
-      "slug": "amazon-product-research-guide-2026",
-      "title": "Amazon Product Research: How to Find Profitable Products to Sell in 2026",
-      "description": "Criteria for winning products, tools like Jungle Scout and Helium 10, demand validation, competition analysis, and common product research mistakes.",
-      "category": "guide",
-      "emoji": "🔬",
-      "keywords": "amazon product research, find products to sell on amazon, profitable amazon products, amazon product ideas"
-    },
-    {
-      "slug": "amazon-private-label-vs-wholesale-vs-arbitrage",
-      "title": "Private Label vs Wholesale vs Arbitrage: Which Amazon Business Model Fits You?",
-      "description": "Capital requirements, margins, time investment, risk profiles, and scalability of each model — with real numbers and decision framework.",
-      "category": "blog",
-      "emoji": "🧭",
-      "keywords": "amazon private label, amazon wholesale, retail arbitrage amazon, amazon business models"
-    },
-    {
-      "slug": "amazon-seo-algorithm-guide-2026",
-      "title": "Amazon SEO in 2026: How the A9 Algorithm Actually Ranks Products",
-      "description": "How Amazon's search algorithm works, ranking factors (relevance, velocity, conversion), Rufus AI optimization, and backend search term best practices.",
-      "category": "guide",
-      "emoji": "🤖",
-      "keywords": "amazon seo, amazon a9 algorithm, amazon search ranking, amazon rufus optimization"
-    },
-    {
-      "slug": "amazon-seller-taxes-sales-tax-guide",
-      "title": "Amazon Seller Taxes Explained: Sales Tax, Income Tax & Nexus in 2026",
-      "description": "Sales tax collection, economic nexus thresholds, FBA tax implications, 1099-K reporting, deductions, and when to hire a CPA.",
-      "category": "guide",
-      "emoji": "🧾",
-      "keywords": "amazon seller taxes, amazon sales tax, amazon tax nexus, fba sales tax"
-    },
-    {
-      "slug": "amazon-ungating-category-approval-guide",
-      "title": "How to Get Ungated on Amazon: Category & Brand Approval Guide for 2026",
-      "description": "Step-by-step ungating process for restricted categories (Grocery, Beauty, Topicals), brand approvals, required invoices, and common rejection fixes.",
-      "category": "tutorial",
-      "emoji": "🔓",
-      "keywords": "amazon ungating, get approved amazon categories, amazon restricted categories, amazon brand approval"
-    },
-    {
-      "slug": "amazon-ipi-score-restock-limits-guide",
-      "title": "Amazon IPI Score & Restock Limits: How to Never Run Out of Inventory",
-      "description": "How IPI is calculated, restock limit strategies, excess inventory management, and tactics to maximize your FBA storage capacity.",
-      "category": "guide",
-      "emoji": "📊",
-      "keywords": "amazon ipi score, amazon restock limits, fba storage limits, amazon inventory performance index"
-    },
-    {
-      "slug": "amazon-external-traffic-strategies",
-      "title": "Driving External Traffic to Amazon: Google Ads, Social Media & Influencer Playbook",
-      "description": "Brand Referral Bonus, Google Ads to Amazon, Meta/TikTok ads, influencer partnerships, landing pages, and measuring external traffic ROI.",
-      "category": "guide",
-      "emoji": "🌐",
-      "keywords": "amazon external traffic, drive traffic to amazon listing, google ads amazon, amazon brand referral bonus"
-    },
-    {
-      "slug": "amazon-account-suspension-reinstatement-guide",
-      "title": "Amazon Account Suspended? The Step-by-Step Reinstatement Playbook",
-      "description": "Common suspension reasons, Plan of Action (POA) templates, appeal process, escalation paths, and how to prevent future suspensions.",
-      "category": "guide",
-      "emoji": "🚨",
-      "keywords": "amazon account suspended, amazon reinstatement, amazon plan of action, amazon appeal"
     }
   ]
 }
