@@ -2,87 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.kompoundcommerce.com/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/#services</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/#ai</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/#results</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/#university</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/#contact</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-ppc-playbook-2026.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-listing-optimization-guide.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/fba-inventory-planning-guide.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/acos-vs-tacos-guide.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/a-plus-content-licensed-brands.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-to-walmart-expansion.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/data-driven-product-development-amazon.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-fba-fees-explained-2026.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.kompoundcommerce.com/tools/fba-calculator.html</loc>
@@ -91,98 +19,158 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/tiktok-shop-guide-amazon-sellers.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/how-to-get-amazon-reviews.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/how-to-win-amazon-buy-box.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-agency-vs-diy.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-product-launch-strategy-2026.html</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.kompoundcommerce.com/blog/how-to-start-selling-on-amazon-2026.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-fba-vs-fbm-guide.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-ppc-playbook-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-product-research-guide-2026.html</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-private-label-vs-wholesale-vs-arbitrage.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-listing-optimization-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.kompoundcommerce.com/blog/amazon-seo-algorithm-guide-2026.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-seller-taxes-sales-tax-guide.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-product-research-guide-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-ungating-category-approval-guide.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-product-launch-strategy-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kompoundcommerce.com/blog/amazon-ipi-score-restock-limits-guide.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-fba-fees-explained-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-fba-vs-fbm-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/acos-vs-tacos-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/a-plus-content-licensed-brands.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/fba-inventory-planning-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-to-walmart-expansion.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/how-to-win-amazon-buy-box.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/how-to-get-amazon-reviews.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-agency-vs-diy.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.kompoundcommerce.com/blog/amazon-external-traffic-strategies.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/tiktok-shop-guide-amazon-sellers.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.kompoundcommerce.com/blog/amazon-account-suspension-reinstatement-guide.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-ungating-category-approval-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-private-label-vs-wholesale-vs-arbitrage.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-seller-taxes-sales-tax-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-ipi-score-restock-limits-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/data-driven-product-development-amazon.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-brand-registry-guide-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-keyword-research-tools-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.kompoundcommerce.com/blog/amazon-sponsored-brands-video-ads-guide.html</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
