@@ -15,6 +15,7 @@
 <meta property="og:url" content="https://www.kompoundcommerce.com/blog/ai-pricing-strategies-buy-box.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Kompound Commerce">
+<meta property="og:image" content="https://www.kompoundcommerce.com/og-blog-ai-pricing-strategies-buy-box.png">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
@@ -68,7 +69,7 @@
 
 <div class="article-hero">
   <div class="article-meta">
-    <span class="article-tag">Guide</span>
+    <span class="article-tag">💲 Guide</span>
     <span class="article-date">March 18, 2026 · 12 min read</span>
   </div>
   <h1>AI-Driven Pricing Strategies That Maximize <em>Buy Box</em> Win Rate</h1>
@@ -77,72 +78,128 @@
 
 <article>
   <h2>Why Pricing Is the Highest-Leverage Variable</h2>
-  <p>Price is the single fastest lever you can pull on Amazon. Change your title and it takes days to re-index. Improve your images and conversions shift gradually. But change your price, and your Buy Box eligibility, conversion rate, and ad performance shift <strong>within hours</strong>.</p>
-  <p>The challenge is that manual pricing can't keep up. Competitors change prices hundreds of times per day. By the time you check your pricing dashboard, adjust, and save — the market has already moved again. This is exactly where AI shines.</p>
+  <p>Price is the single fastest lever you can pull on Amazon. Change your title and it takes days to re-index. Improve your images and conversions shift gradually over weeks. But change your price, and your Buy Box eligibility, conversion rate, and ad performance shift <strong>within hours</strong>.</p>
+  <p>The challenge is that manual pricing can't keep up. On competitive ASINs, competitor prices change hundreds of times per day. By the time you check your pricing dashboard, analyze the competitive landscape, adjust your price, and save — the market has already moved again. This is exactly where AI excels, and it's why we've made AI-powered pricing a core part of the strategy behind our <strong>$120M in marketplace revenue managed</strong>.</p>
+  <p>But AI repricing done wrong is even more dangerous than manual pricing. Poorly configured repricers trigger price wars that destroy margins for everyone. The key is understanding how to use AI strategically — not just as a race-to-the-bottom automation tool.</p>
 
-  <h2>How AI Repricers Work</h2>
-  <p>Modern AI repricers go far beyond simple rule-based systems ("match lowest price minus $0.01"). They use machine learning to optimize for profitability, not just price competitiveness.</p>
+  <h2>Understanding the Buy Box Algorithm</h2>
+  <p>Before diving into AI repricing strategies, you need to understand what Amazon's Buy Box algorithm actually evaluates. Price matters, but it's far from the only factor.</p>
 
-  <h3>Real-Time Market Monitoring</h3>
-  <p>AI repricers scan competitor prices every 1-15 minutes, tracking not just the current Buy Box winner but all active offers, their fulfillment methods, seller ratings, and stock levels. This creates a complete competitive picture that informs pricing decisions.</p>
-
-  <h3>Predictive Buy Box Modeling</h3>
-  <p>The AI builds a model of Amazon's Buy Box algorithm based on historical data — when you won the Buy Box, at what price, against which competitors. It learns the exact price point where you win the Buy Box with maximum margin, not just the lowest price that wins.</p>
-
-  <h3>Velocity-Based Pricing</h3>
-  <p>Smart AI repricers adjust prices based on sales velocity targets. If you need to move inventory faster (excess stock, seasonal decline), the AI automatically finds the optimal price point to hit your velocity target. If stock is running low, it raises prices to maximize margin on remaining units.</p>
+  <h3>The Buy Box Factors That Matter</h3>
+  <ul>
+    <li><strong>Landed price (weight: ~35%):</strong> Your item price plus shipping. This is the most heavily weighted factor, but crucially, the lowest price doesn't automatically win.</li>
+    <li><strong>Fulfillment method (weight: ~25%):</strong> FBA sellers get a significant advantage over FBM sellers. Amazon trusts its own fulfillment for delivery speed and reliability. An FBA offer at $24.99 routinely beats an FBM offer at $22.99.</li>
+    <li><strong>Seller metrics (weight: ~20%):</strong> Order defect rate, late shipment rate, cancellation rate, and customer response time. Sellers with perfect metrics can win at higher price points.</li>
+    <li><strong>Shipping speed (weight: ~10%):</strong> Same-day, next-day, and two-day delivery options increase Buy Box share. FBA inherently wins here in most regions.</li>
+    <li><strong>Stock availability (weight: ~10%):</strong> Sellers with consistent stock levels and history of not canceling orders due to stockouts earn Buy Box trust.</li>
+  </ul>
 
   <div class="callout">
-    <p><strong>Key insight:</strong> The cheapest price doesn't always win the Buy Box. Amazon considers fulfillment method, seller metrics, and shipping speed. An FBA seller at $24.99 often beats an FBM seller at $22.99. AI repricers understand these nuances and exploit them.</p>
+    <p><strong>Key insight:</strong> The cheapest price doesn't always win the Buy Box. Amazon considers the total customer experience — fulfillment reliability, delivery speed, seller track record, and price together. AI repricers that understand this multi-factor model find the optimal price point that wins the Buy Box with maximum margin, not just the lowest price that wins.</p>
+  </div>
+
+  <h3>Buy Box Rotation</h3>
+  <p>Amazon doesn't award the Buy Box to a single seller permanently. It rotates between eligible sellers, with each seller getting a "share" of Buy Box time proportional to their competitiveness across all factors. This means you don't need to be the cheapest — you need to be competitive enough to earn rotation time, and then optimize your share through the non-price factors.</p>
+  <p>AI repricers exploit this by identifying the price point where you earn maximum rotation share without unnecessarily cutting into margin. Sometimes raising your price by $0.50 reduces your Buy Box share by only 2% but increases your margin by 8% — a clear net win that manual pricing would never identify.</p>
+
+  <h2>How AI Repricers Work</h2>
+  <p>Modern AI repricers go far beyond simple rule-based systems ("match lowest price minus $0.01"). They use machine learning to optimize for profitability, not just price competitiveness. Here's what's happening under the hood.</p>
+
+  <h3>Real-Time Market Monitoring</h3>
+  <p>AI repricers scan competitor prices every 1-15 minutes (some offer near-real-time monitoring), tracking not just the current Buy Box winner but all active offers — their prices, fulfillment methods, seller ratings, stock levels, and historical pricing patterns. This creates a complete competitive picture that informs every pricing decision.</p>
+
+  <h3>Predictive Buy Box Modeling</h3>
+  <p>The AI builds a predictive model of Amazon's Buy Box algorithm based on your historical data — when you won the Buy Box, at what price, against which competitors, with what seller metrics. Over time, it learns the exact price point where you win the Buy Box with maximum margin. This is fundamentally different from rule-based repricing because it accounts for the multi-factor nature of Buy Box eligibility.</p>
+
+  <h3>Competitor Behavior Prediction</h3>
+  <p>Advanced AI repricers don't just react to competitor price changes — they predict them. By analyzing historical competitor pricing patterns, the AI can anticipate when a competitor is likely to raise or lower their price, and preemptively adjust your price to maintain optimal positioning. This is particularly valuable during high-traffic periods when reaction speed matters most.</p>
+
+  <h3>Velocity-Based Dynamic Pricing</h3>
+  <p>Smart AI repricers integrate inventory data to adjust pricing strategy based on stock levels and sales velocity targets. This creates dynamic pricing that responds to your business needs:</p>
+  <ul>
+    <li><strong>Excess inventory:</strong> The AI lowers prices toward the floor to increase velocity, reducing storage fees and freeing up capital</li>
+    <li><strong>Low stock / long lead time:</strong> The AI raises prices toward the ceiling to slow velocity, extending stock life until the next shipment arrives</li>
+    <li><strong>Optimal stock levels:</strong> The AI targets maximum margin within the Buy Box-winning range</li>
+    <li><strong>Pre-seasonal buildup:</strong> The AI adjusts pricing to hit target velocity that depletes stock at the right pace heading into peak season when you want fresh inventory</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Real example:</strong> A home goods brand in our portfolio had a best-seller with 4 competing FBA sellers. Manual repricing kept them at a flat $24.99. After deploying AI repricing, the system discovered that during weekday mornings (low competition activity), they could price at $26.49 and still win 75% Buy Box share, but during weekend evenings (high competition), they needed to be at $24.49 to maintain share. This time-of-day pricing optimization increased average margin by 4.2% while maintaining the same overall Buy Box win rate.</p>
   </div>
 
   <h2>Top AI Repricing Tools for 2026</h2>
 
   <h3>Aura by Vendrive</h3>
-  <p>Uses machine learning to predict Buy Box rotation patterns. Features velocity-based repricing and ROI-maximizing algorithms. Best for brands with 50+ SKUs competing against multiple sellers. Pricing starts around $97/month.</p>
+  <p>Uses machine learning to predict Buy Box rotation patterns and optimize pricing for maximum profit, not just maximum Buy Box share. Features velocity-based repricing that ties to your inventory levels, ROI-maximizing algorithms, and detailed analytics on competitive dynamics. The AI learns from your specific competitive environment, not just generic models. Best for brands with 50+ SKUs competing against multiple sellers. Pricing starts around $97/month for up to 200 SKUs.</p>
 
-  <h3>Informed.co (formerly Informed Repricer)</h3>
-  <p>AI-powered with deep analytics. Tracks competitor behavior patterns and predicts their repricing strategies. Supports custom repricing rules layered on top of AI recommendations. Strong reporting for understanding pricing impact on profitability.</p>
+  <h3>Informed.co</h3>
+  <p>AI-powered with the deepest analytics of any repricer we've tested. Tracks competitor behavior patterns over time, predicts their repricing strategies, and positions your price for maximum advantage. Supports custom repricing rules layered on top of AI recommendations — useful for brands with specific MAP or channel pricing requirements. The reporting suite is exceptional for understanding how pricing changes impact profitability across your catalog. Pricing is competitive and scales with SKU count.</p>
 
   <h3>BQool</h3>
-  <p>Competitive pricing with AI-enhanced algorithms. Offers both rule-based and AI repricing modes. Good entry point for sellers transitioning from manual pricing. Affordable for smaller catalogs.</p>
+  <p>Offers both rule-based and AI repricing modes, making it a good bridge for sellers transitioning from manual pricing. The AI mode uses competitive intelligence to optimize Buy Box share while respecting floor and ceiling prices. The interface is straightforward and the setup process is the simplest of the three. Good entry point for smaller catalogs (under 50 SKUs) and sellers new to automated repricing. Affordable pricing tiers starting under $50/month.</p>
 
   <h3>Amazon's Automate Pricing</h3>
-  <p>Amazon's built-in tool has improved significantly. It now supports "competitive price" rules that automatically match or beat the Featured Offer. Limited compared to third-party tools but free and sufficient for straightforward competitive scenarios.</p>
+  <p>Amazon's built-in tool has improved significantly with its "Competitive Price" rule that automatically matches or beats the Featured Offer price. It now supports floor pricing and can target specific competitors. Limited compared to third-party tools — no AI optimization, no velocity-based pricing, no competitor behavior prediction — but it's free and sufficient for straightforward competitive scenarios where you have a clear cost advantage and just need to stay competitive.</p>
 
-  <h2>Pricing Strategies That Protect Margin</h2>
+  <h2>Pricing Strategies That Protect Margins</h2>
 
-  <h3>Floor and Ceiling Pricing</h3>
-  <p>Always set absolute minimum and maximum prices. Your floor should be your landed cost plus minimum acceptable margin (we recommend at least 15% net margin as a floor). Your ceiling is the maximum price the market will bear based on historical conversion data.</p>
+  <h3>Floor and Ceiling Architecture</h3>
+  <p>Every AI repricing implementation must start with absolute price boundaries. Your floor should be calculated as: landed cost + Amazon fees + minimum acceptable margin. We recommend at least <strong>15% net margin as a floor</strong> — anything below that and you're selling at a loss when you account for returns, customer service time, and working capital cost. Your ceiling is the maximum price the market will bear, typically determined by historical conversion rate data — the price point where your conversion rate drops below acceptable levels.</p>
 
-  <h3>MAP Compliance</h3>
-  <p>For brands with Minimum Advertised Price policies, configure your AI repricer to never go below MAP. This protects your brand value and prevents unauthorized sellers from triggering a race to the bottom. The AI can still optimize within the MAP-to-ceiling range.</p>
+  <h3>MAP Compliance and Brand Protection</h3>
+  <p>For brands with Minimum Advertised Price policies, your AI repricer must be configured to never breach MAP under any circumstances. This isn't just a business preference — MAP violations can damage brand relationships and invite unauthorized sellers who undercut your authorized channel. Configure MAP as a hard floor that overrides all AI recommendations. The AI can still optimize aggressively within the MAP-to-ceiling range, but it will never cross the MAP boundary.</p>
+  <p>Beyond MAP, consider your pricing's impact on brand perception. A premium product that frequently drops to deep-discount pricing signals to shoppers that the "regular" price is inflated. AI repricers should be constrained to avoid more than a 10-15% discount from your standard price unless you're running a deliberate clearance strategy.</p>
 
-  <h3>Segment-Based Pricing</h3>
-  <p>Not all products need the same pricing strategy. Segment your catalog:</p>
+  <h3>Segment-Based Pricing Strategy</h3>
+  <p>Not all products in your catalog should use the same pricing strategy. Segment your catalog and assign different AI repricing rules to each segment:</p>
   <ul>
-    <li><strong>Cash cows (high volume, strong margin):</strong> Optimize for maximum margin, accept slight Buy Box losses</li>
-    <li><strong>Growth products (building rank):</strong> Optimize for Buy Box win rate, accept lower margins temporarily</li>
-    <li><strong>Liquidation (excess/slow stock):</strong> Optimize for velocity, lower floors temporarily</li>
-    <li><strong>Premium/exclusive (no competition):</strong> Price based on conversion rate optimization, not competition</li>
+    <li><strong>Cash cows (high volume, strong margin):</strong> Optimize for maximum margin per unit. These products are established enough that slight Buy Box share reductions are acceptable in exchange for higher margins. Set AI to target 90-95% of current Buy Box win rate at maximum achievable margin.</li>
+    <li><strong>Growth products (building rank):</strong> Optimize for Buy Box win rate above all else. These products need velocity to climb organic rankings. Accept lower margins temporarily — the organic ranking gains will pay dividends once you reduce PPC dependence.</li>
+    <li><strong>Liquidation (excess/slow stock):</strong> Optimize for velocity to clear inventory before long-term storage fees hit. Lower floors temporarily and set aggressive velocity targets. The AI should find the optimal price that moves inventory fast enough to avoid penalties without giving away margin unnecessarily.</li>
+    <li><strong>Premium/exclusive (no Buy Box competition):</strong> If you're the only seller, AI repricing is the wrong tool. Instead, use price testing to find the conversion-rate-optimized price point. Test $1-$2 increments over 2-week periods and measure unit session percentage at each price point.</li>
   </ul>
 
+  <h2>Velocity-Based Pricing in Practice</h2>
+  <p>Velocity-based pricing is where AI repricing becomes genuinely strategic rather than merely reactive. The concept is simple: your optimal price depends on your inventory position, not just competitor prices.</p>
+
+  <h3>The Inventory-Price Relationship</h3>
+  <p>When you have 120 days of inventory and your next shipment arrives in 45 days, you can afford to price at the higher end of your range — maximizing margin because you have plenty of stock. But when you have 18 days of inventory and the next shipment is 30 days away, you should be raising prices to slow velocity and stretch your stock until replenishment arrives. The alternative — stocking out — is far more expensive than the few sales you "lose" by pricing higher.</p>
+  <p>AI repricers automate this calculation continuously. They integrate with your inventory management system (or Amazon's stock data) and dynamically adjust their pricing aggressiveness based on your days-of-supply relative to lead time. This is something that's virtually impossible to do manually across a catalog of 100+ SKUs.</p>
+
+  <h3>Demand-Curve Optimization</h3>
+  <p>AI systems learn your product's demand curve — how sales velocity changes at different price points. This allows them to calculate the revenue-maximizing price (the point where price x volume is highest) and the profit-maximizing price (the point where margin x volume is highest). These are rarely the same number, and the AI lets you choose which optimization target to pursue based on your current business objectives.</p>
+
+  <div class="callout">
+    <p><strong>Pro tip:</strong> Configure your AI repricer to automatically shift from profit-maximization mode to velocity-maximization mode when days of supply exceeds 90. This prevents inventory pile-up without requiring manual intervention. Similarly, set it to shift to margin-maximization mode when days of supply drops below 21, protecting your stock until the next shipment arrives.</p>
+  </div>
+
   <h2>When NOT to Use AI Repricing</h2>
-  <p>AI repricing isn't always the answer:</p>
+  <p>AI repricing isn't always the answer. Here's when to keep your hands on the wheel:</p>
   <ul>
-    <li><strong>Brand-owned listings with no competition:</strong> If you're the only seller, optimize price based on conversion rate testing, not competitive dynamics</li>
-    <li><strong>New product launches:</strong> Launch pricing should be strategic (often lower to build rank), not reactive</li>
-    <li><strong>Products with MAP enforcement issues:</strong> If unauthorized sellers are violating MAP, fix the distribution problem first — repricing just accelerates the race to the bottom</li>
+    <li><strong>Brand-owned listings with no competition:</strong> If you're the only seller on your ASIN, there's no Buy Box competition. Price optimization here should be based on conversion rate testing and margin analysis, not competitive dynamics. AI repricers add no value when there's nobody to compete against.</li>
+    <li><strong>New product launches:</strong> Launch pricing should be deliberate and strategic — often priced lower initially to build velocity and organic ranking, then gradually increased as ranking stabilizes. This requires human judgment about the launch phase, not algorithmic reactions to a competitive landscape that doesn't exist yet for a new product.</li>
+    <li><strong>Products with MAP enforcement issues:</strong> If unauthorized sellers are already violating your MAP pricing, deploying an AI repricer just accelerates the race to the bottom. Fix the distribution and enforcement problem first — remove unauthorized sellers through Amazon Brand Registry, send cease-and-desist notices, and clean up your distribution channel. Then deploy AI repricing among your authorized sellers.</li>
+    <li><strong>Extremely thin margin products:</strong> If your margin is already under 10%, an AI repricer can easily push you into unprofitable territory through micro-adjustments that individually seem fine but compound into a margin problem. Get your unit economics healthy first.</li>
   </ul>
 
   <h2>Measuring Repricing Impact</h2>
-  <p>Track these KPIs after implementing AI repricing:</p>
+  <p>After implementing AI repricing, track these KPIs weekly for the first 90 days to ensure the system is performing as expected:</p>
   <ul>
-    <li><strong>Buy Box win rate:</strong> Should increase 15-40% depending on competitive dynamics</li>
-    <li><strong>Average selling price:</strong> Ideally stays flat or increases (AI finds moments to raise prices)</li>
-    <li><strong>Net margin per unit:</strong> The real measure — are you making more money per sale?</li>
-    <li><strong>Total profit:</strong> Higher Buy Box win rate x maintained margins = more total profit</li>
+    <li><strong>Buy Box win rate:</strong> Should increase 15-40% depending on competitive dynamics and your starting point. Track this at the ASIN level, not the account level.</li>
+    <li><strong>Average selling price (ASP):</strong> Ideally stays flat or increases. A well-configured AI repricer should find moments to raise prices, not just lower them. If ASP is declining steadily, your floor may be too low or the AI is in a price war.</li>
+    <li><strong>Net margin per unit:</strong> The real measure of success. Are you making more money per sale after accounting for Amazon fees, COGS, and shipping? Track this weekly.</li>
+    <li><strong>Total profit (not revenue):</strong> Higher Buy Box win rate x maintained margins = more total profit. Revenue can increase while profit decreases if the AI is winning Buy Box share by cutting price. Focus on the bottom line.</li>
+    <li><strong>Price floor hits:</strong> How often is the AI hitting your minimum price? If it's at the floor more than 30% of the time, either your floor is too high or you're in a race-to-the-bottom competitive environment that needs a different strategic approach.</li>
+    <li><strong>Competitor exit/entry patterns:</strong> Are competitors dropping out (good — you're winning) or are new competitors entering attracted by the margin opportunity? The AI's analytics should surface these trends.</li>
   </ul>
+
+  <div class="callout">
+    <p><strong>Warning sign:</strong> If your AI repricer is lowering prices more often than raising them over a 30-day window, something is wrong. Either your competitive set is in a price war, your repricing algorithm is too aggressive, or unauthorized sellers are driving prices down. Pause the AI, diagnose the root cause, and reconfigure before continuing.</p>
+  </div>
+
+  <h2>Advanced: Multi-Channel Pricing Coordination</h2>
+  <p>If you sell on Amazon, Walmart, your own DTC site, and potentially other channels, your AI repricing strategy needs to account for cross-channel pricing consistency. Amazon's Fair Pricing Policy prohibits your Amazon price from being significantly higher than your price on other channels. Walmart has a similar policy.</p>
+  <p>This means your AI repricer on Amazon needs to be aware of your Walmart and DTC pricing, and vice versa. Some advanced platforms (like Informed.co) support multi-channel repricing that coordinates prices across Amazon, Walmart, and eBay simultaneously, ensuring compliance with each marketplace's fair pricing rules while optimizing for each channel's specific competitive dynamics.</p>
 
   <div class="article-cta">
     <h3>Want us to optimize your pricing strategy?</h3>
@@ -151,7 +208,8 @@
   </div>
 
   <h2>Bottom Line</h2>
-  <p>AI repricing isn't about being the cheapest — it's about being the smartest. The brands that win are the ones using AI to find the optimal price at every moment, maximizing the intersection of Buy Box win rate and profit margin. Manual pricing simply can't compete with algorithms that react in real time.</p>
+  <p>AI repricing isn't about being the cheapest — it's about being the smartest. The brands that win are the ones using AI to find the optimal price at every moment: the intersection of Buy Box competitiveness, margin protection, inventory health, and brand positioning. Manual pricing simply can't compute these variables in real time across a catalog of dozens or hundreds of SKUs.</p>
+  <p>Start with clear floors and ceilings. Segment your catalog by strategic objective. Deploy AI repricing with the right tool for your competitive environment. Monitor weekly. And never let an algorithm override your brand strategy.</p>
   <p>That's the Kompound approach. Every action compounds.</p>
 </article>
 
@@ -159,13 +217,41 @@
   <p>© 2026 <a href="/">Kompound Commerce</a> · <a href="/#university">More articles</a> · <a href="/#contact">Contact us</a></p>
 </footer>
 
+<section class="related-posts" style="max-width:800px;margin:3rem auto;padding:2rem 2.5rem;">
+<h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;letter-spacing:-0.02em;">Related Articles</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
+<a href="/blog/how-to-win-amazon-buy-box.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">How to Win the Amazon Buy Box: The Complete Seller's Guide</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">Everything you need to know about winning and keeping the Amazon Buy Box, from pricing to fulfillment to seller metrics...</p>
+</a>
+<a href="/blog/amazon-ppc-playbook-2026.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">The 2026 Amazon PPC Playbook: Campaign Architecture That Scales</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">How to structure Sponsored Products, Brands, and Display campaigns to compound returns at any ad spend level...</p>
+</a>
+<a href="/blog/acos-vs-tacos-guide.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">ACoS vs TACoS: Why You're Measuring the Wrong Thing</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">Most Amazon sellers obsess over ACoS while ignoring TACoS — the metric that actually tells you if ad spend is driving growth...</p>
+</a>
+</div>
+</section>
+
+
+<!-- LEAD CAPTURE POPUP -->
 <script>
 (function() {
   var POPUP_KEY = 'kc_popup_dismissed';
   if (localStorage.getItem(POPUP_KEY)) return;
   var overlay = document.createElement('div');
   overlay.id = 'lead-popup-overlay';
-  overlay.innerHTML = '<div id="lead-popup"><button id="lead-popup-close" aria-label="Close">&times;</button><div style="font-size:2.5rem;margin-bottom:0.75rem;">📊</div><h3 style="font-size:1.4rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:0.5rem;color:#f0f0f5;">Want us to audit your Amazon account?</h3><p style="font-size:0.9rem;color:#a0a0b8;line-height:1.6;margin-bottom:1.5rem;">Get a free, no-obligation audit of your listings, PPC campaigns, and growth opportunities.</p><input type="email" id="lead-popup-email" placeholder="Enter your work email"><button id="lead-popup-submit">Get Free Audit \u2192</button><p style="font-size:0.72rem;color:#6b6b80;margin-top:0.75rem;">Trusted by 85+ brands on Amazon & Walmart</p></div>';
+  overlay.innerHTML = '<div id="lead-popup">' +
+    '<button id="lead-popup-close" aria-label="Close">&times;</button>' +
+    '<div style="font-size:2.5rem;margin-bottom:0.75rem;">📊</div>' +
+    '<h3 style="font-size:1.4rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:0.5rem;color:#f0f0f5;">Want us to audit your Amazon account?</h3>' +
+    '<p style="font-size:0.9rem;color:#a0a0b8;line-height:1.6;margin-bottom:1.5rem;">Get a free, no-obligation audit of your listings, PPC campaigns, and growth opportunities.</p>' +
+    '<input type="email" id="lead-popup-email" placeholder="Enter your work email">' +
+    '<button id="lead-popup-submit">Get Free Audit \u2192</button>' +
+    '<p style="font-size:0.72rem;color:#6b6b80;margin-top:0.75rem;">Trusted by 85+ brands on Amazon & Walmart</p>' +
+  '</div>';
   var style = document.createElement('style');
   style.textContent = '#lead-popup-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);align-items:center;justify-content:center;animation:popFadeIn .3s ease}#lead-popup-overlay.show{display:flex}#lead-popup{background:#16161f;border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:2.5rem;max-width:440px;width:90%;text-align:center;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.5),0 0 80px rgba(255,153,0,0.05);animation:popSlideUp .4s ease}#lead-popup-close{position:absolute;top:1rem;right:1rem;background:none;border:none;color:#6b6b80;font-size:1.5rem;cursor:pointer;transition:color .2s;line-height:1}#lead-popup-close:hover{color:#f0f0f5}#lead-popup-email{width:100%;padding:0.85rem 1rem;border-radius:10px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.05);color:#f0f0f5;font-size:0.9rem;font-family:Outfit,sans-serif;outline:none;box-sizing:border-box;transition:border-color .3s}#lead-popup-email:focus{border-color:#FF9900;box-shadow:0 0 0 3px rgba(255,153,0,0.1)}#lead-popup-email::placeholder{color:#6b6b80}#lead-popup-submit{width:100%;padding:0.85rem;border:none;border-radius:10px;background:#FF9900;color:#fff;font-size:0.95rem;font-weight:700;font-family:Outfit,sans-serif;cursor:pointer;margin-top:0.75rem;transition:all .3s;box-shadow:0 4px 20px rgba(255,153,0,0.25)}#lead-popup-submit:hover{filter:brightness(1.15);transform:translateY(-1px)}@keyframes popFadeIn{from{opacity:0}to{opacity:1}}@keyframes popSlideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}';
   document.head.appendChild(style);
@@ -174,7 +260,15 @@
   function closePopup(){overlay.classList.remove('show');localStorage.setItem(POPUP_KEY,Date.now())}
   document.getElementById('lead-popup-close').onclick=closePopup;
   overlay.onclick=function(e){if(e.target===overlay)closePopup()};
-  document.getElementById('lead-popup-submit').onclick=function(){var email=document.getElementById('lead-popup-email').value;if(email&&email.includes('@')){var s=encodeURIComponent('Free Audit Request - Kompound Commerce');var b=encodeURIComponent('NEW FREE AUDIT REQUEST\n\nEmail: '+email+'\n\nRequested from kompoundcommerce.com (blog popup)');window.location.href='mailto:joe@kompoundcommerce.com?subject='+s+'&body='+b;closePopup();}else{document.getElementById('lead-popup-email').style.borderColor='#ef4444'}};
+  document.getElementById('lead-popup-submit').onclick=function(){
+    var email=document.getElementById('lead-popup-email').value;
+    if(email&&email.includes('@')){
+      var s=encodeURIComponent('Free Audit Request - Kompound Commerce');
+      var b=encodeURIComponent('NEW FREE AUDIT REQUEST\n\nEmail: '+email+'\n\nRequested from kompoundcommerce.com (blog popup)');
+      window.location.href='mailto:joe@kompoundcommerce.com?subject='+s+'&body='+b;
+      closePopup();
+    }else{document.getElementById('lead-popup-email').style.borderColor='#ef4444'}
+  };
   document.addEventListener('mouseout',function(e){if(e.clientY<5)showPopup()},{once:true});
   setTimeout(showPopup,30000);
 })();
