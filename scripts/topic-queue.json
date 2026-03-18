@@ -183,6 +183,142 @@
       "emoji": "🚨",
       "date": "2026-03-13",
       "readTime": 15
+    },
+    {
+      "slug": "ai-inventory-forecasting-ecommerce",
+      "title": "AI Inventory Forecasting: How Machine Learning Prevents Stockouts & Overstock",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "🔮",
+      "readTime": 14
+    },
+    {
+      "slug": "ai-product-listing-optimization",
+      "title": "Using AI to Automate Product Listing Optimization at Scale",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "✨",
+      "readTime": 13
+    },
+    {
+      "slug": "ai-pricing-strategies-buy-box",
+      "title": "AI-Driven Pricing Strategies That Maximize Buy Box Win Rate",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "💲",
+      "readTime": 12
+    },
+    {
+      "slug": "ai-bid-management-ppc-optimization",
+      "title": "How AI Bid Management Is Replacing Manual PPC Optimization",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "🤖",
+      "readTime": 14
+    },
+    {
+      "slug": "ai-long-tail-keyword-discovery",
+      "title": "Using AI to Discover High-Converting Long-Tail Keywords",
+      "date": "2026-03-18",
+      "category": "tutorial",
+      "emoji": "🔎",
+      "readTime": 12
+    },
+    {
+      "slug": "ai-predictive-budget-allocation",
+      "title": "Predictive Budget Allocation: Letting AI Manage Your Ad Spend",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "📊",
+      "readTime": 13
+    },
+    {
+      "slug": "ai-product-descriptions-that-convert",
+      "title": "AI-Generated Product Descriptions That Actually Convert",
+      "date": "2026-03-18",
+      "category": "tutorial",
+      "emoji": "✍️",
+      "readTime": 13
+    },
+    {
+      "slug": "ai-ab-testing-listings-at-scale",
+      "title": "AI-Powered A/B Testing: Optimizing Listings and Images at Scale",
+      "date": "2026-03-18",
+      "category": "tutorial",
+      "emoji": "🧪",
+      "readTime": 12
+    },
+    {
+      "slug": "ai-review-analysis-product-insights",
+      "title": "AI-Powered Review Analysis: Mining Customer Feedback for Product Wins",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "💬",
+      "readTime": 14
+    },
+    {
+      "slug": "ai-chatbots-amazon-brand-stores",
+      "title": "AI Chatbots for Amazon Brand Stores: Are They Worth It?",
+      "date": "2026-03-18",
+      "category": "blog",
+      "emoji": "💬",
+      "readTime": 11
+    },
+    {
+      "slug": "ai-personalization-audience-segmentation",
+      "title": "AI Personalization Engines: How to Segment Your Audience Automatically",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "🎯",
+      "readTime": 13
+    },
+    {
+      "slug": "ai-email-flows-repeat-purchases",
+      "title": "AI-Driven Email Flows for Repeat Purchases and LTV Growth",
+      "date": "2026-03-18",
+      "category": "tutorial",
+      "emoji": "📧",
+      "readTime": 12
+    },
+    {
+      "slug": "ai-ecommerce-stack-2026",
+      "title": "The 2026 AI E-Commerce Stack: Tools Every Seller Needs",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "🛠️",
+      "readTime": 15
+    },
+    {
+      "slug": "ai-vs-human-expertise-ecommerce",
+      "title": "AI vs. Human Expertise: Where Automation Wins and Where It Doesn't",
+      "date": "2026-03-18",
+      "category": "blog",
+      "emoji": "⚖️",
+      "readTime": 12
+    },
+    {
+      "slug": "ai-leveling-playing-field-small-sellers",
+      "title": "How AI Is Leveling the Playing Field for Small Amazon Sellers",
+      "date": "2026-03-18",
+      "category": "blog",
+      "emoji": "🏔️",
+      "readTime": 13
+    },
+    {
+      "slug": "ai-walmart-search-algorithm",
+      "title": "AI Tools for Cracking Walmart's Search Algorithm in 2026",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "🔍",
+      "readTime": 14
+    },
+    {
+      "slug": "ai-walmart-connect-ads-automation",
+      "title": "Automating Walmart Connect Ads with AI Bidding Strategies",
+      "date": "2026-03-18",
+      "category": "guide",
+      "emoji": "📢",
+      "readTime": 13
     }
   ],
   "queue": [
