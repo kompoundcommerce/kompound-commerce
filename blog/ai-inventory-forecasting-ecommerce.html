@@ -15,6 +15,7 @@
 <meta property="og:url" content="https://www.kompoundcommerce.com/blog/ai-inventory-forecasting-ecommerce.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Kompound Commerce">
+<meta property="og:image" content="https://www.kompoundcommerce.com/og-blog-ai-inventory-forecasting-ecommerce.png">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
@@ -68,7 +69,7 @@
 
 <div class="article-hero">
   <div class="article-meta">
-    <span class="article-tag">Guide</span>
+    <span class="article-tag">🔮 Guide</span>
     <span class="article-date">March 18, 2026 · 14 min read</span>
   </div>
   <h1>AI Inventory Forecasting: How Machine Learning Prevents Stockouts & <em>Overstock</em></h1>
@@ -78,87 +79,125 @@
 <article>
   <h2>The Real Cost of Getting Inventory Wrong</h2>
   <p>Inventory management is the silent killer of Amazon businesses. It doesn't make headlines like a listing suspension or a PPC disaster, but it destroys more margin than almost anything else. After managing over <strong>$120M in marketplace revenue</strong>, we've seen the pattern hundreds of times.</p>
-  <p>A stockout doesn't just cost you the sales you miss during those out-of-stock days. It costs you the <strong>organic ranking you spent months building</strong>. Amazon's algorithm penalizes listings that go out of stock, and it can take 2-4 weeks to recover your previous position — if you recover it at all.</p>
-  <p>On the flip side, overstock means you're paying <strong>$0.87 per cubic foot per month</strong> in standard storage fees, and that spikes to $2.40/cubic foot during Q4. For a mid-size catalog of 50 SKUs, poor forecasting can easily waste $15,000-$30,000 annually in unnecessary storage fees alone.</p>
+  <p>A stockout doesn't just cost you the sales you miss during those out-of-stock days. It costs you the <strong>organic ranking you spent months building</strong>. Amazon's algorithm penalizes listings that go out of stock, and it can take 2-4 weeks to recover your previous position — if you recover it at all. Meanwhile, competitors absorb your traffic, build their own velocity, and entrench themselves in the positions you lost.</p>
+  <p>On the flip side, overstock means you're paying <strong>$0.87 per cubic foot per month</strong> in standard storage fees, and that spikes to $2.40/cubic foot during Q4. Aged inventory surcharges kick in after 181 days, adding another $1.50-$6.90 per cubic foot. For a mid-size catalog of 50 SKUs, poor forecasting can easily waste $15,000-$30,000 annually in unnecessary storage fees alone — before you even factor in the opportunity cost of capital tied up in excess inventory.</p>
 
   <div class="callout">
     <p><strong>The math is brutal:</strong> A 7-day stockout on a product selling 50 units/day at $25 each costs you $8,750 in direct revenue — plus an estimated $12,000-$18,000 in lost organic momentum over the following month. That's a $25,000+ problem from one week of being out of stock.</p>
   </div>
 
   <h2>Why Spreadsheets Fail at Demand Forecasting</h2>
-  <p>Most sellers still forecast with spreadsheets. They look at last year's sales, add a growth percentage, and call it a plan. The problem? This approach can't account for:</p>
+  <p>Most sellers still forecast with spreadsheets. They look at last year's sales, add a growth percentage, and call it a plan. The problem? This approach can't account for the interconnected variables that actually drive demand:</p>
   <ul>
-    <li><strong>Market shifts:</strong> New competitors, trending products, category changes</li>
-    <li><strong>Promotional impacts:</strong> How Lightning Deals, coupons, and Prime Day affect demand curves</li>
-    <li><strong>External factors:</strong> Weather, economic conditions, viral social media moments</li>
-    <li><strong>PPC changes:</strong> How increasing or decreasing ad spend shifts unit velocity</li>
-    <li><strong>Seasonal micro-patterns:</strong> Week-over-week demand fluctuations within seasons</li>
+    <li><strong>Market shifts:</strong> New competitors entering, trending products cannibalizing demand, category-level growth or contraction</li>
+    <li><strong>Promotional impacts:</strong> How Lightning Deals, coupons, Subscribe & Save enrollment surges, and Prime Day affect demand curves — and how those effects ripple for weeks afterward</li>
+    <li><strong>External factors:</strong> Weather patterns, economic conditions, viral social media moments, tariff announcements that shift import timing</li>
+    <li><strong>PPC changes:</strong> How increasing or decreasing ad spend shifts unit velocity — a 30% bump in ad budget can increase sales 15-25%, which your static forecast won't capture</li>
+    <li><strong>Seasonal micro-patterns:</strong> Week-over-week demand fluctuations within seasons that differ by product category, day of week, and even time of month relative to payroll cycles</li>
+    <li><strong>Competitor stockouts:</strong> When a top-3 competitor goes out of stock, your demand can spike 40-80% overnight — and drop just as fast when they return</li>
   </ul>
   <p>A spreadsheet gives you one number. AI gives you a probability distribution with confidence intervals. That's the difference between guessing and planning.</p>
 
   <h2>How AI Forecasting Models Actually Work</h2>
-  <p>Modern AI inventory forecasting uses several machine learning techniques in combination:</p>
+  <p>Modern AI inventory forecasting isn't magic — it's applied statistics at a scale and speed that humans can't match. Here's what's happening under the hood of the best forecasting systems.</p>
 
   <h3>Time-Series Analysis</h3>
-  <p>Models like ARIMA, Prophet (developed by Meta), and LSTM neural networks analyze your historical sales data to identify trends, seasonality, and cyclical patterns. They can detect patterns humans miss — like the fact that your product sells 23% more on Tuesdays than Thursdays, or that demand starts climbing 18 days before a seasonal peak, not 7.</p>
+  <p>Models like ARIMA (AutoRegressive Integrated Moving Average), Prophet (developed by Meta), and LSTM (Long Short-Term Memory) neural networks analyze your historical sales data to identify trends, seasonality, and cyclical patterns. They can detect patterns humans miss — like the fact that your product sells 23% more on Tuesdays than Thursdays, or that demand starts climbing 18 days before a seasonal peak, not 7.</p>
+  <p>ARIMA excels at capturing linear trends and is computationally efficient. Prophet handles holidays, seasonal effects, and missing data gracefully. LSTM networks capture complex non-linear dependencies over long time horizons. The best systems don't pick one — they use all three.</p>
 
   <h3>Multi-Variable Regression</h3>
-  <p>Advanced models incorporate external variables beyond just sales history: advertising spend, competitor pricing, review velocity, search volume trends, and even weather data. Each variable gets weighted by its actual impact on your demand, creating a much richer prediction.</p>
+  <p>Advanced models incorporate external variables beyond just sales history: advertising spend by campaign type, competitor pricing movements, review velocity and rating changes, search volume trends from Google and Amazon, weather data for climate-sensitive products, and even macroeconomic indicators. Each variable gets weighted by its actual measured impact on your demand, creating a much richer prediction than any single-variable model could produce.</p>
 
   <h3>Ensemble Methods</h3>
-  <p>The best forecasting systems don't rely on a single model. They run multiple models simultaneously and combine their predictions, weighted by each model's historical accuracy. This ensemble approach typically outperforms any single model by <strong>15-25%</strong> in accuracy.</p>
+  <p>The best forecasting systems don't rely on a single model. They run multiple models simultaneously — time-series, regression, gradient-boosted trees (XGBoost/LightGBM), and neural networks — then combine their predictions, weighted by each model's historical accuracy for that specific SKU. This ensemble approach typically outperforms any single model by <strong>15-25%</strong> in accuracy as measured by Mean Absolute Percentage Error.</p>
 
-  <h2>AI Forecasting Tools for Amazon Sellers</h2>
-  <p>The tooling landscape has matured significantly in 2026. Here are the options worth considering:</p>
-
-  <h3>SoStocked (by Carbon6)</h3>
-  <p>Purpose-built for Amazon sellers. Uses machine learning to analyze your sales velocity, lead times, and seasonal patterns. Automatically adjusts forecasts based on stockout history and promotional events. Best for sellers with 20+ SKUs who need automated reorder recommendations.</p>
-
-  <h3>Forecastly</h3>
-  <p>Focuses specifically on FBA inventory optimization. Integrates directly with Seller Central to pull real-time data. Provides demand forecasting with lead time calculations and reorder point alerts. Good for sellers who want a set-it-and-forget-it approach.</p>
-
-  <h3>Inventory Planner (by Sage)</h3>
-  <p>Multi-channel forecasting that works across Amazon, Shopify, and other platforms. Uses AI to predict demand at the variant level. Includes purchase order generation and supplier management. Ideal for brands selling on multiple channels.</p>
-
-  <h3>Amazon's Built-In Tools</h3>
-  <p>Amazon's Restock Inventory tool has gotten significantly better with AI enhancements. It now considers your sales velocity, seasonal trends, and FBA capacity limits. While not as sophisticated as third-party tools, it's free and surprisingly accurate for simple catalogs.</p>
+  <h3>Probabilistic Forecasting</h3>
+  <p>Instead of saying "you'll sell 500 units next month," a probabilistic AI system says "there's a 90% chance you'll sell between 420 and 610 units, with a median expectation of 510." This distribution approach lets you set safety stock based on your specific risk tolerance for each SKU tier, rather than applying arbitrary buffers across the board.</p>
 
   <div class="callout">
-    <p><strong>Our recommendation:</strong> Start with Amazon's built-in tools if you have fewer than 15 SKUs. Move to SoStocked or Inventory Planner once you're managing 20+ SKUs or if your products have strong seasonality.</p>
+    <p><strong>Pro tip:</strong> Set your reorder point based on the 90th percentile of the demand distribution during lead time for hero SKUs (top 20% of revenue), the 85th percentile for mid-tier, and the 75th percentile for long-tail products. This ensures your most important products almost never stock out while keeping overall inventory carrying costs manageable.</p>
+  </div>
+
+  <h2>AI Forecasting Tools for Amazon Sellers</h2>
+  <p>The tooling landscape has matured significantly in 2026. Here are the options worth considering, each with distinct strengths.</p>
+
+  <h3>SoStocked (by Carbon6)</h3>
+  <p>Purpose-built for Amazon sellers with deep Seller Central integration. Uses machine learning to analyze your sales velocity, lead times, and seasonal patterns. Automatically adjusts forecasts based on stockout history and promotional events. Includes purchase order generation, transfer planning between FBA warehouses, and supplier management. Best for sellers with 20+ SKUs who need automated reorder recommendations and a comprehensive inventory management suite. Pricing is tiered by SKU count, starting around $158/month.</p>
+
+  <h3>Forecastly</h3>
+  <p>Focuses specifically on FBA inventory optimization and demand prediction. Integrates directly with Seller Central to pull real-time data and generates SKU-level demand forecasts with configurable lead times, safety stock settings, and seasonal adjustments. Provides reorder point alerts and recommended order quantities. Good for sellers who want a focused forecasting tool without the complexity of a full inventory management suite.</p>
+
+  <h3>Inventory Planner (by Sage)</h3>
+  <p>Multi-channel forecasting that works across Amazon, Shopify, WooCommerce, BigCommerce, and other platforms. Uses AI to predict demand at the variant level — not just SKU level. Includes purchase order generation, bundling support, and what-if scenario planning for promotional events. Ideal for brands selling on multiple channels who need a unified inventory view. The variant-level forecasting is particularly valuable for apparel and accessories sellers with complex size/color matrices.</p>
+
+  <h3>Amazon's Built-In Tools</h3>
+  <p>Amazon's Restock Inventory tool and FBA Inventory Planning dashboard have gotten significantly better with AI enhancements. The system now considers your sales velocity, seasonal trends, and FBA capacity limits. While not as sophisticated as third-party tools — it can't account for your promotional calendar, advertising changes, or supplier-specific lead time variability — it's free and surprisingly accurate for simple catalogs with stable demand patterns.</p>
+
+  <div class="callout">
+    <p><strong>Our recommendation:</strong> Start with Amazon's built-in tools if you have fewer than 15 SKUs. Move to SoStocked or Inventory Planner once you're managing 20+ SKUs or if your products have strong seasonality. For brands doing $5M+ across multiple channels, Inventory Planner's multi-platform integration pays for itself within the first quarter.</p>
   </div>
 
   <h2>Implementing AI Forecasting: A Step-by-Step Guide</h2>
-  <ol>
-    <li><strong>Audit your data:</strong> AI models are only as good as their input. Ensure you have at least 12 months of clean sales data. Flag and annotate stockout periods, promotional events, and any anomalies.</li>
-    <li><strong>Set your service level:</strong> Decide your target in-stock rate. We recommend 97% for top-20% revenue products and 93% for the rest. This determines how much safety stock the AI builds into its recommendations.</li>
-    <li><strong>Map your lead times:</strong> Document supplier lead times, shipping times, and FBA receiving times for each product. Include variability — if your supplier sometimes ships in 14 days and sometimes in 28, the AI needs to know both.</li>
-    <li><strong>Configure seasonal profiles:</strong> Tag products with their seasonal patterns. Even AI needs hints about upcoming events like Prime Day, Back to School, or Black Friday if you don't have multiple years of history.</li>
-    <li><strong>Set up automated alerts:</strong> Configure reorder point notifications so you never miss a replenishment window. The AI should trigger alerts with enough lead time to place and receive orders before stock runs out.</li>
-    <li><strong>Review and calibrate monthly:</strong> AI models improve over time, but they need human oversight. Review forecast accuracy monthly and adjust model parameters when accuracy drops below 80%.</li>
-  </ol>
+  <p>Adoption isn't plug-and-play. Here's the implementation framework we've refined across dozens of client deployments.</p>
+
+  <h3>Step 1: Audit Your Data (Week 1)</h3>
+  <p>AI models are only as good as their input. Ensure you have at least 12 months of clean sales data — 24 months is ideal for products with strong annual seasonality. This means going through your historical data and flagging every anomaly: stockout periods (so the model doesn't learn artificially suppressed demand as normal), promotional events (Lightning Deals, coupons, external traffic drives), listing suppression or hijacking periods, and any pricing changes that significantly affected velocity. Export this data from Seller Central's Business Reports alongside your advertising performance data.</p>
+
+  <h3>Step 2: Set Your Service Level Targets (Week 1-2)</h3>
+  <p>Decide your target in-stock rate by product tier. We recommend <strong>97% for your top-20% revenue products</strong> (your hero SKUs that drive the business), <strong>93% for mid-tier products</strong>, and <strong>88% for long-tail SKUs</strong>. This tiered approach concentrates your safety stock investment where it matters most. Document these targets — they'll configure how aggressively your AI system buffers against demand variability.</p>
+
+  <h3>Step 3: Map Your Lead Times (Week 2)</h3>
+  <p>Document supplier lead times, shipping transit times, customs clearance variability (for international sourcing), and Amazon FBA receiving times for each product. Critically, include the variability — if your supplier sometimes ships in 14 days and sometimes in 28, the AI needs both the average and the standard deviation. We've seen FBA receiving times alone range from 3 days to 3 weeks depending on the season and fulfillment center.</p>
+
+  <h3>Step 4: Configure Seasonal Profiles (Week 2-3)</h3>
+  <p>Tag products with their seasonal patterns and input your promotional calendar for the next 6-12 months. Even AI needs hints about upcoming events like Prime Day, Back to School, or Black Friday if you don't have multiple years of history covering those events. For new products, assign them the seasonal profile of the most similar existing product in your catalog.</p>
+
+  <h3>Step 5: Run in Parallel (Week 3-6)</h3>
+  <p>Don't switch cold turkey. Run the AI forecasts alongside your existing manual process for 4-6 weeks. Compare the recommendations side by side — order timing, order quantities, and safety stock levels. This parallel period builds confidence and helps you identify configuration issues before they cause real inventory problems. Track forecast accuracy weekly using MAPE (Mean Absolute Percentage Error) at the SKU level.</p>
+
+  <h3>Step 6: Transition and Optimize (Week 6+)</h3>
+  <p>Once you've validated accuracy (target: 85%+ at the monthly SKU level), transition to AI-driven purchasing decisions. Set up automated alerts for reorder points and establish a weekly review cadence where you approve purchase orders, review any flagged anomalies, and provide feedback on forecast misses. Over time, the model's accuracy improves as it accumulates more data specific to your business patterns.</p>
 
   <h2>Real Results: Manual vs. AI Forecasting</h2>
-  <p>Across our client portfolio, brands that switched from spreadsheet-based forecasting to AI-powered tools saw:</p>
+  <p>Across our client portfolio, brands that switched from spreadsheet-based forecasting to AI-powered tools saw measurable improvements within the first 90 days:</p>
   <ul>
-    <li><strong>Stockout frequency reduced by 62%</strong> on average</li>
-    <li><strong>Excess inventory reduced by 34%</strong>, freeing up significant working capital</li>
-    <li><strong>Storage fees decreased by 28%</strong> due to right-sized inventory levels</li>
-    <li><strong>Organic rank stability improved measurably</strong> — fewer ranking drops from stockouts</li>
-    <li><strong>Reorder efficiency increased</strong> — fewer emergency air shipments at 5x the cost</li>
+    <li><strong>Stockout frequency reduced by 62%</strong> on average — some brands went from 3-4 stockouts per quarter to zero</li>
+    <li><strong>Excess inventory reduced by 34%</strong>, freeing up significant working capital that could be redeployed into advertising or new product development</li>
+    <li><strong>Storage fees decreased by 28%</strong> due to right-sized inventory levels and fewer aged inventory surcharges</li>
+    <li><strong>Organic rank stability improved measurably</strong> — fewer ranking drops from stockouts meant less PPC spend needed for rank recovery</li>
+    <li><strong>Emergency air shipments dropped by 75%</strong> — fewer surprise stockout situations meant fewer panic orders at 5-8x standard shipping costs</li>
+    <li><strong>Working capital efficiency improved by 22%</strong> — same revenue generated with less capital tied up in inventory</li>
   </ul>
+
+  <div class="callout">
+    <p><strong>Case study:</strong> A supplements brand in our portfolio was spending $4,200/month on long-term storage fees and experiencing 2-3 stockouts per quarter on their top 10 SKUs. After implementing AI forecasting with SoStocked, storage fees dropped to $1,100/month, stockouts went to zero over two quarters, and they freed up $180,000 in working capital from excess inventory reduction. Annualized savings exceeded $200,000.</p>
+  </div>
+
+  <h2>Advanced Strategies: Beyond Basic Forecasting</h2>
+
+  <h3>Advertising-Aware Demand Modeling</h3>
+  <p>Your demand isn't independent of your advertising spend. When you plan a 50% increase in PPC budget for a product launch or seasonal push, your inventory forecast needs to reflect the expected demand uplift. Advanced AI systems ingest your advertising data and model the historical relationship between ad spend changes and incremental units sold — so when you tell the system "we're doubling spend on this ASIN next month," it automatically adjusts the demand forecast upward by the predicted incremental units.</p>
+
+  <h3>Multi-Channel Inventory Allocation</h3>
+  <p>If you're selling through FBA, FBM, Walmart WFS, and your own DTC Shopify store, you need channel-level forecasts and an allocation model that distributes limited inventory optimally across fulfillment nodes. AI can optimize this allocation based on each channel's demand forecast, fulfillment costs, margin structure, and delivery speed requirements — ensuring you don't stock out on your highest-margin channel while sitting on excess in a lower-priority one.</p>
+
+  <h3>Supplier Lead Time Prediction</h3>
+  <p>Lead time variability is one of the biggest sources of forecasting error. If your supplier quotes "4-6 weeks" but actual lead times range from 3 to 9 weeks depending on the season and order volume, your reorder timing will be off. Some AI platforms now model lead time as a separate prediction, incorporating supplier-specific patterns, port congestion data, and seasonal shipping capacity constraints to give you a probabilistic lead time estimate that feeds into more accurate reorder point calculations.</p>
 
   <h2>Common Pitfalls to Avoid</h2>
   <p>Even with AI, inventory forecasting can go wrong if you make these mistakes:</p>
-  <ul>
-    <li><strong>Trusting the model blindly during launches:</strong> AI needs historical data. For new product launches, use manual forecasting for the first 60-90 days, then let AI take over.</li>
-    <li><strong>Ignoring lead time variability:</strong> Your supplier says 21 days, but it's really 21-35 days. Build that variability into your model or you'll stock out every time the supplier runs late.</li>
-    <li><strong>Not accounting for PPC changes:</strong> If you're about to double your ad spend, tell the model. A sudden increase in sales velocity that the AI didn't anticipate will throw off every forecast.</li>
-    <li><strong>Over-optimizing for cost:</strong> Minimizing inventory holding costs is important, but not at the expense of stockout risk. The cost of a stockout almost always exceeds the cost of carrying a few extra weeks of safety stock.</li>
-  </ul>
+  <ol>
+    <li><strong>Trusting the model blindly during launches:</strong> AI needs historical data to make predictions. For new product launches, use analogous product modeling (basing forecasts on similar existing products) for the first 60-90 days, then let AI take over as real data accumulates.</li>
+    <li><strong>Ignoring lead time variability:</strong> Your supplier says 21 days, but it's really 21-35 days. Build that variability into your model or you'll stock out every time the supplier runs late or FBA receiving backs up.</li>
+    <li><strong>Not accounting for PPC changes:</strong> If you're about to double your ad spend or launch a major promotional campaign, tell the model. A sudden increase in sales velocity that the AI didn't anticipate will throw off every downstream forecast.</li>
+    <li><strong>Over-optimizing for cost:</strong> Minimizing inventory holding costs is important, but not at the expense of stockout risk. The cost of a stockout almost always exceeds the cost of carrying a few extra weeks of safety stock — especially for your top-revenue SKUs.</li>
+    <li><strong>Failing to annotate historical anomalies:</strong> If you had a 2-week stockout last June and don't flag it, the AI will learn "demand drops in June" instead of "demand was suppressed by a stockout." Garbage in, garbage out.</li>
+    <li><strong>Set and forget:</strong> AI models degrade over time as your business evolves. Schedule quarterly reviews of model accuracy by SKU tier and recalibrate parameters — especially after major business changes like new product launches, channel expansion, or supplier switches.</li>
+  </ol>
 
   <h2>The Future: Autonomous Inventory Management</h2>
-  <p>We're moving toward fully autonomous inventory systems that don't just forecast demand — they automatically place purchase orders, negotiate with suppliers, optimize shipment timing, and balance inventory across multiple fulfillment centers. Amazon's own FBA systems are already heading in this direction with automated inventory placement.</p>
-  <p>For sellers, the question isn't whether to adopt AI forecasting — it's how fast you can implement it before your competitors do. Every day you rely on spreadsheets is a day you're leaving money on the table in excess storage fees and lost sales from stockouts.</p>
+  <p>We're moving toward fully autonomous inventory systems that don't just forecast demand — they automatically generate purchase orders, optimize shipment timing across multiple freight options, balance inventory allocation across fulfillment centers, and even negotiate with suppliers based on demand forecasts and bulk pricing tiers. Amazon's own systems are heading in this direction with automated inventory placement and AI-driven restock suggestions.</p>
+  <p>For sellers, the question isn't whether to adopt AI forecasting — it's how fast you can implement it before your competitors do. Every day you rely on spreadsheets is a day you're leaving money on the table in excess storage fees, lost sales from stockouts, and wasted emergency shipping costs.</p>
 
   <div class="article-cta">
     <h3>Want us to optimize your inventory strategy?</h3>
@@ -167,7 +206,7 @@
   </div>
 
   <h2>Bottom Line</h2>
-  <p>AI inventory forecasting isn't a luxury anymore — it's table stakes for any serious Amazon seller. The tools are affordable, the implementation is straightforward, and the ROI is measurable within the first quarter. Stop guessing. Start predicting.</p>
+  <p>AI inventory forecasting isn't a luxury anymore — it's table stakes for any serious Amazon seller. The tools are affordable ($100-$300/month for most catalogs), the implementation takes 4-6 weeks, and the ROI is measurable within the first quarter. Stop guessing with spreadsheets. Start predicting with machine learning.</p>
   <p>That's the Kompound approach. Every action compounds.</p>
 </article>
 
@@ -175,6 +214,26 @@
   <p>© 2026 <a href="/">Kompound Commerce</a> · <a href="/#university">More articles</a> · <a href="/#contact">Contact us</a></p>
 </footer>
 
+<section class="related-posts" style="max-width:800px;margin:3rem auto;padding:2rem 2.5rem;">
+<h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;letter-spacing:-0.02em;">Related Articles</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
+<a href="/blog/fba-inventory-planning-guide.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">FBA Inventory Planning Guide: Never Run Out of Stock Again</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">A comprehensive guide to FBA inventory planning covering reorder points, safety stock calculations, and seasonal prep...</p>
+</a>
+<a href="/blog/amazon-ipi-score-restock-limits-guide.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">Amazon IPI Score & Restock Limits: The Complete Guide</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">Understand how Amazon's Inventory Performance Index works, what triggers restock limits, and how to optimize your score...</p>
+</a>
+<a href="/blog/data-driven-product-development-amazon.html" style="display:block;padding:1.25rem;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);text-decoration:none;color:inherit;transition:all 0.3s;">
+  <h3 style="font-size:0.95rem;font-weight:600;color:#f0f0f5;margin-bottom:0.4rem;line-height:1.35;">Data-Driven Product Development for Amazon Sellers</h3>
+  <p style="font-size:0.8rem;color:#a0a0b8;line-height:1.5;margin:0;">How to use marketplace data, customer reviews, and competitive analysis to develop products that win on Amazon...</p>
+</a>
+</div>
+</section>
+
+
+<!-- LEAD CAPTURE POPUP -->
 <script>
 (function() {
   var POPUP_KEY = 'kc_popup_dismissed';
