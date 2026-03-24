@@ -40,6 +40,24 @@
 
   .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
 
+  .blog-section{margin-bottom:2.5rem}
+  .blog-section-header{display:flex;align-items:center;gap:.75rem;margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:1px solid var(--border)}
+  .blog-section-header h2{font-size:1.15rem;font-weight:700;letter-spacing:-.02em;color:var(--text)}
+  .blog-section-header .section-count{font-size:.72rem;font-weight:600;padding:.2rem .6rem;border-radius:100px;background:var(--bg-2);color:var(--text-3);border:1px solid var(--border)}
+  .blog-section-header .section-icon{font-size:1.3rem}
+
+  .featured-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-bottom:2.5rem}
+  .featured-card{background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:all .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+  .featured-card:hover{border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-3px)}
+  .featured-card .blog-card-thumb{height:180px}
+  .featured-card .blog-card-thumb .emoji{font-size:4rem}
+  .featured-card .blog-card-body h3{font-size:1.15rem}
+  .featured-label{display:inline-flex;align-items:center;gap:.35rem;font-size:.62rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;background:rgba(255,153,0,.08);color:var(--accent);border:1px solid rgba(255,153,0,.15);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.75rem}
+
+  @media(max-width:900px){
+    .featured-grid{grid-template-columns:1fr}
+  }
+
   .blog-card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:all .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
   .blog-card:hover{border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-3px)}
   .blog-card-thumb{height:140px;background:var(--bg-2);display:flex;align-items:center;justify-content:center;position:relative}
@@ -67,6 +85,7 @@
 
   @media(max-width:900px){
     .blog-grid{grid-template-columns:1fr}
+    .featured-grid{grid-template-columns:1fr}
     nav{padding:1rem}
     .nav-links{display:none}
     .filter-bar{justify-content:center}
@@ -108,7 +127,82 @@
     <button class="filter-btn" onclick="filterCards('tool')">Tools</button>
   </div>
 
-  <div class="blog-grid" id="blogGrid">
+  <!-- ===== NEW THIS WEEK ===== -->
+  <div class="blog-section">
+    <div class="blog-section-header">
+      <span class="section-icon">🆕</span>
+      <h2>New This Week</h2>
+      <span class="section-count">5 posts</span>
+    </div>
+    <div class="featured-grid" id="featuredGrid">
+
+      <a class="featured-card blog-card" href="/blog/amazon-brand-registry-guide-2026.html" data-type="guide">
+        <div class="blog-card-thumb"><span class="emoji">🛡️</span><span class="blog-card-tag tag-guide">Guide</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 2026 · 16 min read</div>
+          <h3>Amazon Brand Registry Guide 2026: How to Enroll & Unlock Brand Tools</h3>
+          <p>Everything you need to know about Brand Registry — eligibility, enrollment steps, and unlocking A+ Content, Brand Store, and brand protection.</p>
+          <span class="blog-card-link">Read guide →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/amazon-keyword-research-tools-guide.html" data-type="guide">
+        <div class="blog-card-thumb"><span class="emoji">🔑</span><span class="blog-card-tag tag-guide">Guide</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 2026 · 18 min read</div>
+          <h3>Amazon Keyword Research: The Complete Guide to Finding Profitable Keywords</h3>
+          <p>Free and paid tools, reverse ASIN research, long-tail strategy, and a step-by-step keyword research workflow.</p>
+          <span class="blog-card-link">Read guide →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/amazon-sponsored-brands-video-ads-guide.html" data-type="guide">
+        <div class="blog-card-thumb"><span class="emoji">📺</span><span class="blog-card-tag tag-guide">Guide</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 2026 · 15 min read</div>
+          <h3>Amazon Sponsored Brands & Video Ads: The Complete 2026 Guide</h3>
+          <p>Campaign setup, video ad best practices, targeting strategies, and bidding optimization for Sponsored Brands.</p>
+          <span class="blog-card-link">Read guide →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/how-to-start-selling-on-amazon-2026.html" data-type="guide">
+        <div class="blog-card-thumb"><span class="emoji">🟢</span><span class="blog-card-tag tag-guide">Guide</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 2026 · 18 min read</div>
+          <h3>How to Start Selling on Amazon in 2026: The Complete Beginner's Guide</h3>
+          <p>Step-by-step walkthrough from account setup to first sale — Individual vs Professional plans, product sourcing, and your first 90 days.</p>
+          <span class="blog-card-link">Read guide →</span>
+        </div>
+      </a>
+
+    </div>
+    <div class="blog-grid">
+      <a class="blog-card" href="/blog/amazon-fba-vs-fbm-guide.html" data-type="guide">
+        <div class="blog-card-thumb"><span class="emoji">📦</span><span class="blog-card-tag tag-guide">Guide</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 2026 · 14 min read</div>
+          <h3>Amazon FBA vs FBM: Which Fulfillment Method Is Right for Your Business?</h3>
+          <p>Side-by-side comparison of costs, margins, Buy Box impact, scalability, and when to use a hybrid approach.</p>
+          <span class="blog-card-link">Read guide →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== AI & AUTOMATION ===== -->
+  <div class="blog-section">
+    <div class="blog-section-header">
+      <span class="section-icon">🤖</span>
+      <h2>AI & Automation</h2>
+      <span class="section-count">17 posts</span>
+    </div>
+    <div class="blog-grid" id="blogGrid">
 
     <a class="blog-card" href="/blog/ai-inventory-forecasting-ecommerce.html" data-type="guide">
       <div class="blog-card-thumb"><span class="emoji">🔮</span><span class="blog-card-tag tag-guide">Guide</span></div>
