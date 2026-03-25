@@ -40,6 +40,24 @@
 
   .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
 
+  .blog-section{margin-bottom:2.5rem}
+  .blog-section-header{display:flex;align-items:center;gap:.75rem;margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:1px solid var(--border)}
+  .blog-section-header h2{font-size:1.15rem;font-weight:700;letter-spacing:-.02em;color:var(--text)}
+  .blog-section-header .section-count{font-size:.72rem;font-weight:600;padding:.2rem .6rem;border-radius:100px;background:var(--bg-2);color:var(--text-3);border:1px solid var(--border)}
+  .blog-section-header .section-icon{font-size:1.3rem}
+
+  .featured-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-bottom:2.5rem}
+  .featured-card{background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:all .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+  .featured-card:hover{border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-3px)}
+  .featured-card .blog-card-thumb{height:180px}
+  .featured-card .blog-card-thumb .emoji{font-size:4rem}
+  .featured-card .blog-card-body h3{font-size:1.15rem}
+  .featured-label{display:inline-flex;align-items:center;gap:.35rem;font-size:.62rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;background:rgba(255,153,0,.08);color:var(--accent);border:1px solid rgba(255,153,0,.15);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.75rem}
+
+  @media(max-width:900px){
+    .featured-grid{grid-template-columns:1fr}
+  }
+
   .blog-card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:all .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
   .blog-card:hover{border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-3px)}
   .blog-card-thumb{height:140px;background:var(--bg-2);display:flex;align-items:center;justify-content:center;position:relative}
@@ -67,6 +85,7 @@
 
   @media(max-width:900px){
     .blog-grid{grid-template-columns:1fr}
+    .featured-grid{grid-template-columns:1fr}
     nav{padding:1rem}
     .nav-links{display:none}
     .filter-bar{justify-content:center}
@@ -75,6 +94,9 @@
     .blog-grid{grid-template-columns:repeat(2,1fr)}
   }
 </style>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-16PBDPE8HK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-16PBDPE8HK');</script>
 </head>
 <body>
 
@@ -105,7 +127,160 @@
     <button class="filter-btn" onclick="filterCards('tool')">Tools</button>
   </div>
 
-  <div class="blog-grid" id="blogGrid">
+  <!-- ===== NEW THIS WEEK ===== -->
+  <div class="blog-section">
+    <div class="blog-section-header">
+      <span class="section-icon">🆕</span>
+      <h2>New This Week</h2>
+      <span class="section-count">12 posts</span>
+    </div>
+    <div class="featured-grid" id="featuredGrid">
+
+      <a class="featured-card blog-card" href="/blog/operators-taylor-holiday-ecommerce-lessons.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🎙️</span><span class="blog-card-tag tag-blog">Podcast Breakdown</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 12 min read</div>
+          <h3>Taylor Holiday on Operators: Why TikTok Shop Is an "Affiliate Ponzi Scheme"</h3>
+          <p>Key takeaways from Taylor Holiday's Operators appearance. TikTok Shop as arbitrage, AI creative, and lessons from ecommerce's wildest decade.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/comfrt-affiliate-playbook.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🚀</span><span class="blog-card-tag tag-blog">Case Study</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 10, 2026 · 14 min read</div>
+          <h3>How COMFRT Went From $0 to $700M With Zero-Follower Creators</h3>
+          <p>Inside the radical affiliate strategy that turned a bootstrapped hoodie brand into one of the fastest-scaling ecommerce companies in history.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/operators-beast-gear-thrasio-turnaround.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">💪</span><span class="blog-card-tag tag-blog">Podcast Breakdown</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 12 min read</div>
+          <h3>Sold to Thrasio, Bought It Back: Beast Gear's Rebuild After the Aggregator Collapse</h3>
+          <p>Ben Leonard sold Beast Gear for millions, watched revenue drop from $6M to $500K, then bought it back. A masterclass in brand turnarounds.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/operators-celebrity-brand-deals.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">⭐</span><span class="blog-card-tag tag-blog">Podcast Breakdown</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 14 min read</div>
+          <h3>Celebrity Brand Deals: What Separates Billion-Dollar Exits From Total Flops</h3>
+          <p>Why Rhode and Skims became billion-dollar brands while others flopped. Deal structures, red flags, and the real math behind celebrity partnerships.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/omnichannel-dtc-wholesale-amazon.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🌐</span><span class="blog-card-tag tag-blog">Growth Strategy</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 24, 2026 · 14 min read</div>
+          <h3>DTC-Only Is Dead: Why the Smartest Brands Are Going Omnichannel in 2026</h3>
+          <p>The Shopify + Meta playbook is hitting a ceiling. Why the best brands are layering Amazon, Walmart, and retail — and how the halo effect compounds.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="featured-card blog-card" href="/blog/supply-chain-margin-optimization.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">📦</span><span class="blog-card-tag tag-blog">Operations</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 23, 2026 · 13 min read</div>
+          <h3>The Hidden Margin Killer: How DTC Brands Leave 10-20% Profit on the Table</h3>
+          <p>Everyone talks ROAS. Nobody talks about the $3/order you waste on dimensional weight, 3PL overpay, and bad packaging. This is where real money is.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+    </div>
+    <div class="blog-grid">
+
+      <a class="blog-card" href="/blog/founder-led-marketing-brand-building.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🎤</span><span class="blog-card-tag tag-blog">Brand Building</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 11 min read</div>
+          <h3>Founder-Led Marketing Is the Biggest Competitive Advantage in DTC Right Now</h3>
+          <p>Founder content outperforms brand content 3-5x. Here's why the smartest DTC founders are becoming the face of their brands.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="blog-card" href="/blog/unit-economics-scaling-profitably.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">💸</span><span class="blog-card-tag tag-blog">DTC Strategy</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 21, 2026 · 13 min read</div>
+          <h3>Unit Economics or Die: How Smart DTC Brands Scale Without Going Broke</h3>
+          <p>The contribution margin waterfall, break-even ROAS formula, and why most DTC brands don't actually know if they're making money.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="blog-card" href="/blog/creative-testing-framework-paid-social.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🎨</span><span class="blog-card-tag tag-blog">Paid Media</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 20, 2026 · 12 min read</div>
+          <h3>The Creative Testing Framework That Separates 7-Figure Brands From Everyone Else</h3>
+          <p>Stop testing audiences. Start testing creative. The 3-2-2 framework, hook rates, and what's replacing UGC in 2026.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="blog-card" href="/blog/dtc-retention-strategies-repeat-revenue.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">🔄</span><span class="blog-card-tag tag-blog">DTC Strategy</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 18, 2026 · 14 min read</div>
+          <h3>Why the Best DTC Brands Obsess Over Retention (Not Acquisition)</h3>
+          <p>The repeat revenue playbook behind 60-70% repeat purchase rates, 3x LTV, and the 100-day repurchase window every brand should know.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="blog-card" href="/blog/operators-northbeam-ecommerce-data-2025.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">📊</span><span class="blog-card-tag tag-blog">Podcast Breakdown</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 12 min read</div>
+          <h3>The Data Behind 2025's Ecommerce Winners and Losers: Northbeam x Operators</h3>
+          <p>AppLovin +176%, Snapchat -46%, small brands declining, AI traffic growing 1000%. Exclusive data and what it means for 2026.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+
+      <a class="blog-card" href="/blog/operators-2026-predictions-money-making-tactics.html" data-type="blog">
+        <div class="blog-card-thumb"><span class="emoji">💰</span><span class="blog-card-tag tag-blog">Podcast Breakdown</span></div>
+        <div class="blog-card-body">
+          <span class="featured-label">New</span>
+          <div class="blog-card-date">Mar 22, 2026 · 12 min read</div>
+          <h3>Operators 2026 Predictions: 7 Money-Making Tactics You Can Implement This Week</h3>
+          <p>Corporate gifting, plain text emails, international pricing, multi-node distribution, and more actionable tactics from the Operators crew.</p>
+          <span class="blog-card-link">Read article →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== AI & AUTOMATION ===== -->
+  <div class="blog-section">
+    <div class="blog-section-header">
+      <span class="section-icon">🤖</span>
+      <h2>AI & Automation</h2>
+      <span class="section-count">17 posts</span>
+    </div>
+    <div class="blog-grid" id="blogGrid">
 
     <a class="blog-card" href="/blog/ai-inventory-forecasting-ecommerce.html" data-type="guide">
       <div class="blog-card-thumb"><span class="emoji">🔮</span><span class="blog-card-tag tag-guide">Guide</span></div>
