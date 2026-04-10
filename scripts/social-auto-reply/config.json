@@ -1,0 +1,125 @@
+{
+  "brand": {
+    "name": "Kompound Commerce",
+    "website": "https://www.kompoundcommerce.com",
+    "fba_calculator": "https://www.kompoundcommerce.com/tools/fba-calculator.html",
+    "tagline": "Helping Amazon sellers scale with PPC, listing optimization, and marketplace expansion."
+  },
+
+  "reddit": {
+    "credentials": {
+      "client_id": "YOUR_REDDIT_CLIENT_ID",
+      "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+      "username": "YOUR_REDDIT_USERNAME",
+      "password": "YOUR_REDDIT_PASSWORD",
+      "user_agent": "KompoundCommerceBot/1.0"
+    },
+
+    "subreddits": [
+      "AmazonSeller",
+      "FulfillmentByAmazon",
+      "AmazonFBA",
+      "ecommerce",
+      "Entrepreneur",
+      "smallbusiness",
+      "WalmartSellers",
+      "AmazonMerch",
+      "PrivateLabel"
+    ],
+
+    "keywords": [
+      "amazon ppc",
+      "acos",
+      "amazon ads",
+      "fba fees",
+      "listing optimization",
+      "amazon seo",
+      "buy box",
+      "amazon seller",
+      "private label",
+      "product launch amazon",
+      "walmart marketplace",
+      "tiktok shop",
+      "amazon account suspended",
+      "brand registry",
+      "a+ content",
+      "amazon advertising",
+      "sponsored products",
+      "amazon ranking",
+      "fba calculator",
+      "amazon profit margin",
+      "helium 10",
+      "jungle scout",
+      "amazon product research",
+      "amazon review",
+      "walmart seller",
+      "ecommerce agency",
+      "amazon agency"
+    ],
+
+    "safety_limits": {
+      "max_replies_per_hour": 5,
+      "max_replies_per_day": 20,
+      "min_delay_between_replies_seconds": 300,
+      "min_post_age_minutes": 10,
+      "max_post_age_hours": 24,
+      "min_post_score": 1,
+      "cooldown_after_downvote_minutes": 60
+    },
+
+    "filtering": {
+      "skip_if_already_replied": true,
+      "skip_flaired_posts": ["Meta", "Meme", "Rant"],
+      "min_post_length_chars": 50,
+      "require_question_mark_or_flair": true
+    }
+  },
+
+  "linkedin": {
+    "monitoring": {
+      "hashtags": [
+        "#AmazonFBA",
+        "#AmazonSeller",
+        "#AmazonPPC",
+        "#Ecommerce",
+        "#PrivateLabel",
+        "#FBASeller",
+        "#WalmartMarketplace",
+        "#EcommerceGrowth",
+        "#AmazonTips"
+      ],
+      "keywords": [
+        "amazon seller struggling",
+        "fba fees too high",
+        "ppc costs",
+        "acos help",
+        "amazon listing",
+        "walmart expansion",
+        "tiktok shop seller",
+        "ecommerce agency"
+      ]
+    },
+    "daily_engagement_targets": {
+      "comments_on_posts": 15,
+      "reactions": 25,
+      "direct_replies": 10
+    }
+  },
+
+  "blog_resources": {
+    "ppc_help": "/blog/amazon-ppc-playbook-2026.html",
+    "fba_fees": "/blog/amazon-fba-fees-explained-2026.html",
+    "listing_seo": "/blog/ai-product-listing-optimization.html",
+    "product_launch": "/blog/amazon-product-launch-strategy-2026.html",
+    "buy_box": "/blog/ai-pricing-strategies-buy-box.html",
+    "walmart": "/blog/amazon-to-walmart-expansion.html",
+    "ai_tools": "/blog/ai-ecommerce-stack-2026.html",
+    "account_health": "/blog/amazon-account-suspension-reinstatement-guide.html",
+    "a_plus_content": "/blog/a-plus-content-licensed-brands.html"
+  },
+
+  "logging": {
+    "log_file": "auto-reply-log.csv",
+    "log_fields": ["timestamp", "platform", "subreddit_or_source", "post_title", "post_url", "reply_template_used", "reply_text", "status"]
+  }
+}

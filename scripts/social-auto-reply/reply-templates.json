@@ -1,0 +1,91 @@
+{
+  "ppc": [
+    {
+      "name": "ppc_acos_tip",
+      "text": "PPC can definitely be a money pit if the structure isn't right. A few things that have made a big difference for sellers I've worked with:\n\n1. **Separate your campaign types** — Auto discovery, broad for research, exact match for your proven winners. Don't mix them.\n2. **Negate aggressively** — Pull your search term report weekly. Any term spending without converting after 15-20 clicks gets negated.\n3. **Top of Search placement** — Bump your placement modifier to 30-50% for Top of Search. That's where the conversions happen.\n\nIf your ACOS is above 40%, there's almost always low-hanging fruit to cut. We actually wrote a detailed playbook on this: {blog_url}\n\nHope that helps — happy to dig into specifics if you share more about your campaign setup."
+    },
+    {
+      "name": "ppc_budget_advice",
+      "text": "Totally get the frustration — PPC costs creeping up is one of the most common things I hear from sellers.\n\nA couple of things to look at right away:\n\n- **Search Term Report**: Sort by spend (descending) and look at terms burning money with 0 sales. Negate those immediately.\n- **Dayparting**: If your category converts better at certain hours, schedule your budgets accordingly.\n- **Bid by placement**: Top of Search usually converts 2-3x better than rest of search. Shift budget there.\n\nThe goal isn't to spend less — it's to spend *smarter*. A 45% ACOS at $3K/mo is worse than a 25% ACOS at $5K/mo if the total profit is higher.\n\nWe put together a full breakdown here if you want to go deeper: {blog_url}"
+    },
+    {
+      "name": "ppc_new_seller",
+      "text": "Welcome to the PPC grind! It's confusing at first but it gets way more manageable once you have a system.\n\nFor a new seller, I'd start simple:\n\n1. **One auto campaign** — let Amazon figure out what terms are relevant. Run it for 2 weeks.\n2. **Pull the search term report** — find the terms that actually converted.\n3. **Move winners to an exact match campaign** — that's where you scale.\n4. **Negate everything that spent $10+ with no sale** in the auto campaign.\n\nDon't overthink it early on. The data will tell you where to put your money.\n\nWe have a step-by-step guide that walks through this whole process: {blog_url}\n\nGood luck with the launch!"
+    }
+  ],
+
+  "listing": [
+    {
+      "name": "listing_optimization",
+      "text": "Listing optimization is one of the highest-ROI things you can do — it's free and affects every click you get.\n\nThe basics that matter most:\n\n1. **Title**: Front-load your main keyword. Amazon weights the first 80 characters more heavily.\n2. **Bullets**: Lead each bullet with a benefit, not a feature. \"Keeps drinks cold for 24 hours\" > \"Double-wall vacuum insulation.\"\n3. **Backend keywords**: Use all 249 bytes. No commas, no repeating words already in your title/bullets.\n4. **Images**: Your main image sells the click. Lifestyle images sell the conversion. Infographics sell the features.\n5. **A+ Content**: If you have Brand Registry, use it. Comparison charts and lifestyle modules make a big difference.\n\nI've seen listings go from a 10% conversion rate to 20%+ just by fixing these fundamentals.\n\nHere's a more detailed breakdown: {blog_url}"
+    },
+    {
+      "name": "listing_seo_keywords",
+      "text": "Keyword research is everything on Amazon — you can have the best product but if you're targeting the wrong terms, nobody finds you.\n\nHere's what I'd recommend:\n\n- **Start with Amazon's autocomplete** — type your main keyword and see what Amazon suggests. Those are real search terms with volume.\n- **Check competitors** — look at the top 10 listings for your main keyword. What terms are they using in titles and bullets?\n- **Use Brand Analytics** if you have Brand Registry — it shows you actual search frequency rank.\n- **Don't keyword stuff** — write for humans first, algorithm second. Amazon's A10 algorithm factors in conversion rate heavily.\n\nThe biggest mistake I see is chasing high-volume generic terms instead of more specific long-tail keywords where you can actually rank.\n\nWe wrote up a more comprehensive guide here: {blog_url}"
+    }
+  ],
+
+  "fees": [
+    {
+      "name": "fba_fees_breakdown",
+      "text": "FBA fees are confusing by design, honestly. Here's the quick breakdown of what eats into your margins:\n\n- **Referral fee**: 8-15% depending on category (most are 15%)\n- **FBA fulfillment fee**: Based on size and weight tier. This is the pick/pack/ship cost.\n- **Monthly storage**: $0.87/cubic ft (Jan-Sep), $2.40/cubic ft (Oct-Dec). Q4 storage will kill you if you're not careful.\n- **Low-inventory-level fee**: Newer fee for sellers not keeping enough stock. Check your inventory performance.\n\nThe key metric is your **true net margin after ALL fees**. A lot of sellers think they're making 30% but it's actually 12% after everything.\n\nWe built a free calculator that shows you the real numbers: {fba_calculator}\n\nPlug in your product details and you'll see exactly where the money goes. Also wrote a deeper breakdown here: {blog_url}"
+    },
+    {
+      "name": "fees_profit_margins",
+      "text": "The fee structure catches a lot of sellers off guard. You really need to know your *true* landed cost before you source anything.\n\nQuick rule of thumb — for a standard-size FBA product:\n- Amazon takes roughly 30-35% (referral + FBA + storage)\n- Your COGS + shipping to Amazon should be under 30%\n- That leaves you 35-40% gross margin\n- After PPC (10-15% of revenue), your net is usually 20-25% if things are running well\n\nIf your net margin is under 15%, it's usually a pricing or cost issue — not just Amazon fees.\n\nThis free calculator breaks it all down product by product: {fba_calculator}"
+    }
+  ],
+
+  "launch": [
+    {
+      "name": "product_launch_strategy",
+      "text": "Launching a new product on Amazon is all about creating momentum in the first 30 days. Here's what's working right now:\n\n**Week 1-2: Foundation**\n- Get your listing fully optimized BEFORE turning on ads (images, A+, keywords)\n- Enroll in Vine for initial reviews (costs $200 but worth it)\n- Set up 3 PPC campaigns: auto, broad, exact match on top 5 keywords\n\n**Week 3-4: Momentum**\n- Bid aggressively on your top keywords (you need visibility to get data)\n- Run a coupon or Lightning Deal to boost velocity\n- Monitor your search term report and negate losers\n\n**Week 5-8: Optimize**\n- Double down on winning keywords\n- Add Sponsored Brand and Sponsored Display\n- Start building external traffic (social, email if you have a list)\n\nThe biggest mistake is launching with a half-finished listing and expecting PPC to save you. Get the organic foundation right first.\n\nMore details on the full strategy here: {blog_url}"
+    }
+  ],
+
+  "walmart": [
+    {
+      "name": "walmart_expansion",
+      "text": "Walmart Marketplace is a solid opportunity right now, especially if you're already running on Amazon. The competition is WAY less intense — most categories have a fraction of the sellers Amazon does.\n\nA few things to know:\n\n- **Application**: You need to apply and get approved. Having an established Amazon business helps a lot.\n- **Listings**: Don't just copy/paste your Amazon listings. Walmart's algorithm is different — title formatting, attributes, and content scoring all matter.\n- **WFS (Walmart Fulfillment Services)**: Similar to FBA. Gives you the 2-day shipping badge which boosts your ranking significantly.\n- **Advertising**: Walmart Connect ads are still relatively cheap compared to Amazon PPC. CPCs are often 50-70% lower.\n\nThe biggest win is that early movers on Walmart are getting organic ranking much faster than on Amazon. Less competition = easier to rank.\n\nWe actually help sellers with the full Walmart setup. Here's a guide on the expansion process: {blog_url}"
+    }
+  ],
+
+  "account_health": [
+    {
+      "name": "suspension_help",
+      "text": "Account suspensions are stressful but they're fixable in most cases. Here's the general approach:\n\n1. **Don't panic-reply** — Take 24-48 hours to understand the exact reason. Check your Performance Notifications carefully.\n2. **Write a proper Plan of Action (POA)**:\n   - **Root cause**: What specifically happened? Be honest and specific.\n   - **Corrective actions**: What did you do immediately to fix it?\n   - **Preventive measures**: What systems/processes are you putting in place so it never happens again?\n3. **Be concise and professional** — Amazon reads thousands of appeals. Get to the point.\n4. **Include evidence** — Invoices, supply chain documentation, screenshots of changes you've made.\n\nCommon mistakes: being vague, blaming Amazon, writing emotional appeals, or submitting the same appeal multiple times without changes.\n\nWe wrote a detailed guide on the reinstatement process here: {blog_url}\n\nWhat's the specific reason for your suspension? Happy to give more targeted advice."
+    }
+  ],
+
+  "buy_box": [
+    {
+      "name": "buy_box_strategy",
+      "text": "The Buy Box algorithm considers several factors, and price is just one of them:\n\n- **Fulfillment method**: FBA/WFS gives you a significant edge over FBM\n- **Price**: Competitive, but you don't need to be the cheapest. Within 2-3% of the lowest usually works.\n- **Seller metrics**: ODR, late shipment rate, response time all factor in\n- **Inventory depth**: Having consistent stock helps\n- **Account age and history**: Longer track record = more trust from the algorithm\n\nIf you're private label (only seller on your listing), you should have the Buy Box 99%+ of the time. If you're losing it, check for unauthorized resellers and use Brand Registry to file complaints.\n\nWe covered pricing strategies for Buy Box optimization in more detail here: {blog_url}"
+    }
+  ],
+
+  "tiktok": [
+    {
+      "name": "tiktok_shop_intro",
+      "text": "TikTok Shop is still early innings, which means there's a real first-mover advantage right now.\n\nWhat's working for sellers:\n\n- **Affiliate program**: Get creators to promote your products. You only pay commission on actual sales. Start with micro-influencers (10K-50K followers) — they're cheaper and often convert better.\n- **Live shopping**: Growing fast. Even basic live streams showing your product in action can drive sales.\n- **Short-form video ads**: TikTok's ad platform is still cheaper than Meta for many e-commerce categories.\n\nThe key difference from Amazon: on TikTok, **discovery is content-driven, not search-driven**. You need great visual content, not keyword optimization.\n\nIf you're already on Amazon, the easiest path is to use TikTok to drive external traffic to both your TikTok Shop AND your Amazon listing (helps Amazon ranking too).\n\nHappy to share more specifics about the setup process if you're interested."
+    }
+  ],
+
+  "tools": [
+    {
+      "name": "tools_recommendations",
+      "text": "There are a ton of tools out there — the key is not to over-subscribe. Here's what I'd consider essential vs. nice-to-have:\n\n**Essential (pick one suite):**\n- Helium 10 or Jungle Scout for keyword research + product research\n- Amazon's own Brand Analytics (free with Brand Registry) — underrated\n\n**Worth it:**\n- A repricer if you're doing wholesale/arbitrage (not needed for private label)\n- Inventory management tool if you're doing 100+ SKUs\n\n**Nice-to-have:**\n- AI listing optimization tools (we wrote about the best ones here: {blog_url})\n- Review monitoring / alert tools\n\n**Don't overspend on:**\n- Multiple overlapping research tools — one is enough\n- \"Guru\" courses when free content covers 95% of it\n\nThe best ROI is usually in improving your fundamentals (listings, PPC, images) before adding more tools."
+    }
+  ],
+
+  "general": [
+    {
+      "name": "general_helpful",
+      "text": "Good question — this comes up a lot with Amazon sellers.\n\nWithout knowing all the specifics of your situation, here are a few things I'd look at:\n\n1. **Check your listing quality** — Is your conversion rate above your category average? If not, fix the listing before spending more on ads.\n2. **Review your PPC efficiency** — Pull your search term report and look at what's actually driving profitable sales vs. what's just burning budget.\n3. **Understand your true margins** — A lot of sellers don't factor in all the fees. This free calculator can help: {fba_calculator}\n\nThe sellers I've seen do best are the ones who nail the fundamentals (listing, pricing, PPC structure) before trying to scale with more spend or more products.\n\nHappy to give more specific advice if you share more details about your situation!"
+    },
+    {
+      "name": "general_encouragement",
+      "text": "You're definitely not alone in this — most sellers hit these kinds of challenges, especially in the early stages.\n\nA few general principles that have helped sellers I've worked with:\n\n- **Focus on one product first** — Get it profitable and ranking before expanding your catalog.\n- **Data over gut feeling** — Every decision (pricing, keywords, inventory) should be backed by data from Seller Central or your research tools.\n- **Protect your margins** — Know your break-even ACOS and never let campaigns run unchecked.\n\nThe Amazon game is really about marginal improvements compounding over time. Small optimizations to your listing, PPC, and pricing add up fast.\n\nWe publish a lot of free guides for sellers at {website} — might be worth bookmarking.\n\nWhat's the most pressing issue you're dealing with right now? Happy to point you in the right direction."
+    }
+  ]
+}
