@@ -30,6 +30,29 @@ blog/index.html and sitemap.xml, then commit and push.
 
 4. **Google Search Console**: Run `./scripts/gsc-submit.sh <url>` after publishing (requires service account credentials at `scripts/gsc-credentials.json`).
 
+## Operator Playbook Series (Nov 2026)
+
+The front of the queue holds the "operator-playbook" series: one article a day, each breaking down one
+lesson from Mansour Norouzi (Amazon) or Joel Contartese (TikTok Shop), based on their public LinkedIn posts.
+Each queue entry has a `source` (name, role, LinkedIn profile) and a `brief` (the facts to use).
+
+Daily steps:
+1. Take `queue[0]`. Write `blog/{slug}.html` using `blog/operator-playbook-amazon-tiktok-shop.html` as the
+   template: copy its `<head>` structure, the `<style>` block unchanged, nav, hero and footer. Set the title,
+   description, keywords, canonical URL, JSON-LD `datePublished`/`dateModified` to today, and the hero
+   tag to the entry's `tag` ("Operator Breakdown").
+2. Writing rules:
+   - 700-1,100 words, original writing in Kompound Commerce's voice ("we"). Not a copy of the posts.
+   - Use only facts in the entry's `brief`. Never invent numbers, quotes, results or claims about the person.
+     Attribute every figure to the person ("Mansour reported...", "At Bloom, Joel found...").
+   - Link the person's name to their LinkedIn profile the first time it appears.
+   - At most one short direct quote (under 15 words), and only if it appears in quotes in the brief.
+   - Structure: what the lesson is and who it's from, how it works with their example, how a seller can apply it,
+     a short "What to do this week" list, the standard CTA box, then a Sources line linking their LinkedIn profile.
+   - Use `.callout` for the single most important takeaway. No emoji in the article body.
+3. Run `python3 scripts/publish_queued_post.py {slug}` to update blog/index.html, sitemap.xml and the queue.
+4. Commit with message `Add blog post: {title}` and push to `main`. Vercel deploys on push.
+
 ## Category Reference
 
 | Category | Tag Class | Link Text | Color |

@@ -319,9 +319,656 @@
       "category": "guide",
       "emoji": "📢",
       "readTime": 13
+    },
+    {
+      "slug": "operator-playbook-amazon-tiktok-shop",
+      "title": "The Compounding Playbook: What Two Top Operators Teach About Amazon and TikTok Shop",
+      "category": "blog",
+      "emoji": "🧭",
+      "date": "2026-10-31",
+      "readTime": 4,
+      "series": "operator-playbook"
     }
   ],
   "queue": [
+    {
+      "slug": "tiktok-shop-bfcm-compounding",
+      "title": "Why TikTok Shop's Black Friday Is Won in Summer",
+      "description": "Joel Contartese of Bloom Nutrition on why discounts amplify momentum instead of creating it, and what that means for BFCM prep.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🛍️",
+      "keywords": "tiktok shop black friday, bfcm tiktok shop, tiktok shop holiday strategy, social commerce bfcm",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Oct 28, 2026 post: people keep asking Joel about BFCM prep on TikTok Shop; his answer is he hasn't thought about it much.",
+        "Winning in November has little to do with November. TikTok is a compounding game; what you do in summer pays off over the holidays.",
+        "Discounts don't create momentum, they amplify it. A good sale pushes top-performing content further. A Black Friday video might take off on its own, but that's not a strategy.",
+        "You can't cram community, trust or momentum into two weeks. The prep is the same work Bloom does all year.",
+        "Jul 8, 2026 post: TikTok Shop has been in the US almost three years. Brands sitting out because they 'can't measure it' often mean fear. Competitors who started earlier have thousands of videos compounding every day.",
+        "Practical angle for readers: what to do now (content volume, creator community) versus in the final two weeks (discount to amplify proven content)."
+      ]
+    },
+    {
+      "slug": "amazon-rank-drop-sqp-ad-spend",
+      "title": "Why Your Amazon Rank Dropped When Nothing Changed",
+      "description": "Mansour Norouzi's method for diagnosing a rank drop by putting Search Query Performance shares next to ad spend per keyword.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "📉",
+      "keywords": "amazon rank drop, search query performance, amazon sqp, click share amazon, amazon keyword ranking",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Jul 6, 2026 post: one of his products started slipping in rank. No changes to bids or listing, no obvious competitor move.",
+        "He used SUPA, his app (originally a Google Sheets template for Search Query Performance) that pulls SQP weekly and layers ad spend and ad sales on every keyword.",
+        "Click share on the most important keyword was dropping, then purchase share. Ad spend on that exact keyword had quietly declined even with the same bids, so less traffic flowed through.",
+        "When click share falls, purchase share falls, and Amazon gives the spot to someone else.",
+        "Fix: increased spend on that keyword to win back click share and the ranking.",
+        "Rank tracking tells you that you dropped. SQP plus ad data tells you why. Without both side by side they'd have blamed the listing, a competitor or the algorithm.",
+        "Reader takeaway: same bid does not mean same spend; monitor actual spend and click share on top keywords weekly."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-marketing-engine-halo",
+      "title": "TikTok Shop Is a Marketing Engine, Not a Store",
+      "description": "How Bloom Nutrition measures TikTok Shop by its effect on Amazon, retail and DTC, and why per-order margins miss the point.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "📣",
+      "keywords": "tiktok shop strategy, tiktok shop halo effect, tiktok shop retail, tiktok shop measurement, social commerce marketing",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "May 18, 2026: Bloom treats TikTok Shop as a marketing engine, 'a place to be seen.' It measures what happens elsewhere when TikTok content flows: Amazon branded search, retail sell-through, organic revenue, DTC traffic.",
+        "Jul 7, 2026: Bloom is in 70,000+ retail doors. TikTok's value is what's in the shopper's head before they reach the shelf. 80+ million Americans open TikTok daily and spend close to an hour there. Retail is where the sale closes; TikTok is where the decision gets made.",
+        "Sep 29, 2026: He doesn't judge TikTok Shop by GMV. It builds mindshare. Its value depends on distribution: a brand in retail, Amazon and DTC should think about it differently from a single-channel brand.",
+        "Oct 13, 2026: beverage D2C economics never fully work (shipping liquid, thin margins). Brands lean in because they're buying marketing at a scale traditional media can't match efficiently.",
+        "Aug 19, 2026: in H1 2026 Bloom creators published 200,000+ videos and Shop content drove over a billion impressions (source: TikTok Shop internal data).",
+        "Reader takeaway: pick the off-platform metrics you'll watch before judging TikTok Shop on its own P&L."
+      ]
+    },
+    {
+      "slug": "rankable-vs-non-rankable-keywords",
+      "title": "Rankable vs. Non-Rankable Keywords: When Losing Money on Amazon Ads Pays Off",
+      "description": "Mansour Norouzi's two-bucket rule for deciding which Amazon keywords are worth running at a loss.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🎯",
+      "keywords": "amazon keyword ranking strategy, amazon ppc ranking, amazon tacos, amazon keyword strategy",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Jun 16, 2026 post: most brands treat every keyword the same when pushing for rank or market share.",
+        "Rankable: you can realistically land in the top ten because your product is what the shopper wants.",
+        "Non-rankable: loosely related, too generic, or so expensive ranking will never pay back. You can make sales but can't own the spot.",
+        "Examples: a left-handed mouse targeting 'wireless mouse'; a cast iron pizza pan targeting 'baking sheet.' Clicks, maybe a sale, but the top ten is never yours.",
+        "On rankable terms you can afford to lose money: sales buy organic rank and TACoS comes down later. That loss is an investment.",
+        "On non-rankable terms there's no payback, so every unprofitable sale is money gone. Never lose money there.",
+        "Reader takeaway: label each keyword before setting ACoS targets."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-creator-retention",
+      "title": "The Real TikTok Shop Problem Is Keeping Creators, Not Finding Them",
+      "description": "Why Bloom Nutrition shifted from recruiting affiliates to retaining them, and what creators actually want from brands.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🤝",
+      "keywords": "tiktok shop creators, tiktok shop affiliate retention, creator community, tiktok shop affiliates",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "May 19, 2026: getting creators in was never Bloom's problem. Creators get hit with free samples, offers and higher commissions; if they don't earn quickly they move on. It can take hundreds of videos before a meaningful sale.",
+        "What most creators don't get from brands is access: a real community, a place to learn from each other, hear what's working, feel part of something.",
+        "Sep 28, 2026 (his costliest mistakes): he assumed the problem was finding creators. They were great at recruiting and bad at keeping them. The leak was retention, relationships and experience.",
+        "Aug 17, 2026: he and a colleague hosted 10+ creators at Bloom HQ on a Sunday; planned one hour, spent three. Tour, Q&A, and asking creators how Bloom could be better. Everyone offers commission; going beyond the transaction is what separates you.",
+        "Oct 19, 2026, Social Commerce Fest in LA, talking to hundreds of creators: the best ones turn down money for products they don't believe in; full-time creating is isolating; they want community, to be trusted (not scripted), to join events and meet leaders. Most asks didn't mention money.",
+        "Reader takeaway: a retention plan (weekly calls, feedback, recognition, events) before scaling recruitment."
+      ]
+    },
+    {
+      "slug": "amazon-ltv-acquisition-cost-amc",
+      "title": "Your Amazon LTV Is Smaller Than AMC Says",
+      "description": "Mansour Norouzi on four reasons customer lifetime value shrinks before it should set your acquisition cost on Amazon.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🧮",
+      "keywords": "amazon ltv, amazon marketing cloud ltv, amazon customer acquisition cost, amc retail purchases, amazon ads ltv",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Aug 4, 2026 post: 'In DTC you buy a customer once. On Amazon you rent them.' More brands pull LTV from AMC and set target acquisition cost from it; that's where it breaks.",
+        "1) Revenue is not money: subtract COGS, FBA, referral fees, returns, and the Subscribe & Save discount that drives much repeat behavior.",
+        "2) You pay for retention: you don't own the customer. They run out, search again, see your ad, click; you pay every reorder. Gross LTV makes you pay for the same dollar twice.",
+        "3) You don't buy average customers: raising allowable CAC wins customers who needed broader keywords or deeper discounts; they repeat less than your loyal core.",
+        "4) LTV pays over years; the ad invoice comes this month. Payback period is the real constraint; LTV is the ceiling.",
+        "Before trusting it: subscribe to the Amazon Retail Purchases table in AMC (standard tables stop around 13 months; this one has up to 5 years per his Jun 15 post). He noted it was a paid feature free until end of 2026. Small cohorts are noise. Apply LTV only to new-to-brand; branded clicks were never acquisition.",
+        "Jun 15, 2026: start with account-level LTV (customers per monthly cohort, month-0 spend, return in months 1-3), then ASIN-level (which ASIN brings customers in, which drive repeat, size upgrades)."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-content-volume",
+      "title": "How Many TikTok Shop Videos a Day Does It Take to Win?",
+      "description": "Bloom Nutrition's content volume thresholds, from 200 to 1,000+ videos a day, and what changed at each level.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🎬",
+      "keywords": "tiktok shop content volume, tiktok shop videos per day, tiktok shop gmv max content, tiktok shop scaling",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "May 17, 2026: at ~200 videos/day Bloom saw enough data to spot winners (hooks, angles that converted).",
+        "At 500-650/day (roughly top-20 territory on the platform) they could dial in GMV Max and push ROAS targets higher.",
+        "At 1,000+/day (top 10) six-figure days became realistic; heroes across every product line, not one or two hero videos.",
+        "Result: more than doubled impressions and more than doubled GMV Max ROAS targets at scale, by having more content in the system, not spending more.",
+        "Oct 15, 2026: Bloom turned 1,000 samples into 14,000+ videos through community building. They went from 50-100 videos a day to thousands. 'Virality isn't a strategy, volume is.' You can't manufacture a viral video, but you can manufacture the conditions.",
+        "Jul 13, 2026: 1,000+ videos a day helped Bloom rank #1 in comments, likes and shares among 100+ health brands on TikTok over 30 days (TikTok internal measurement)."
+      ]
+    },
+    {
+      "slug": "prime-day-baseline-not-spike",
+      "title": "Prime Day Growth Came From a Bigger Normal Day",
+      "description": "What Incrementum Digital's 2026 Prime Day data says about baselines, event lift and organic vs. ad sales.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "📊",
+      "keywords": "prime day 2026 results, fall prime day data, prime big deal days, amazon event strategy",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Oct 13, 2026 (Fall Prime Day, US brands Incrementum manages): revenue +14% YoY for brands with them both years. But the base grew 15.5%; pre-event daily sales were already higher. Event spike unchanged: 1.78x a normal day both years. Growth came from a bigger normal day, not a bigger event.",
+        "Organic did more of the work: organic sales ran 88% above a normal day; ad sales 51% above, down from 58% last year.",
+        "Bedding, home and apparel spiked hardest; pet and grocery barely moved.",
+        "Jun 26, 2026 (July Prime Day, two days in): lift over prior 30 days about 1.9x, nearly the same as last year. Day 2 grew faster than Day 1.",
+        "Jun 29, 2026 (after 4 days): revenue lifted 66% over prior 30 days vs 81% last year; the spike is getting smaller. Early numbers move as returns and attribution settle.",
+        "Reader takeaway: measure events against your own 30-day baseline; invest in the everyday base."
+      ]
+    },
+    {
+      "slug": "gmv-max-pause-test",
+      "title": "What Happened When Bloom Paused GMV Max for 30 Days",
+      "description": "Joel Contartese's UK test on how much TikTok Shop sales depend on paid ads, and why GMV Max needs creative, not babysitting.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "⏸️",
+      "keywords": "gmv max, tiktok shop ads, gmv max test, tiktok shop organic sales, tiktok shop paid",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Jun 10, 2026: paused GMV Max for 30 days (test run in the UK, not US). GMV dropped 58%; video output only down 19%. Retained 42% of GMV on organic alone.",
+        "Takeaways he listed: content is the foundation and survives without paid; GMV Max amplifies demand rather than creating it; to scale you need GMV Max; within 24 hours of turning it back on, sales returned to ad-supported baselines (unlike Meta, where you'd start from zero).",
+        "Oct 26, 2026: hiring someone full time to run GMV Max is inefficient. It runs itself once you set a goal and feed strong creative. Bloom rarely looks at campaigns; can move ROAS target between 3 and 7 and it keeps performing.",
+        "Weak content can't be fixed by someone living in the dashboard. Put that budget into creators and creative."
+      ]
+    },
+    {
+      "slug": "amazon-ai-campaign-overview",
+      "title": "Amazon's AI Campaign Recommendations: Good Analysis, Missing Context",
+      "description": "Mansour Norouzi tested Amazon's new Campaign overview (Beta). Here's where its one-click fixes go wrong.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🤖",
+      "keywords": "amazon ads ai, amazon campaign overview beta, amazon ppc recommendations, negative keywords amazon",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Jul 31, 2026: new box at top of a Sponsored Products campaign, 'Campaign overview (Beta)': AI summary with one-click fixes.",
+        "Its suggestions: add 10 negative exact keywords ($117.50 spent, 0 purchases); cut top keyword bid from $11.34 to $7.94; pause two targets that spent $78.46 with no sales.",
+        "Nine of the ten search terms it wanted to negate had exactly one click. One click isn't a losing term; it hasn't had a chance.",
+        "Bigger flaw: it doesn't know the goal. It assumes efficiency. In a ranking campaign, high ACoS is the plan; a 30% bid cut on the top keyword would work against it.",
+        "'The analysis is decent. The context is missing.'",
+        "Reader takeaway: check the data behind each suggestion and know each campaign's goal before accepting."
+      ]
+    },
+    {
+      "slug": "gmv-max-roas-targets",
+      "title": "Raising GMV Max ROAS Targets: How Bloom Doubled Ad Efficiency",
+      "description": "Why Joel Contartese ignored advice to stay at a 2.0 ROAS, and how Bloom held efficiency while scaling spend 2.6x.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🚀",
+      "keywords": "gmv max roas, tiktok shop roas target, tiktok shop ads efficiency, gmv max strategy",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "May 21, 2026: TikTok rep advised lowering ROAS target; Bloom ran at 2.0 vs a health industry average of 3.5. The reasoning was insufficient content volume, partly right. When volume arrived and the advice didn't change, Joel moved every campaign to 4.5+ overnight against rep and agency advice. Efficiency more than doubled overnight.",
+        "He isn't saying ignore reps; they see hundreds of accounts. But push back when something doesn't feel right; data tells you quickly.",
+        "Oct 21, 2026 (account-wide GMV Max over a year): Nov 2025 ROAS ~2.5 with TikTok encouraging low targets for volume (he advises against). By January: revenue flat on roughly half the spend, ROAS ~5. By September: ROAS 4.3, but spend up ~2.6x and revenue and orders more than doubled.",
+        "Campaigns run in buckets with ROAS goals from 3.5 to 7.0 depending on objective.",
+        "Highest return shows up at small spend; the hard part is pushing volume without efficiency collapsing. 'A 4.3 at this scale is worth far more than a 5.0 at a third of the size.'",
+        "Sep 28: he let old paid-social instincts cap targets; now operates at ~2x industry average."
+      ]
+    },
+    {
+      "slug": "amazon-full-funnel-campaigns-review",
+      "title": "Amazon Full Funnel Campaigns: What's Really Under the Hood",
+      "description": "Mansour Norouzi pulled the API on Amazon's AI-run Full Funnel campaign type. Here's what it builds and what you give up.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🔍",
+      "keywords": "amazon full funnel campaign, amazon ads ai agent, amazon dsp sponsored tv, amazon campaign structure",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Aug 24, 2026: Full Funnel is 'everything we tell brands not to do.' They launched one anyway.",
+        "Inputs: brand, at least 3 products, daily budget minimum $200, creative assets (Amazon suggests from asset library or AI), start date. Amazon handles formats, budget across funnel, targeting/retargeting, bids, creative rotation.",
+        "Success metrics per Amazon: long-term sales (immediate plus projected future value from new customers), new-to-brand rate, ROAS as supporting metric.",
+        "Console shows one campaign with one line per product. The API showed SP manual, SP auto, SB headline, SB video, SD audience, Sponsored TV and DSP; one campaign per ad type, ad groups per product (12 under SP manual), every match type mixed, long keyword lists in one ad group, branded and unbranded side by side.",
+        "You give up match-type control, branded separation, placement control, budget decisions.",
+        "His guess: a good manager gets 2-3x more from the same spend with structure and control. Can it bring sales? Sure. Maximize them? He doubts it."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-sampling-strategy",
+      "title": "TikTok Shop Sampling: Go Heavy Once, Then Sustain Light",
+      "description": "Bloom Nutrition's framework for creator samples: one big launch push, then 20-30% of that volume.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "📦",
+      "keywords": "tiktok shop samples, tiktok shop sampling strategy, tiktok shop affiliate samples, creator seeding",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "May 20, 2026: you don't need to sample thousands of units monthly; it's an expensive misconception.",
+        "One strong initial push: enough hands for momentum, content to find winners, data to know what works.",
+        "Then cut sampling to 20-30% of launch volume and sustain momentum, IF you've built community and have retention tools (his emphasis: big if).",
+        "Early posters keep posting; new creators discover the product organically; many buy refundable samples once they see it performing.",
+        "Scale sampling back up only if baseline content volume drops and re-engagement efforts don't move it.",
+        "Oct 15: what matters is content per sample, not sample count: 1,000 samples became 14,000+ videos.",
+        "'Sample heavy once. Sustain light. Respond to the data.'"
+      ]
+    },
+    {
+      "slug": "amazon-off-amazon-sp-deny-list",
+      "title": "Your Sponsored Products Ads Now Run Off Amazon. Here's the Deny List.",
+      "description": "Since August 2026, Sponsored Products can show through Amazon influencers' sites. Mansour Norouzi explains how to check and control it.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🚫",
+      "keywords": "amazon deny list, sponsored products off amazon, amazon influencer program ads, amazon placement report",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Aug 14, 2026: since August 10, SP ads can run outside Amazon. Creators in the Amazon Influencer Program feature your ads in reviews and buying guides. On by default; same bids, budgets, standard CPC.",
+        "In campaign reports it looks like normal SP spend. Only the placement report shows it, under 'Off Amazon.'",
+        "Deny list: Administration > Account access and settings > Deny list. Upload a CSV to block websites (any domain, even your own), mobile apps, specific creators (tag ID in their promo URL).",
+        "Covers all active SP and SD campaigns; takes effect within about 15 minutes.",
+        "Block your own website: paying CPC for traffic you already own makes no sense.",
+        "He'd never needed the deny list before this month. Action: pull your placement report since August 10."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-creator-briefs",
+      "title": "One-Page Creator Briefs: Why Less Direction Gets Better TikTok Content",
+      "description": "How Bloom Nutrition briefs its TikTok Shop creators, and why over-briefing was one of its costliest mistakes.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "📝",
+      "keywords": "tiktok shop creator brief, ugc brief template, tiktok shop content, creator marketing brief",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Jul 10, 2026: briefs are one page: product info, key differentiators, highlights, benefits, the problem it solves and how, regulatory callouts, links to top-performing videos (inspiration, not directive). The rest is the creator's: full creative freedom.",
+        "Two calls a week with the creator community: review top videos, real-time feedback, full FAQs. That's where improvement happens; show what's working and let them take it.",
+        "Sep 28: one of his biggest mistakes was over-briefing. Coming from a world where you control the message, he gave detailed direction and tight guardrails; content lost authenticity. He had to accept he was the bottleneck and let the algorithm decide winners.",
+        "Oct 19: creators' top frustration is brands scripting every video.",
+        "Jun 24 (Cannes): best brands stopped managing creators and started learning from them; giving up creative control is the price of content that resonates."
+      ]
+    },
+    {
+      "slug": "amazon-brand-store-personalization",
+      "title": "Personalize Your Amazon Brand Store by Customer Lifecycle",
+      "description": "Amazon Brand Stores can now show new, considering and repeat shoppers different pages. Mansour Norouzi's setup.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🏬",
+      "keywords": "amazon brand store personalization, amazon stores builder, amazon new to brand, amazon store optimization",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Oct 6, 2026: Brand Stores now have Personalized Experiences: same page, same link, different content for different shoppers. Few brands use it.",
+        "Amazon sorts shoppers into three lifecycle groups automatically: New to brand (never viewed, carted, bought), Considering (looked, maybe carted, didn't buy), Purchaser (bought from you). Amazon moves them as they act.",
+        "New shopper: show best sellers, give an introductory deal. Considering: show comparisons, limited-time offer. Purchaser: show what pairs with what they bought and what's new; skip heavy discounts.",
+        "You can also split by channel tag or traffic source, but those depend on traffic you send. Lifecycle works on everyone who walks in.",
+        "Where: Stores builder > Explore AI tools > Personalize by cohort.",
+        "'A good shopkeeper never would' give a stranger and a loyal customer the same pitch."
+      ]
+    },
+    {
+      "slug": "creator-retainers-vs-community",
+      "title": "Skip Creator Retainers. Invest in the Whole Community Instead.",
+      "description": "Joel Contartese on why big retainers signal a weak TikTok Shop program, and five better places to spend that budget.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "💸",
+      "keywords": "tiktok shop creator retainers, affiliate program tiktok shop, creator community investment, influencer retainers",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Oct 22, 2026: you don't need creator retainers to win on TikTok Shop; relying on them signals a weak system. They pile money and dependency onto a few creators.",
+        "A strong program is a system with a deep affiliate pipeline. If a business depends on one or two individuals, it's a risk, not a business.",
+        "Five alternatives: 1) a creator coach running weekly calls for the community; 2) cover tools/subscriptions like Daily Virals or FastMoss for creators; 3) events, dinners in a few cities, fly affiliate managers out; 4) PR packages, merch, surprise drops; 5) incentives for effort not just sales: content volume, views, best hooks voted by the community.",
+        "Not everything has to tie to GMV; spreading investment makes more people feel included.",
+        "Sep 16: agencies insisting on retainers for high-GMV creators are a red flag; past GMV with another brand predicts little."
+      ]
+    },
+    {
+      "slug": "amazon-subscribe-and-save-economics",
+      "title": "Subscribe & Save vs. Reorder Customers: Same LTV, Different Economics",
+      "description": "Mansour Norouzi on the new Subscribe & Save dashboard data and why subscribers are worth more even when LTV looks equal.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🔁",
+      "keywords": "amazon subscribe and save, subscribe and save dashboard, amazon repeat customers, amazon customer lifetime value",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Sep 3, 2026: new Subscribe & Save dashboard graphs: S&S sales by number of deliveries (1, 2, 3, 4, 5+); coupon-driven units split by S&S coupon, reorder coupon, standard coupon; LTV by segment (one-time, reorder, subscriber); customer share by segment.",
+        "Delivery counts show real subscriber retention, not just acquisitions. Coupon split starts separating acquisition from retention incentives.",
+        "In his data, reorder customer LTV is close to subscriber LTV. Does subscribing matter? He says yes: a reorder customer may search again, see and click an ad, get retargeted, need a coupon. A subscriber's next order is already scheduled.",
+        "Ask: how much does it cost to generate the next order from each customer type?",
+        "Opportunity: move satisfied reorder customers toward Subscribe & Save.",
+        "Oct 19 related finding via AMC: customers reordered later than assumed; coffee buyers starting on a 2-pack or bigger repeated about twice as often."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-team-structure",
+      "title": "How to Structure a TikTok Shop Team: Acquisition, Retention, Operations",
+      "description": "Bloom Nutrition's three-part framework for an in-house TikTok Shop team, and what it learned going in-house.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🧩",
+      "keywords": "tiktok shop team structure, in-house tiktok shop, tiktok shop org chart, social commerce team",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Sep 15, 2026: three buckets. Acquisition: grow the creator pipeline, bring new creators in, keep top of funnel full. Retention: creator experience and relationships; most underrated, usually why creators leave; roles that understand what creators need and deliver it. Operations: GTM, campaigns, forecasting, inventory planning, store management, GMV Max.",
+        "No silos: info flows constantly; a creator's comment on a call can shape a campaign; a campaign can change forecasting.",
+        "Jun 1, 2026: Bloom went fully in-house on TikTok Shop after working with agencies.",
+        "Jul 6, 2026: first in-house month went straight into DFYD (a major TikTok Shop campaign) plus Bloom's first Super Brand Day; finished #2 in GMV goal attainment in Health and top 5 overall; absorbed a 7-figure-per-month shop with thousands of affiliates. Credited the previous agency for a smooth transition.",
+        "Oct 11: the foundation is simple: creator outreach (tools like Cruva), inventory to sell and sample with fast restocks, a Discord or Lark for creators, content volume, healthy GMV Max budget with realistic ROAS. A few days out of stock can create FOMO; weeks out kills momentum."
+      ]
+    },
+    {
+      "slug": "amazon-sponsored-prompts-data",
+      "title": "Amazon Sponsored Prompts: What 165 Prompts Across 6 Brands Show",
+      "description": "CPC, CTR by prompt type and attribution questions from Incrementum Digital's Sponsored Prompts data.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "💬",
+      "keywords": "amazon sponsored prompts, amazon rufus ads, sponsored prompts ctr, amazon ai ads",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Apr 30, 2026: Sponsored Prompts were free in beta; not anymore. Data aggregated across 6 brands: 165 unique prompts, ~540 placements.",
+        "CPCs from $0.02 to $5.40.",
+        "CTR by prompt type: product questions ('Does it...?') 4.11%; feature/benefit ('X formula. Learn more.') 3.93%; brand-specific questions ('Does Brand X have a Y?') 0.41%; brand awareness ('Why choose Brand X?') 0.21%.",
+        "Open question 1: how much do prompts drive the purchase vs. skim credit from SP and organic work already done?",
+        "Open question 2: attribution between prompts and campaigns; he suspects prompt reports show prompt-attributed sales while campaign level still credits the last ad click. Gets messier when prompts show up as a step in AMC.",
+        "Prompt reports are great customer research: what shoppers ask about your product.",
+        "Spend share still tiny but growing. Incrementum added prompt review to its weekly process: keep, pause or test."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-agency-red-flags",
+      "title": "TikTok Shop Agency Red Flags (and the One Question to Ask First)",
+      "description": "Joel Contartese's checklist for choosing a TikTok Shop agency, from TAP claims to whether you can ever take it in-house.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🚩",
+      "keywords": "tiktok shop agency, choosing tiktok shop agency, tiktok affiliate partner tap, tiktok shop agency red flags",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Jun 15, 2026: most important thing isn't GMV, roster or case studies; it's whether they build a program you can eventually take over or one you can never leave. Bloom's agency built for handoff: creator relationships and tools were Bloom's, process docs created, helped train the replacements. Ask early: 'if we brought this in-house in a year, what would we keep?'",
+        "May 9, 2026: TAP (TikTok Affiliate Partner) lets agencies promote a brand's products via affiliate campaigns. Some agencies list every TAP brand as a client. That's not the same as running their TikTok Shop (sampling, creator strategy, GMV Max, pricing, P&L). Ask to be connected to the person at the brand who runs its program; anything but yes is a red flag.",
+        "Sep 16, 2026 red flags: insisting you commit retainers to high-GMV creators; not native to TikTok Shop (bolted onto ten other services); telling you to focus on one product too early (test the catalog; your worst DTC SKU can become your TikTok #1); not on Lark (TikTok's internal comms tool), so a step removed from TikTok teams."
+      ]
+    },
+    {
+      "slug": "building-amazon-ai-agent",
+      "title": "Building an Amazon AI Agent: Detect, Diagnose, Then Recommend",
+      "description": "Mansour Norouzi is building an e-commerce agent for his own brand. The data it needs and why it had to be rebuilt in stages.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🧠",
+      "keywords": "amazon ai agent, ecommerce ai agent, amazon data warehouse, ai for amazon sellers",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Aug 31, 2026: building an agent for his own brand. Started with data: advertising, business reports, SQP, profitability, inventory.",
+        "Performance data shows outcomes, not causes. Added context: every price change, coupon, deal, image update, rating change, listing change recorded.",
+        "External context: for every product, five direct competitors tracked for pricing, promotions, ratings, reviews, listing changes.",
+        "Even without AI, the platform was useful: open any parent ASIN, see internal and external changes for all variations.",
+        "Lesson: giving AI all the data and context isn't enough; it detects a moving metric and jumps to a recommendation without diagnosing.",
+        "Rebuilt in three stages: detect what changed; diagnose why; recommend only when diagnosis is strong. Four knowledge layers: Amazon mechanics, his analytical doctrine, current account context, and history of whether past recommendations worked.",
+        "Jun 12: runs a local Amazon data warehouse on a Mac Mini syncing ~30 tables from Amazon APIs (campaigns, targets, search terms, sales).",
+        "Apr 15: built a personal knowledge wiki (inspired by Andrej Karpathy's idea) of everything he knows on Amazon ads, PPC, AMC; 'The AI didn't get smarter. It got my context.'"
+      ]
+    },
+    {
+      "slug": "hiring-tiktok-shop-team",
+      "title": "Hiring a TikTok Shop Team When Experienced Operators Barely Exist",
+      "description": "Why Bloom Nutrition hired for mindset over platform experience, and the five traits it looked for.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "👥",
+      "keywords": "hiring tiktok shop manager, tiktok shop team hiring, social commerce talent, in-house tiktok shop team",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Oct 20, 2026: demand for experienced social commerce operators has outpaced supply. Everyone tries to hire someone who's done it; there aren't enough. Developing people is non-negotiable for leaders.",
+        "Jun 8, 2026, Bloom's hiring philosophy: 1) zero TikTok Shop experience was fine if strong in their role on other channels and willing to learn something new; 2) good with people, since most roles interact with creators; 3) proactive: follows up, asks, pushes things forward; 4) hire for gaps: 'If you're the best at everything on your team, you have the wrong team'; 5) able to run autonomously and own decisions.",
+        "Mindset over hard skills: platform skills can be taught; responsibility, leadership, urgency and excitement can't.",
+        "Aug 26: hiring a Director of TikTok Shop in Austin, in office; looking for creator obsession, speed, autonomy rather than years on the platform."
+      ]
+    },
+    {
+      "slug": "claude-amazon-marketing-cloud",
+      "title": "Querying Amazon Marketing Cloud in Plain English With Claude",
+      "description": "How Mansour Norouzi connects Claude to AMC through the Amazon Ads MCP, and what four plain-language questions revealed.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "⚡",
+      "keywords": "amazon marketing cloud, amc queries, claude amazon ads, amazon ads mcp, ai amc",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Oct 19, 2026: 'Claude + AMC is fire.' Steps: get your own Amazon Ads API access (he thinks every brand should); connect Claude to the Amazon Ads MCP for direct AMC access; ask questions in plain language; Claude writes the query, runs it in AMC, returns the answer. No SQL from him.",
+        "Four real questions: two from his brand, two from a coffee brand.",
+        "Findings: their Best Deal day nearly doubled orders, but 2 of 3 buyers had already bought from them; customers reorder later than assumed; coffee buyers who start on a 2-pack or bigger repeat about twice as often.",
+        "Jun 15: between Amazon's AMC AI assistant, Claude and ChatGPT you can build most queries; the hard part is asking the right business question. Tip: give an AI the query doc and say 'Ask me whatever you need to customize this query for my brand.' Use bucketed queries if AMC thresholds hide small rows.",
+        "Jun 12: he also builds live Claude artifacts for daily checks: daily sales by product from the Seller API, a price-margin explorer with breakeven ACoS, a competitor price tracker, promo calendar, P&L calculator, a launch tracker (revenue, units, sessions, CVR, ACoS, TACoS, organic vs PPC by day)."
+      ]
+    },
+    {
+      "slug": "tiktok-shop-europe-expansion",
+      "title": "TikTok Shop in Europe Looks Like the US Two Years Ago",
+      "description": "Joel Contartese's notes from the TikTok Shop EU team, and why Bloom is building audiences before Shop launches in new countries.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🌍",
+      "keywords": "tiktok shop europe, tiktok shop uk, tiktok shop international expansion, tiktok shop germany france",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Jun 6, 2026, two days with the TikTok Shop EU team in Germany: feels like early US. European brands are conservative: sampling in the tens not hundreds/thousands, lengthy briefs, involved approvals; many give up before the engine starts. Most see it as a marketplace, not a marketing channel.",
+        "Creators are excited to work with US brands; content quality not yet at US level; the creator economy is in its infancy, so infrastructure to educate matters.",
+        "US brands have cultural leverage that wins a first purchase, but without localization (flavors, pricing, positioning) retention and halo suffer.",
+        "His takeaways: move in quick and aggressively; work with local creators and integrate them into US communities; creator challenges drive early volume (like US 12 months earlier); Super Brand Day has a much lower barrier than in the US; FBT is heavily subsidized with warehouses in Spain, France, Germany, Italy.",
+        "Aug 25, 2026: Bloom building TikTok presence in France, Germany, the UK, Australia, Mexico, Italy; some with Shop, others building organic audience first with local segmented pages. TikTok Shop expands to more countries in 2027; brands with audiences already there won't start from zero. 'Playing for a big 2027 starts now, not in January.'"
+      ]
+    },
+    {
+      "slug": "ai-confidently-wrong-ecommerce-data",
+      "title": "When AI Is Confidently Wrong About Your Amazon Data",
+      "description": "Mansour Norouzi's lesson from a Prime Day analysis that looked perfect and wasn't, and how to give AI the context it lacks.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "⚠️",
+      "keywords": "ai amazon analysis, ai mistakes ecommerce, amazon attribution, ai for amazon data",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Jun 11, 2026: analyzing Prime Day data, AI gave a clean, confident, well-written explanation. He almost moved on. The whole reasoning was wrong.",
+        "Why: on Amazon, when someone clicks an ad and buys days later, the sale is credited to the click date, not the purchase date. The AI didn't know, so it read every sale as happening the day it showed up.",
+        "Once he explained attribution, it caught the mistake instantly and became useful again.",
+        "'Confident plus wrong is harder to catch than obviously wrong.' A beginner would have published it.",
+        "AI is incredible when you know enough to catch where it slips; risky where you can't. He uses it daily but checks details in his field.",
+        "Apr 15, 2026: AI without your knowledge gives 'the internet's average answer.' He built a personal wiki of everything he knows (course material, talks, team sessions); now client analyses run against his frameworks and diagnostics.",
+        "Jun 29 practical case: his team saw Day 4 of Prime Day 2025 was strong because shoppers who carted earlier checked out, not new traffic, so they held Day 4 spend flat in 2026 and Day 4 still finished second-best."
+      ]
+    },
+    {
+      "slug": "ai-content-tiktok-shop-gmv-max",
+      "title": "AI-Generated Videos Are Spending Your TikTok Shop Ad Budget",
+      "description": "Why Bloom Nutrition removed AI content from its creator program, and the tools brands now have to control it.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "🛡️",
+      "keywords": "ai content tiktok shop, gmv max ai videos, tiktok shop content moderation, ai ugc",
+      "source": {
+        "name": "Joel Contartese",
+        "role": "VP of Global Growth, Bloom Nutrition",
+        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
+      },
+      "brief": [
+        "Sep 8, 2026: at scale, with thousands of videos tagging your products daily, brands have no real way to control authenticity. Anyone can generate an AI video or photo, tag your products, and it flows into GMV Max, spending your budget to scale itself.",
+        "Allowing AI content on the platform is TikTok's right; monetizing it with your products and ad spend is different. It takes spend and attention from real creators. TikTok already detects AI content; he wants tagging gated or better brand tools.",
+        "Sep 9, 2026: same day, a call with Samuel Strong and the Cruva team; by end of day they shipped AI-content detection with options to exclude from GMV Max, set a moderation rule, or review manually.",
+        "Sep 21, 2026: Bloom started removing AI videos from its program. Creators messaged almost daily feeling the brand had their back. 'Stop thinking about how it can work for you, and think about how it can work for them.'",
+        "Jul 3, 2026: use AI behind the scenes (research, operations, workflow), but when it becomes the brand's voice you lose trust. Jul 2: after TikTok's Cannes AI ad announcements, he argued winning brands win with real creators at scale."
+      ]
+    },
+    {
+      "slug": "amazon-workflows-seller-assistant",
+      "title": "Amazon Workflows: Automating Seller Central Tasks in Plain English",
+      "description": "Mansour Norouzi tested Workflows inside Seller Assistant by building a buyer-message responder. What it does and what to set up first.",
+      "category": "blog",
+      "tag": "Operator Breakdown",
+      "series": "operator-playbook",
+      "emoji": "⚙️",
+      "keywords": "amazon workflows, amazon seller assistant, seller central automation, amazon buyer messages ai",
+      "source": {
+        "name": "Mansour Norouzi",
+        "role": "Partner & Director of Advertising, Incrementum Digital",
+        "profile": "https://www.linkedin.com/in/mansournorouzi/"
+      },
+      "brief": [
+        "Oct 9, 2026: Amazon announced Workflows at Accelerate and it's showing up in accounts. It lives inside Seller Assistant. You describe a job in plain English; it draws the steps, shows the plan, and waits for approval before anything runs.",
+        "He asked for a buyer message responder. It laid out every step, flags A-to-Z claims and safety issues for him to handle himself, reads his past replies so drafts sound like him, and asked: drafts only, or send each after approval?",
+        "Favorite part: the Knowledge Base. Upload up to 100 documents about your business (reply rules, return policy, product FAQs, SOPs) and attach them to any workflow. That's the difference between a generic assistant and one that knows how you run things.",
+        "Related: Jun 30, 2026, Amazon removed the ability to contact customers who left critical reviews (communication policy), so fast, accurate buyer-message replies matter more.",
+        "Reader takeaway: start with a repetitive, low-risk job; keep sensitive cases with a human; build the Knowledge Base first."
+      ]
+    },
     {
       "slug": "amazon-brand-registry-benefits-guide",
       "title": "Amazon Brand Registry: Everything It Unlocks and How to Enroll",
