@@ -40,15 +40,23 @@ Daily steps:
 1. Take `queue[0]`. Write `blog/{slug}.html` using `blog/operator-playbook-amazon-tiktok-shop.html` as the
    template: copy its `<head>` structure, the `<style>` block unchanged, nav, hero and footer. Set the title,
    description, keywords, canonical URL, JSON-LD `datePublished`/`dateModified` to today, and the hero
-   tag to the entry's `tag` ("Operator Breakdown").
-2. Writing rules:
-   - 700-1,100 words, original writing in Kompound Commerce's voice ("we"). Not a copy of the posts.
-   - Use only facts in the entry's `brief`. Never invent numbers, quotes, results or claims about the person.
-     Attribute every figure to the person ("Mansour reported...", "At Bloom, Joel found...").
-   - Link the person's name to their LinkedIn profile the first time it appears.
+   tag to the entry's `tag` ("Playbook").
+2. Writing rules (voice matters most):
+   - Write as the site owner, in the first person ("I"), as his own article: his take, his advice, his
+     recommendations. Confident, direct, practical, like an operator talking to other sellers. It must not
+     read as a summary or breakdown of someone else's posts. Never "Mansour says..." as the frame of the piece.
+   - Lead with the lesson as the author's own point of view. Bring in the source person only as supporting
+     evidence where their specific example or numbers appear ("Mansour Norouzi shared a case where...").
+   - Never present the source person's experiences, data, results or tests as the author's own. Anything that
+     happened at their company is attributed to them. General advice and frameworks can be written as the
+     author's own recommendations.
+   - Use only facts in the entry's `brief`. Never invent numbers, quotes, results, or experiences of the author.
+   - Link the source person's name to their LinkedIn profile the first time it appears. Keep their name out of
+     the title and the hero intro.
    - At most one short direct quote (under 15 words), and only if it appears in quotes in the brief.
-   - Structure: what the lesson is and who it's from, how it works with their example, how a seller can apply it,
-     a short "What to do this week" list, the standard CTA box, then a Sources line linking their LinkedIn profile.
+   - 700-1,100 words. Structure: the lesson and why it matters, how it works (with the credited example),
+     how I'd apply it, a short "What to do this week" list, the standard CTA box, then one italic line
+     crediting the source's public LinkedIn posts.
    - Use `.callout` for the single most important takeaway. No emoji in the article body.
 3. Run `python3 scripts/publish_queued_post.py {slug}` to update blog/index.html, sitemap.xml and the queue.
 4. Commit with message `Add blog post: {title}` and push to `main`. Vercel deploys on push.
