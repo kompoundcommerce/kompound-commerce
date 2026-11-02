@@ -328,32 +328,18 @@
       "date": "2026-10-31",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-bfcm-compounding",
       "title": "Why TikTok Shop's Black Friday Is Won in Summer",
-      "description": "Discounts amplify momentum; they don't create it. What to do now so Black Friday on TikTok Shop pays off.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🛍️",
-      "keywords": "tiktok shop black friday, bfcm tiktok shop, tiktok shop holiday strategy, social commerce bfcm",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Oct 28, 2026 post: people keep asking Joel about BFCM prep on TikTok Shop; his answer is he hasn't thought about it much.",
-        "Winning in November has little to do with November. TikTok is a compounding game; what you do in summer pays off over the holidays.",
-        "Discounts don't create momentum, they amplify it. A good sale pushes top-performing content further. A Black Friday video might take off on its own, but that's not a strategy.",
-        "You can't cram community, trust or momentum into two weeks. The prep is the same work Bloom does all year.",
-        "Jul 8, 2026 post: TikTok Shop has been in the US almost three years. Brands sitting out because they 'can't measure it' often mean fear. Competitors who started earlier have thousands of videos compounding every day.",
-        "Practical angle for readers: what to do now (content volume, creator community) versus in the final two weeks (discount to amplify proven content)."
-      ]
-    },
+      "date": "2026-11-02",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-rank-drop-sqp-ad-spend",
       "title": "Why Your Amazon Rank Dropped When Nothing Changed",
