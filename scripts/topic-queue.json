@@ -337,33 +337,18 @@
       "date": "2026-11-02",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-rank-drop-sqp-ad-spend",
       "title": "Why Your Amazon Rank Dropped When Nothing Changed",
-      "description": "How to diagnose an Amazon rank drop by putting Search Query Performance shares next to ad spend per keyword.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "📉",
-      "keywords": "amazon rank drop, search query performance, amazon sqp, click share amazon, amazon keyword ranking",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Jul 6, 2026 post: one of his products started slipping in rank. No changes to bids or listing, no obvious competitor move.",
-        "He used SUPA, his app (originally a Google Sheets template for Search Query Performance) that pulls SQP weekly and layers ad spend and ad sales on every keyword.",
-        "Click share on the most important keyword was dropping, then purchase share. Ad spend on that exact keyword had quietly declined even with the same bids, so less traffic flowed through.",
-        "When click share falls, purchase share falls, and Amazon gives the spot to someone else.",
-        "Fix: increased spend on that keyword to win back click share and the ranking.",
-        "Rank tracking tells you that you dropped. SQP plus ad data tells you why. Without both side by side they'd have blamed the listing, a competitor or the algorithm.",
-        "Reader takeaway: same bid does not mean same spend; monitor actual spend and click share on top keywords weekly."
-      ]
-    },
+      "date": "2026-11-03",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-marketing-engine-halo",
       "title": "TikTok Shop Is a Marketing Engine, Not a Store",
