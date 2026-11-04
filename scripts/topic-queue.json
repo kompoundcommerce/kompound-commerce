@@ -346,32 +346,18 @@
       "date": "2026-11-03",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-marketing-engine-halo",
       "title": "TikTok Shop Is a Marketing Engine, Not a Store",
-      "description": "How to measure TikTok Shop by its effect on Amazon, retail and DTC, and why per-order margins miss the point.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "📣",
-      "keywords": "tiktok shop strategy, tiktok shop halo effect, tiktok shop retail, tiktok shop measurement, social commerce marketing",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "May 18, 2026: Bloom treats TikTok Shop as a marketing engine, 'a place to be seen.' It measures what happens elsewhere when TikTok content flows: Amazon branded search, retail sell-through, organic revenue, DTC traffic.",
-        "Jul 7, 2026: Bloom is in 70,000+ retail doors. TikTok's value is what's in the shopper's head before they reach the shelf. 80+ million Americans open TikTok daily and spend close to an hour there. Retail is where the sale closes; TikTok is where the decision gets made.",
-        "Sep 29, 2026: He doesn't judge TikTok Shop by GMV. It builds mindshare. Its value depends on distribution: a brand in retail, Amazon and DTC should think about it differently from a single-channel brand.",
-        "Oct 13, 2026: beverage D2C economics never fully work (shipping liquid, thin margins). Brands lean in because they're buying marketing at a scale traditional media can't match efficiently.",
-        "Aug 19, 2026: in H1 2026 Bloom creators published 200,000+ videos and Shop content drove over a billion impressions (source: TikTok Shop internal data).",
-        "Reader takeaway: pick the off-platform metrics you'll watch before judging TikTok Shop on its own P&L."
-      ]
-    },
+      "date": "2026-11-04",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "rankable-vs-non-rankable-keywords",
       "title": "Rankable vs. Non-Rankable Keywords: When Losing Money on Amazon Ads Pays Off",
