@@ -41,6 +41,7 @@ Daily steps:
    template: copy its `<head>` structure, the `<style>` block unchanged, nav, hero and footer. Set the title,
    description, keywords, canonical URL, JSON-LD `datePublished`/`dateModified` to today, and the hero
    tag to the entry's `tag` ("Playbook").
+   Keep the Google Analytics 4 tag (G-16PBDPE8HK) in the `<head>` exactly as in the template; every page must have it.
 2. Writing rules (voice matters most):
    - Write as the site owner, in the first person ("I"), as his own article: his take, his advice, his
      recommendations. Confident, direct, practical, like an operator talking to other sellers. It must not
