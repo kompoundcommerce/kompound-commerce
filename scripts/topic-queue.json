@@ -355,33 +355,18 @@
       "date": "2026-11-04",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "rankable-vs-non-rankable-keywords",
       "title": "Rankable vs. Non-Rankable Keywords: When Losing Money on Amazon Ads Pays Off",
-      "description": "A two-bucket rule for deciding which Amazon keywords are worth running at a loss to win organic rank.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🎯",
-      "keywords": "amazon keyword ranking strategy, amazon ppc ranking, amazon tacos, amazon keyword strategy",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Jun 16, 2026 post: most brands treat every keyword the same when pushing for rank or market share.",
-        "Rankable: you can realistically land in the top ten because your product is what the shopper wants.",
-        "Non-rankable: loosely related, too generic, or so expensive ranking will never pay back. You can make sales but can't own the spot.",
-        "Examples: a left-handed mouse targeting 'wireless mouse'; a cast iron pizza pan targeting 'baking sheet.' Clicks, maybe a sale, but the top ten is never yours.",
-        "On rankable terms you can afford to lose money: sales buy organic rank and TACoS comes down later. That loss is an investment.",
-        "On non-rankable terms there's no payback, so every unprofitable sale is money gone. Never lose money there.",
-        "Reader takeaway: label each keyword before setting ACoS targets."
-      ]
-    },
+      "date": "2026-11-05",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-creator-retention",
       "title": "The Real TikTok Shop Problem Is Keeping Creators, Not Finding Them",
