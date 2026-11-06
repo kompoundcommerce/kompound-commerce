@@ -364,32 +364,18 @@
       "date": "2026-11-05",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-creator-retention",
       "title": "The Real TikTok Shop Problem Is Keeping Creators, Not Finding Them",
-      "description": "Why retaining TikTok Shop affiliates matters more than recruiting them, and what creators actually want from brands.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🤝",
-      "keywords": "tiktok shop creators, tiktok shop affiliate retention, creator community, tiktok shop affiliates",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "May 19, 2026: getting creators in was never Bloom's problem. Creators get hit with free samples, offers and higher commissions; if they don't earn quickly they move on. It can take hundreds of videos before a meaningful sale.",
-        "What most creators don't get from brands is access: a real community, a place to learn from each other, hear what's working, feel part of something.",
-        "Sep 28, 2026 (his costliest mistakes): he assumed the problem was finding creators. They were great at recruiting and bad at keeping them. The leak was retention, relationships and experience.",
-        "Aug 17, 2026: he and a colleague hosted 10+ creators at Bloom HQ on a Sunday; planned one hour, spent three. Tour, Q&A, and asking creators how Bloom could be better. Everyone offers commission; going beyond the transaction is what separates you.",
-        "Oct 19, 2026, Social Commerce Fest in LA, talking to hundreds of creators: the best ones turn down money for products they don't believe in; full-time creating is isolating; they want community, to be trusted (not scripted), to join events and meet leaders. Most asks didn't mention money.",
-        "Reader takeaway: a retention plan (weekly calls, feedback, recognition, events) before scaling recruitment."
-      ]
-    },
+      "date": "2026-11-06",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-ltv-acquisition-cost-amc",
       "title": "Your Amazon LTV Is Smaller Than AMC Says",
