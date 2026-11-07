@@ -373,33 +373,18 @@
       "date": "2026-11-06",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-ltv-acquisition-cost-amc",
       "title": "Your Amazon LTV Is Smaller Than AMC Says",
-      "description": "Four reasons customer lifetime value shrinks before it should set your acquisition cost on Amazon.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🧮",
-      "keywords": "amazon ltv, amazon marketing cloud ltv, amazon customer acquisition cost, amc retail purchases, amazon ads ltv",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Aug 4, 2026 post: 'In DTC you buy a customer once. On Amazon you rent them.' More brands pull LTV from AMC and set target acquisition cost from it; that's where it breaks.",
-        "1) Revenue is not money: subtract COGS, FBA, referral fees, returns, and the Subscribe & Save discount that drives much repeat behavior.",
-        "2) You pay for retention: you don't own the customer. They run out, search again, see your ad, click; you pay every reorder. Gross LTV makes you pay for the same dollar twice.",
-        "3) You don't buy average customers: raising allowable CAC wins customers who needed broader keywords or deeper discounts; they repeat less than your loyal core.",
-        "4) LTV pays over years; the ad invoice comes this month. Payback period is the real constraint; LTV is the ceiling.",
-        "Before trusting it: subscribe to the Amazon Retail Purchases table in AMC (standard tables stop around 13 months; this one has up to 5 years per his Jun 15 post). He noted it was a paid feature free until end of 2026. Small cohorts are noise. Apply LTV only to new-to-brand; branded clicks were never acquisition.",
-        "Jun 15, 2026: start with account-level LTV (customers per monthly cohort, month-0 spend, return in months 1-3), then ASIN-level (which ASIN brings customers in, which drive repeat, size upgrades)."
-      ]
-    },
+      "date": "2026-11-07",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-content-volume",
       "title": "How Many TikTok Shop Videos a Day Does It Take to Win?",
