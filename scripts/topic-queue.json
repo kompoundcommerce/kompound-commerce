@@ -382,32 +382,18 @@
       "date": "2026-11-07",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-content-volume",
       "title": "How Many TikTok Shop Videos a Day Does It Take to Win?",
-      "description": "Content volume thresholds on TikTok Shop, from 200 to 1,000+ videos a day, and what changes at each level.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🎬",
-      "keywords": "tiktok shop content volume, tiktok shop videos per day, tiktok shop gmv max content, tiktok shop scaling",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "May 17, 2026: at ~200 videos/day Bloom saw enough data to spot winners (hooks, angles that converted).",
-        "At 500-650/day (roughly top-20 territory on the platform) they could dial in GMV Max and push ROAS targets higher.",
-        "At 1,000+/day (top 10) six-figure days became realistic; heroes across every product line, not one or two hero videos.",
-        "Result: more than doubled impressions and more than doubled GMV Max ROAS targets at scale, by having more content in the system, not spending more.",
-        "Oct 15, 2026: Bloom turned 1,000 samples into 14,000+ videos through community building. They went from 50-100 videos a day to thousands. 'Virality isn't a strategy, volume is.' You can't manufacture a viral video, but you can manufacture the conditions.",
-        "Jul 13, 2026: 1,000+ videos a day helped Bloom rank #1 in comments, likes and shares among 100+ health brands on TikTok over 30 days (TikTok internal measurement)."
-      ]
-    },
+      "date": "2026-11-08",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "prime-day-baseline-not-spike",
       "title": "Prime Day Growth Came From a Bigger Normal Day",
