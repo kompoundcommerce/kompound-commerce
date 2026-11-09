@@ -391,32 +391,18 @@
       "date": "2026-11-08",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "prime-day-baseline-not-spike",
       "title": "Prime Day Growth Came From a Bigger Normal Day",
-      "description": "What 2026 Prime Day data says about baselines, event lift, and organic vs. ad sales.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "📊",
-      "keywords": "prime day 2026 results, fall prime day data, prime big deal days, amazon event strategy",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Oct 13, 2026 (Fall Prime Day, US brands Incrementum manages): revenue +14% YoY for brands with them both years. But the base grew 15.5%; pre-event daily sales were already higher. Event spike unchanged: 1.78x a normal day both years. Growth came from a bigger normal day, not a bigger event.",
-        "Organic did more of the work: organic sales ran 88% above a normal day; ad sales 51% above, down from 58% last year.",
-        "Bedding, home and apparel spiked hardest; pet and grocery barely moved.",
-        "Jun 26, 2026 (July Prime Day, two days in): lift over prior 30 days about 1.9x, nearly the same as last year. Day 2 grew faster than Day 1.",
-        "Jun 29, 2026 (after 4 days): revenue lifted 66% over prior 30 days vs 81% last year; the spike is getting smaller. Early numbers move as returns and attribution settle.",
-        "Reader takeaway: measure events against your own 30-day baseline; invest in the everyday base."
-      ]
-    },
+      "date": "2026-11-09",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "gmv-max-pause-test",
       "title": "What Happened When Bloom Paused GMV Max for 30 Days",
