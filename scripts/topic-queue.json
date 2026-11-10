@@ -400,30 +400,18 @@
       "date": "2026-11-09",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "gmv-max-pause-test",
       "title": "What Happened When Bloom Paused GMV Max for 30 Days",
-      "description": "What a 30-day GMV Max pause shows about how much TikTok Shop sales depend on paid ads.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "⏸️",
-      "keywords": "gmv max, tiktok shop ads, gmv max test, tiktok shop organic sales, tiktok shop paid",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Jun 10, 2026: paused GMV Max for 30 days (test run in the UK, not US). GMV dropped 58%; video output only down 19%. Retained 42% of GMV on organic alone.",
-        "Takeaways he listed: content is the foundation and survives without paid; GMV Max amplifies demand rather than creating it; to scale you need GMV Max; within 24 hours of turning it back on, sales returned to ad-supported baselines (unlike Meta, where you'd start from zero).",
-        "Oct 26, 2026: hiring someone full time to run GMV Max is inefficient. It runs itself once you set a goal and feed strong creative. Bloom rarely looks at campaigns; can move ROAS target between 3 and 7 and it keeps performing.",
-        "Weak content can't be fixed by someone living in the dashboard. Put that budget into creators and creative."
-      ]
-    },
+      "date": "2026-11-10",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-ai-campaign-overview",
       "title": "Amazon's AI Campaign Recommendations: Good Analysis, Missing Context",
