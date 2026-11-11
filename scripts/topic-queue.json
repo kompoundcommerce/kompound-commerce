@@ -409,32 +409,18 @@
       "date": "2026-11-10",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-ai-campaign-overview",
       "title": "Amazon's AI Campaign Recommendations: Good Analysis, Missing Context",
-      "description": "Amazon's new Campaign overview (Beta) suggests one-click fixes. Here's where they go wrong.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🤖",
-      "keywords": "amazon ads ai, amazon campaign overview beta, amazon ppc recommendations, negative keywords amazon",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Jul 31, 2026: new box at top of a Sponsored Products campaign, 'Campaign overview (Beta)': AI summary with one-click fixes.",
-        "Its suggestions: add 10 negative exact keywords ($117.50 spent, 0 purchases); cut top keyword bid from $11.34 to $7.94; pause two targets that spent $78.46 with no sales.",
-        "Nine of the ten search terms it wanted to negate had exactly one click. One click isn't a losing term; it hasn't had a chance.",
-        "Bigger flaw: it doesn't know the goal. It assumes efficiency. In a ranking campaign, high ACoS is the plan; a 30% bid cut on the top keyword would work against it.",
-        "'The analysis is decent. The context is missing.'",
-        "Reader takeaway: check the data behind each suggestion and know each campaign's goal before accepting."
-      ]
-    },
+      "date": "2026-11-11",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "gmv-max-roas-targets",
       "title": "Raising GMV Max ROAS Targets: How Bloom Doubled Ad Efficiency",
