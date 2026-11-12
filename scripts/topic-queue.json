@@ -418,32 +418,18 @@
       "date": "2026-11-11",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "gmv-max-roas-targets",
       "title": "Raising GMV Max ROAS Targets: How Bloom Doubled Ad Efficiency",
-      "description": "Why low ROAS targets hold TikTok Shop brands back, and how to keep efficiency while scaling spend.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🚀",
-      "keywords": "gmv max roas, tiktok shop roas target, tiktok shop ads efficiency, gmv max strategy",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "May 21, 2026: TikTok rep advised lowering ROAS target; Bloom ran at 2.0 vs a health industry average of 3.5. The reasoning was insufficient content volume, partly right. When volume arrived and the advice didn't change, Joel moved every campaign to 4.5+ overnight against rep and agency advice. Efficiency more than doubled overnight.",
-        "He isn't saying ignore reps; they see hundreds of accounts. But push back when something doesn't feel right; data tells you quickly.",
-        "Oct 21, 2026 (account-wide GMV Max over a year): Nov 2025 ROAS ~2.5 with TikTok encouraging low targets for volume (he advises against). By January: revenue flat on roughly half the spend, ROAS ~5. By September: ROAS 4.3, but spend up ~2.6x and revenue and orders more than doubled.",
-        "Campaigns run in buckets with ROAS goals from 3.5 to 7.0 depending on objective.",
-        "Highest return shows up at small spend; the hard part is pushing volume without efficiency collapsing. 'A 4.3 at this scale is worth far more than a 5.0 at a third of the size.'",
-        "Sep 28: he let old paid-social instincts cap targets; now operates at ~2x industry average."
-      ]
-    },
+      "date": "2026-11-12",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-full-funnel-campaigns-review",
       "title": "Amazon Full Funnel Campaigns: What's Really Under the Hood",
