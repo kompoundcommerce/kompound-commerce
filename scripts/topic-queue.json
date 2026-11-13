@@ -427,32 +427,18 @@
       "date": "2026-11-12",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-full-funnel-campaigns-review",
       "title": "Amazon Full Funnel Campaigns: What's Really Under the Hood",
-      "description": "What Amazon's AI-run Full Funnel campaigns actually build, and the control you give up.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🔍",
-      "keywords": "amazon full funnel campaign, amazon ads ai agent, amazon dsp sponsored tv, amazon campaign structure",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Aug 24, 2026: Full Funnel is 'everything we tell brands not to do.' They launched one anyway.",
-        "Inputs: brand, at least 3 products, daily budget minimum $200, creative assets (Amazon suggests from asset library or AI), start date. Amazon handles formats, budget across funnel, targeting/retargeting, bids, creative rotation.",
-        "Success metrics per Amazon: long-term sales (immediate plus projected future value from new customers), new-to-brand rate, ROAS as supporting metric.",
-        "Console shows one campaign with one line per product. The API showed SP manual, SP auto, SB headline, SB video, SD audience, Sponsored TV and DSP; one campaign per ad type, ad groups per product (12 under SP manual), every match type mixed, long keyword lists in one ad group, branded and unbranded side by side.",
-        "You give up match-type control, branded separation, placement control, budget decisions.",
-        "His guess: a good manager gets 2-3x more from the same spend with structure and control. Can it bring sales? Sure. Maximize them? He doubts it."
-      ]
-    },
+      "date": "2026-11-13",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-sampling-strategy",
       "title": "TikTok Shop Sampling: Go Heavy Once, Then Sustain Light",
