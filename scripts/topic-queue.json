@@ -436,33 +436,18 @@
       "date": "2026-11-13",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-sampling-strategy",
       "title": "TikTok Shop Sampling: Go Heavy Once, Then Sustain Light",
-      "description": "A framework for TikTok Shop creator samples: one big launch push, then 20-30% of that volume.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "📦",
-      "keywords": "tiktok shop samples, tiktok shop sampling strategy, tiktok shop affiliate samples, creator seeding",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "May 20, 2026: you don't need to sample thousands of units monthly; it's an expensive misconception.",
-        "One strong initial push: enough hands for momentum, content to find winners, data to know what works.",
-        "Then cut sampling to 20-30% of launch volume and sustain momentum, IF you've built community and have retention tools (his emphasis: big if).",
-        "Early posters keep posting; new creators discover the product organically; many buy refundable samples once they see it performing.",
-        "Scale sampling back up only if baseline content volume drops and re-engagement efforts don't move it.",
-        "Oct 15: what matters is content per sample, not sample count: 1,000 samples became 14,000+ videos.",
-        "'Sample heavy once. Sustain light. Respond to the data.'"
-      ]
-    },
+      "date": "2026-11-14",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-off-amazon-sp-deny-list",
       "title": "Your Sponsored Products Ads Now Run Off Amazon. Here's the Deny List.",
