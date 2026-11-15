@@ -445,32 +445,18 @@
       "date": "2026-11-14",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-off-amazon-sp-deny-list",
       "title": "Your Sponsored Products Ads Now Run Off Amazon. Here's the Deny List.",
-      "description": "Since August 2026, Sponsored Products can show on Amazon influencers' sites. How to check and control it.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🚫",
-      "keywords": "amazon deny list, sponsored products off amazon, amazon influencer program ads, amazon placement report",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Aug 14, 2026: since August 10, SP ads can run outside Amazon. Creators in the Amazon Influencer Program feature your ads in reviews and buying guides. On by default; same bids, budgets, standard CPC.",
-        "In campaign reports it looks like normal SP spend. Only the placement report shows it, under 'Off Amazon.'",
-        "Deny list: Administration > Account access and settings > Deny list. Upload a CSV to block websites (any domain, even your own), mobile apps, specific creators (tag ID in their promo URL).",
-        "Covers all active SP and SD campaigns; takes effect within about 15 minutes.",
-        "Block your own website: paying CPC for traffic you already own makes no sense.",
-        "He'd never needed the deny list before this month. Action: pull your placement report since August 10."
-      ]
-    },
+      "date": "2026-11-15",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-creator-briefs",
       "title": "One-Page Creator Briefs: Why Less Direction Gets Better TikTok Content",
