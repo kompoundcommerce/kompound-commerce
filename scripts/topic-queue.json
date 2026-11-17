@@ -463,32 +463,18 @@
       "date": "2026-11-16",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-brand-store-personalization",
       "title": "Personalize Your Amazon Brand Store by Customer Lifecycle",
-      "description": "Show new, considering and repeat shoppers different Brand Store pages, and what to put on each.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🏬",
-      "keywords": "amazon brand store personalization, amazon stores builder, amazon new to brand, amazon store optimization",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Oct 6, 2026: Brand Stores now have Personalized Experiences: same page, same link, different content for different shoppers. Few brands use it.",
-        "Amazon sorts shoppers into three lifecycle groups automatically: New to brand (never viewed, carted, bought), Considering (looked, maybe carted, didn't buy), Purchaser (bought from you). Amazon moves them as they act.",
-        "New shopper: show best sellers, give an introductory deal. Considering: show comparisons, limited-time offer. Purchaser: show what pairs with what they bought and what's new; skip heavy discounts.",
-        "You can also split by channel tag or traffic source, but those depend on traffic you send. Lifecycle works on everyone who walks in.",
-        "Where: Stores builder > Explore AI tools > Personalize by cohort.",
-        "'A good shopkeeper never would' give a stranger and a loyal customer the same pitch."
-      ]
-    },
+      "date": "2026-11-17",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "creator-retainers-vs-community",
       "title": "Skip Creator Retainers. Invest in the Whole Community Instead.",
