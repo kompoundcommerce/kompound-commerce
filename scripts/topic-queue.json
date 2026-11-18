@@ -472,31 +472,18 @@
       "date": "2026-11-17",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "creator-retainers-vs-community",
       "title": "Skip Creator Retainers. Invest in the Whole Community Instead.",
-      "description": "Why big creator retainers signal a weak TikTok Shop program, and five better places to spend that budget.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "💸",
-      "keywords": "tiktok shop creator retainers, affiliate program tiktok shop, creator community investment, influencer retainers",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Oct 22, 2026: you don't need creator retainers to win on TikTok Shop; relying on them signals a weak system. They pile money and dependency onto a few creators.",
-        "A strong program is a system with a deep affiliate pipeline. If a business depends on one or two individuals, it's a risk, not a business.",
-        "Five alternatives: 1) a creator coach running weekly calls for the community; 2) cover tools/subscriptions like Daily Virals or FastMoss for creators; 3) events, dinners in a few cities, fly affiliate managers out; 4) PR packages, merch, surprise drops; 5) incentives for effort not just sales: content volume, views, best hooks voted by the community.",
-        "Not everything has to tie to GMV; spreading investment makes more people feel included.",
-        "Sep 16: agencies insisting on retainers for high-GMV creators are a red flag; past GMV with another brand predicts little."
-      ]
-    },
+      "date": "2026-11-18",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-subscribe-and-save-economics",
       "title": "Subscribe & Save vs. Reorder Customers: Same LTV, Different Economics",
