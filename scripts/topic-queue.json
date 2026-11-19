@@ -481,32 +481,18 @@
       "date": "2026-11-18",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-subscribe-and-save-economics",
       "title": "Subscribe & Save vs. Reorder Customers: Same LTV, Different Economics",
-      "description": "New Subscribe & Save dashboard data, and why subscribers are worth more even when LTV looks equal.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🔁",
-      "keywords": "amazon subscribe and save, subscribe and save dashboard, amazon repeat customers, amazon customer lifetime value",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Sep 3, 2026: new Subscribe & Save dashboard graphs: S&S sales by number of deliveries (1, 2, 3, 4, 5+); coupon-driven units split by S&S coupon, reorder coupon, standard coupon; LTV by segment (one-time, reorder, subscriber); customer share by segment.",
-        "Delivery counts show real subscriber retention, not just acquisitions. Coupon split starts separating acquisition from retention incentives.",
-        "In his data, reorder customer LTV is close to subscriber LTV. Does subscribing matter? He says yes: a reorder customer may search again, see and click an ad, get retargeted, need a coupon. A subscriber's next order is already scheduled.",
-        "Ask: how much does it cost to generate the next order from each customer type?",
-        "Opportunity: move satisfied reorder customers toward Subscribe & Save.",
-        "Oct 19 related finding via AMC: customers reordered later than assumed; coffee buyers starting on a 2-pack or bigger repeated about twice as often."
-      ]
-    },
+      "date": "2026-11-19",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-team-structure",
       "title": "How to Structure a TikTok Shop Team: Acquisition, Retention, Operations",
