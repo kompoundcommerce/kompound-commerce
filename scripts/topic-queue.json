@@ -490,31 +490,18 @@
       "date": "2026-11-19",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-team-structure",
       "title": "How to Structure a TikTok Shop Team: Acquisition, Retention, Operations",
-      "description": "A three-part framework for an in-house TikTok Shop team: acquisition, retention and operations.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🧩",
-      "keywords": "tiktok shop team structure, in-house tiktok shop, tiktok shop org chart, social commerce team",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Sep 15, 2026: three buckets. Acquisition: grow the creator pipeline, bring new creators in, keep top of funnel full. Retention: creator experience and relationships; most underrated, usually why creators leave; roles that understand what creators need and deliver it. Operations: GTM, campaigns, forecasting, inventory planning, store management, GMV Max.",
-        "No silos: info flows constantly; a creator's comment on a call can shape a campaign; a campaign can change forecasting.",
-        "Jun 1, 2026: Bloom went fully in-house on TikTok Shop after working with agencies.",
-        "Jul 6, 2026: first in-house month went straight into DFYD (a major TikTok Shop campaign) plus Bloom's first Super Brand Day; finished #2 in GMV goal attainment in Health and top 5 overall; absorbed a 7-figure-per-month shop with thousands of affiliates. Credited the previous agency for a smooth transition.",
-        "Oct 11: the foundation is simple: creator outreach (tools like Cruva), inventory to sell and sample with fast restocks, a Discord or Lark for creators, content volume, healthy GMV Max budget with realistic ROAS. A few days out of stock can create FOMO; weeks out kills momentum."
-      ]
-    },
+      "date": "2026-11-20",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-sponsored-prompts-data",
       "title": "Amazon Sponsored Prompts: What 165 Prompts Across 6 Brands Show",
