@@ -499,33 +499,18 @@
       "date": "2026-11-20",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "amazon-sponsored-prompts-data",
       "title": "Amazon Sponsored Prompts: What 165 Prompts Across 6 Brands Show",
-      "description": "CPC, CTR by prompt type, and the attribution questions to ask before scaling Sponsored Prompts.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "💬",
-      "keywords": "amazon sponsored prompts, amazon rufus ads, sponsored prompts ctr, amazon ai ads",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Apr 30, 2026: Sponsored Prompts were free in beta; not anymore. Data aggregated across 6 brands: 165 unique prompts, ~540 placements.",
-        "CPCs from $0.02 to $5.40.",
-        "CTR by prompt type: product questions ('Does it...?') 4.11%; feature/benefit ('X formula. Learn more.') 3.93%; brand-specific questions ('Does Brand X have a Y?') 0.41%; brand awareness ('Why choose Brand X?') 0.21%.",
-        "Open question 1: how much do prompts drive the purchase vs. skim credit from SP and organic work already done?",
-        "Open question 2: attribution between prompts and campaigns; he suspects prompt reports show prompt-attributed sales while campaign level still credits the last ad click. Gets messier when prompts show up as a step in AMC.",
-        "Prompt reports are great customer research: what shoppers ask about your product.",
-        "Spend share still tiny but growing. Incrementum added prompt review to its weekly process: keep, pause or test."
-      ]
-    },
+      "date": "2026-11-21",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-agency-red-flags",
       "title": "TikTok Shop Agency Red Flags (and the One Question to Ask First)",
