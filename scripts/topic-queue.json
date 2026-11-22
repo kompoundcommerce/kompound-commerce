@@ -508,29 +508,18 @@
       "date": "2026-11-21",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-agency-red-flags",
       "title": "TikTok Shop Agency Red Flags (and the One Question to Ask First)",
-      "description": "A checklist for choosing a TikTok Shop agency, and the one question to ask before you sign.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🚩",
-      "keywords": "tiktok shop agency, choosing tiktok shop agency, tiktok affiliate partner tap, tiktok shop agency red flags",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Jun 15, 2026: most important thing isn't GMV, roster or case studies; it's whether they build a program you can eventually take over or one you can never leave. Bloom's agency built for handoff: creator relationships and tools were Bloom's, process docs created, helped train the replacements. Ask early: 'if we brought this in-house in a year, what would we keep?'",
-        "May 9, 2026: TAP (TikTok Affiliate Partner) lets agencies promote a brand's products via affiliate campaigns. Some agencies list every TAP brand as a client. That's not the same as running their TikTok Shop (sampling, creator strategy, GMV Max, pricing, P&L). Ask to be connected to the person at the brand who runs its program; anything but yes is a red flag.",
-        "Sep 16, 2026 red flags: insisting you commit retainers to high-GMV creators; not native to TikTok Shop (bolted onto ten other services); telling you to focus on one product too early (test the catalog; your worst DTC SKU can become your TikTok #1); not on Lark (TikTok's internal comms tool), so a step removed from TikTok teams."
-      ]
-    },
+      "date": "2026-11-22",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "building-amazon-ai-agent",
       "title": "Building an Amazon AI Agent: Detect, Diagnose, Then Recommend",
