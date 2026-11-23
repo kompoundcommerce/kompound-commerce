@@ -517,34 +517,18 @@
       "date": "2026-11-22",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "building-amazon-ai-agent",
       "title": "Building an Amazon AI Agent: Detect, Diagnose, Then Recommend",
-      "description": "The data an Amazon AI agent needs, and why it has to detect and diagnose before it recommends.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🧠",
-      "keywords": "amazon ai agent, ecommerce ai agent, amazon data warehouse, ai for amazon sellers",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Aug 31, 2026: building an agent for his own brand. Started with data: advertising, business reports, SQP, profitability, inventory.",
-        "Performance data shows outcomes, not causes. Added context: every price change, coupon, deal, image update, rating change, listing change recorded.",
-        "External context: for every product, five direct competitors tracked for pricing, promotions, ratings, reviews, listing changes.",
-        "Even without AI, the platform was useful: open any parent ASIN, see internal and external changes for all variations.",
-        "Lesson: giving AI all the data and context isn't enough; it detects a moving metric and jumps to a recommendation without diagnosing.",
-        "Rebuilt in three stages: detect what changed; diagnose why; recommend only when diagnosis is strong. Four knowledge layers: Amazon mechanics, his analytical doctrine, current account context, and history of whether past recommendations worked.",
-        "Jun 12: runs a local Amazon data warehouse on a Mac Mini syncing ~30 tables from Amazon APIs (campaigns, targets, search terms, sales).",
-        "Apr 15: built a personal knowledge wiki (inspired by Andrej Karpathy's idea) of everything he knows on Amazon ads, PPC, AMC; 'The AI didn't get smarter. It got my context.'"
-      ]
-    },
+      "date": "2026-11-23",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "hiring-tiktok-shop-team",
       "title": "Hiring a TikTok Shop Team When Experienced Operators Barely Exist",

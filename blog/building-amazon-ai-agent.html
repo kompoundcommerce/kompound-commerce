@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building an Amazon AI Agent: Detect, Diagnose, Then Recommend | Kompound Commerce</title>
+<meta name="description" content="The data an Amazon AI agent needs, and why it has to detect and diagnose before it recommends.">
+<meta name="keywords" content="amazon ai agent, ecommerce ai agent, amazon data warehouse, ai for amazon sellers">
+<link rel="canonical" href="https://www.kompoundcommerce.com/blog/building-amazon-ai-agent.html">
+<meta property="og:title" content="Building an Amazon AI Agent: Detect, Diagnose, Then Recommend">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kompound Commerce">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Building an Amazon AI Agent: Detect, Diagnose, Then Recommend", "author": {"@type": "Organization", "name": "Kompound Commerce"}, "publisher": {"@type": "Organization", "name": "Kompound Commerce", "url": "https://www.kompoundcommerce.com"}, "datePublished": "2026-11-23", "dateModified": "2026-11-23"}</script>
+<style>:root{--accent:#FF9900;--text:#18181b;--text-2:#52525b;--text-3:#a1a1aa;--bg:#fff;--border:#e4e4e7}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Outfit',sans-serif;color:var(--text);background:var(--bg);line-height:1.8}nav{padding:1rem 2.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);z-index:100}.nav-logo{font-weight:800;font-size:1.1rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:.5rem}.nav-logo span{background:var(--accent);color:#fff;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800}.nav-back{color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}.article-hero{max-width:760px;margin:4rem auto 0;padding:0 2rem}.article-meta{display:flex;gap:1rem;align-items:center;margin-bottom:1.5rem;flex-wrap:wrap}.article-tag{font-size:.7rem;font-weight:700;padding:.25rem .75rem;border-radius:100px;background:rgba(139,92,246,.1);color:#8b5cf6;border:1px solid rgba(139,92,246,.2);text-transform:uppercase;letter-spacing:.05em}.article-date{font-size:.82rem;color:var(--text-3)}.article-hero h1{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:800;letter-spacing:-.03em;line-height:1.15;margin-bottom:1rem}.article-hero h1 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--accent)}.article-intro{font-size:1.15rem;color:var(--text-2);line-height:1.8;font-weight:300}article{max-width:760px;margin:3rem auto;padding:0 2rem}article h2{font-size:1.5rem;font-weight:700;margin:2.5rem 0 1rem;letter-spacing:-.02em}article h3{font-size:1.15rem;font-weight:700;margin:2rem 0 .75rem}article p{margin-bottom:1.25rem;color:var(--text-2);font-weight:300}article strong{color:var(--text);font-weight:600}article ul,article ol{margin-bottom:1.25rem;padding-left:1.5rem;color:var(--text-2)}article li{margin-bottom:.5rem;font-weight:300}.callout{background:rgba(255,153,0,.06);border-left:3px solid var(--accent);padding:1.25rem 1.5rem;border-radius:0 10px 10px 0;margin:2rem 0}.callout p{margin:0;color:var(--text);font-weight:400}.quote-box{background:linear-gradient(135deg,rgba(26,26,46,.04),rgba(22,33,62,.06));border-left:3px solid #6366f1;padding:1.25rem 1.5rem;border-radius:0 10px 10px 0;margin:2rem 0}.quote-box .quote-source{font-size:.7rem;font-weight:700;color:#6366f1;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}.quote-box p{margin:0;color:var(--text);font-weight:400;font-style:italic}.article-cta{background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:16px;padding:3rem;text-align:center;margin:3rem 0}.article-cta h3{color:#fff;font-size:1.3rem;margin-bottom:.5rem}.article-cta p{color:rgba(255,255,255,.6);margin-bottom:1.5rem}.article-cta a{display:inline-block;background:var(--accent);color:#fff;padding:.85rem 2rem;border-radius:100px;text-decoration:none;font-weight:600}footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);color:var(--text-3);font-size:.85rem}footer a{color:var(--accent);text-decoration:none}</style>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-16PBDPE8HK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-16PBDPE8HK');</script>
+</head>
+<body>
+<nav><a class="nav-logo" href="/"><span>KC</span> Kompound Commerce</a><a class="nav-back" href="/blog/">← Back to Blog</a></nav>
+<div class="article-hero">
+  <div class="article-meta"><span class="article-tag">Playbook</span><span class="article-date">November 23, 2026 · 5 min read</span></div>
+  <h1>Building an Amazon AI Agent: Detect, Diagnose, <em>Then Recommend</em></h1>
+  <p class="article-intro">Everyone wants an AI agent that tells them what to do with their Amazon account. I think most of them will fail for the same reason: they jump straight from data to advice. Here's the data I'd give an agent, and the order I'd make it think in.</p>
+</div>
+<article>
+  <h2>The Lesson: Data Isn't Enough, and Neither Is Context</h2>
+  <p>The pitch for an Amazon AI agent sounds simple. Connect your advertising data, your business reports and your Search Query Performance data, and let the model find the problems. It will find movement. A metric goes up, a metric goes down, and the agent has an opinion about it within seconds.</p>
+  <p>That's the trap. Performance data shows you outcomes, not causes. A drop in conversion rate can come from a price change, a lost coupon, a competitor's deal, a new main image or a slipping star rating. Your ad report can't tell those apart. If an agent only sees outcomes, its recommendations are guesses dressed up as analysis.</p>
+  <p>And even when you give it the causes, it can still skip the thinking. An agent that sees a metric move will happily jump to a fix without ever working out why the metric moved. That's the part most people building these tools get wrong.</p>
+
+  <div class="callout">
+    <p><strong>The rule I'd build around:</strong> an Amazon agent should detect what changed, diagnose why, and only recommend when the diagnosis is strong. If it can't explain the cause, it shouldn't be suggesting the fix.</p>
+  </div>
+
+  <h2>How It Works: A Real Build</h2>
+  <p>The clearest example I've seen comes from <a href="https://www.linkedin.com/in/mansournorouzi/" target="_blank" rel="noopener" style="color:var(--accent);">Mansour Norouzi</a>, Partner and Director of Advertising at Incrementum Digital, who has been building an agent for his own brand and sharing the process publicly.</p>
+  <h3>Start with the data</h3>
+  <p>He started where you'd expect: advertising data, business reports, SQP, profitability and inventory. On a separate post he described running a local Amazon data warehouse on a Mac Mini, syncing around 30 tables from Amazon's APIs, covering campaigns, targets, search terms and sales. That's the foundation, and it's more than most sellers have in one place today.</p>
+  <h3>Add internal context</h3>
+  <p>Because performance data only shows outcomes, he added a record of everything that could cause them: every price change, coupon, deal, image update, rating change and listing change. Now a dip in sales sits next to the thing that happened right before it.</p>
+  <h3>Add external context</h3>
+  <p>Your own changes are only half the story. For every product, he tracked five direct competitors: their pricing, promotions, ratings, reviews and listing changes. A conversion drop that lines up with a competitor's new coupon is a very different problem from one that lines up with your own image swap.</p>
+  <p>One detail I like: even before any AI was involved, the platform was already useful. He could open any parent ASIN and see the internal and external changes across all its variations in one view. That alone is a better diagnostic tool than most brands use.</p>
+  <h3>Then the hard lesson</h3>
+  <p>Giving the AI all of that data and context still wasn't enough. It would spot a moving metric and jump to a recommendation without diagnosing. So he rebuilt it in three stages: detect what changed, diagnose why, and recommend only when the diagnosis is strong.</p>
+  <p>He also gave it four layers of knowledge to reason with: how Amazon's mechanics work, his own analytical doctrine, the current context of the account, and a history of whether past recommendations actually worked. That last layer matters more than it sounds. An agent that never learns whether its advice paid off will keep repeating the same mistakes with the same confidence.</p>
+  <p>Earlier in the year he'd built a personal knowledge wiki of everything he knows about Amazon ads, PPC and AMC, inspired by an idea from Andrej Karpathy, and fed it to his AI. His summary of what changed: <strong>"The AI didn't get smarter. It got my context."</strong></p>
+
+  <h2>How I'd Apply It</h2>
+  <p>You don't need to build a full agent to use this. The structure is the valuable part, and it works whether the analyst is a model, a junior hire or you on a Monday morning.</p>
+  <ul>
+    <li><strong>Log every change before you analyze anything.</strong> Price, coupons, deals, images, listing copy, ratings. If you can't see what changed, you can't diagnose anything, and neither can a model.</li>
+    <li><strong>Watch a small set of real competitors.</strong> Pick the direct competitors for each hero product and track their pricing, promotions, reviews and listing changes. That's where many unexplained drops come from.</li>
+    <li><strong>Separate detection from diagnosis.</strong> <em>Conversion fell</em> is detection. <em>Conversion fell after a competitor started a deal and our rating slipped</em> is diagnosis. Don't let anyone, human or AI, recommend from the first sentence.</li>
+    <li><strong>Write down how you think.</strong> Your rules for bids, budgets and keywords are context an AI doesn't have. Put them in a document it can read. Generic Amazon advice is what you get when the model only knows generic Amazon.</li>
+    <li><strong>Score past recommendations.</strong> Keep a simple log of what was recommended, whether you did it, and what happened. That's the feedback loop that turns an assistant into something that improves.</li>
+  </ul>
+  <p>My view is that the sellers who get real value from AI on Amazon won't be the ones with the most advanced model. They'll be the ones who give it the cleanest record of what changed and the clearest explanation of how they think.</p>
+
+  <h2>What to Do This Week</h2>
+  <ul>
+    <li>Start a change log for your top products: every price, coupon, deal, image and listing edit, with dates.</li>
+    <li>Choose the direct competitors you'll track for each hero ASIN and note their current price, promotions and rating.</li>
+    <li>Take your last unexplained sales drop and work through it in order: what changed, why, and only then what to do.</li>
+    <li>Write one page on how you make PPC decisions, so any tool or teammate can follow your reasoning.</li>
+  </ul>
+
+  <div class="article-cta">
+    <h3>Want this playbook applied to your brand?</h3>
+    <p>We help brands grow across Amazon, TikTok Shop, Walmart and DTC.</p>
+    <a href="/#contact">Get a Free Consultation →</a>
+  </div>
+
+  <p><em>The agent build, data warehouse and knowledge wiki examples credited above come from public LinkedIn posts by <a href="https://www.linkedin.com/in/mansournorouzi/" target="_blank" rel="noopener" style="color:var(--accent);">Mansour Norouzi</a>.</em></p>
+</article>
+<footer><p>© 2026 <a href="/">Kompound Commerce</a> · <a href="/blog/">More articles</a> · <a href="/#contact">Contact us</a></p></footer>
+</body>
+</html>
