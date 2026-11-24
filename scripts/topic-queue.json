@@ -526,30 +526,18 @@
       "date": "2026-11-23",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "hiring-tiktok-shop-team",
       "title": "Hiring a TikTok Shop Team When Experienced Operators Barely Exist",
-      "description": "How to hire for a TikTok Shop team when experienced operators barely exist: five traits to look for.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "👥",
-      "keywords": "hiring tiktok shop manager, tiktok shop team hiring, social commerce talent, in-house tiktok shop team",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Oct 20, 2026: demand for experienced social commerce operators has outpaced supply. Everyone tries to hire someone who's done it; there aren't enough. Developing people is non-negotiable for leaders.",
-        "Jun 8, 2026, Bloom's hiring philosophy: 1) zero TikTok Shop experience was fine if strong in their role on other channels and willing to learn something new; 2) good with people, since most roles interact with creators; 3) proactive: follows up, asks, pushes things forward; 4) hire for gaps: 'If you're the best at everything on your team, you have the wrong team'; 5) able to run autonomously and own decisions.",
-        "Mindset over hard skills: platform skills can be taught; responsibility, leadership, urgency and excitement can't.",
-        "Aug 26: hiring a Director of TikTok Shop in Austin, in office; looking for creator obsession, speed, autonomy rather than years on the platform."
-      ]
-    },
+      "date": "2026-11-24",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "claude-amazon-marketing-cloud",
       "title": "Querying Amazon Marketing Cloud in Plain English With Claude",
