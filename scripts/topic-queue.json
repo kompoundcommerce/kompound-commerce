@@ -535,31 +535,18 @@
       "date": "2026-11-24",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "claude-amazon-marketing-cloud",
       "title": "Querying Amazon Marketing Cloud in Plain English With Claude",
-      "description": "How to query Amazon Marketing Cloud in plain English with Claude, and what the answers can reveal.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "⚡",
-      "keywords": "amazon marketing cloud, amc queries, claude amazon ads, amazon ads mcp, ai amc",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Oct 19, 2026: 'Claude + AMC is fire.' Steps: get your own Amazon Ads API access (he thinks every brand should); connect Claude to the Amazon Ads MCP for direct AMC access; ask questions in plain language; Claude writes the query, runs it in AMC, returns the answer. No SQL from him.",
-        "Four real questions: two from his brand, two from a coffee brand.",
-        "Findings: their Best Deal day nearly doubled orders, but 2 of 3 buyers had already bought from them; customers reorder later than assumed; coffee buyers who start on a 2-pack or bigger repeat about twice as often.",
-        "Jun 15: between Amazon's AMC AI assistant, Claude and ChatGPT you can build most queries; the hard part is asking the right business question. Tip: give an AI the query doc and say 'Ask me whatever you need to customize this query for my brand.' Use bucketed queries if AMC thresholds hide small rows.",
-        "Jun 12: he also builds live Claude artifacts for daily checks: daily sales by product from the Seller API, a price-margin explorer with breakeven ACoS, a competitor price tracker, promo calendar, P&L calculator, a launch tracker (revenue, units, sessions, CVR, ACoS, TACoS, organic vs PPC by day)."
-      ]
-    },
+      "date": "2026-11-25",
+      "readTime": 4,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "tiktok-shop-europe-expansion",
       "title": "TikTok Shop in Europe Looks Like the US Two Years Ago",
