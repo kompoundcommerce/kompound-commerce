@@ -544,31 +544,18 @@
       "date": "2026-11-25",
       "readTime": 4,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "tiktok-shop-europe-expansion",
       "title": "TikTok Shop in Europe Looks Like the US Two Years Ago",
-      "description": "Why TikTok Shop in Europe looks like the early US, and why to build audiences before Shop launches.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🌍",
-      "keywords": "tiktok shop europe, tiktok shop uk, tiktok shop international expansion, tiktok shop germany france",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Jun 6, 2026, two days with the TikTok Shop EU team in Germany: feels like early US. European brands are conservative: sampling in the tens not hundreds/thousands, lengthy briefs, involved approvals; many give up before the engine starts. Most see it as a marketplace, not a marketing channel.",
-        "Creators are excited to work with US brands; content quality not yet at US level; the creator economy is in its infancy, so infrastructure to educate matters.",
-        "US brands have cultural leverage that wins a first purchase, but without localization (flavors, pricing, positioning) retention and halo suffer.",
-        "His takeaways: move in quick and aggressively; work with local creators and integrate them into US communities; creator challenges drive early volume (like US 12 months earlier); Super Brand Day has a much lower barrier than in the US; FBT is heavily subsidized with warehouses in Spain, France, Germany, Italy.",
-        "Aug 25, 2026: Bloom building TikTok presence in France, Germany, the UK, Australia, Mexico, Italy; some with Shop, others building organic audience first with local segmented pages. TikTok Shop expands to more countries in 2027; brands with audiences already there won't start from zero. 'Playing for a big 2027 starts now, not in January.'"
-      ]
-    },
+      "date": "2026-11-26",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "ai-confidently-wrong-ecommerce-data",
       "title": "When AI Is Confidently Wrong About Your Amazon Data",
