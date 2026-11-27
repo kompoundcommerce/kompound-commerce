@@ -553,33 +553,18 @@
       "date": "2026-11-26",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "ai-confidently-wrong-ecommerce-data",
       "title": "When AI Is Confidently Wrong About Your Amazon Data",
-      "description": "How AI misreads Amazon data when it lacks context, and how to give it the context it needs.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "⚠️",
-      "keywords": "ai amazon analysis, ai mistakes ecommerce, amazon attribution, ai for amazon data",
-      "source": {
-        "name": "Mansour Norouzi",
-        "role": "Partner & Director of Advertising, Incrementum Digital",
-        "profile": "https://www.linkedin.com/in/mansournorouzi/"
-      },
-      "brief": [
-        "Jun 11, 2026: analyzing Prime Day data, AI gave a clean, confident, well-written explanation. He almost moved on. The whole reasoning was wrong.",
-        "Why: on Amazon, when someone clicks an ad and buys days later, the sale is credited to the click date, not the purchase date. The AI didn't know, so it read every sale as happening the day it showed up.",
-        "Once he explained attribution, it caught the mistake instantly and became useful again.",
-        "'Confident plus wrong is harder to catch than obviously wrong.' A beginner would have published it.",
-        "AI is incredible when you know enough to catch where it slips; risky where you can't. He uses it daily but checks details in his field.",
-        "Apr 15, 2026: AI without your knowledge gives 'the internet's average answer.' He built a personal wiki of everything he knows (course material, talks, team sessions); now client analyses run against his frameworks and diagnostics.",
-        "Jun 29 practical case: his team saw Day 4 of Prime Day 2025 was strong because shoppers who carted earlier checked out, not new traffic, so they held Day 4 spend flat in 2026 and Day 4 still finished second-best."
-      ]
-    },
+      "date": "2026-11-27",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "ai-content-tiktok-shop-gmv-max",
       "title": "AI-Generated Videos Are Spending Your TikTok Shop Ad Budget",
