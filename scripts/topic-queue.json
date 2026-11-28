@@ -562,31 +562,18 @@
       "date": "2026-11-27",
       "readTime": 5,
       "series": "operator-playbook"
-    }
-  ],
-  "queue": [
+    },
     {
       "slug": "ai-content-tiktok-shop-gmv-max",
       "title": "AI-Generated Videos Are Spending Your TikTok Shop Ad Budget",
-      "description": "AI-generated videos can tag your products and spend your GMV Max budget. How to protect your creator program.",
       "category": "blog",
-      "tag": "Playbook",
-      "series": "operator-playbook",
       "emoji": "🛡️",
-      "keywords": "ai content tiktok shop, gmv max ai videos, tiktok shop content moderation, ai ugc",
-      "source": {
-        "name": "Joel Contartese",
-        "role": "VP of Global Growth, Bloom Nutrition",
-        "profile": "https://www.linkedin.com/in/joel-contartese-5529b55a/"
-      },
-      "brief": [
-        "Sep 8, 2026: at scale, with thousands of videos tagging your products daily, brands have no real way to control authenticity. Anyone can generate an AI video or photo, tag your products, and it flows into GMV Max, spending your budget to scale itself.",
-        "Allowing AI content on the platform is TikTok's right; monetizing it with your products and ad spend is different. It takes spend and attention from real creators. TikTok already detects AI content; he wants tagging gated or better brand tools.",
-        "Sep 9, 2026: same day, a call with Samuel Strong and the Cruva team; by end of day they shipped AI-content detection with options to exclude from GMV Max, set a moderation rule, or review manually.",
-        "Sep 21, 2026: Bloom started removing AI videos from its program. Creators messaged almost daily feeling the brand had their back. 'Stop thinking about how it can work for you, and think about how it can work for them.'",
-        "Jul 3, 2026: use AI behind the scenes (research, operations, workflow), but when it becomes the brand's voice you lose trust. Jul 2: after TikTok's Cannes AI ad announcements, he argued winning brands win with real creators at scale."
-      ]
-    },
+      "date": "2026-11-28",
+      "readTime": 5,
+      "series": "operator-playbook"
+    }
+  ],
+  "queue": [
     {
       "slug": "amazon-workflows-seller-assistant",
       "title": "Amazon Workflows: Automating Seller Central Tasks in Plain English",
